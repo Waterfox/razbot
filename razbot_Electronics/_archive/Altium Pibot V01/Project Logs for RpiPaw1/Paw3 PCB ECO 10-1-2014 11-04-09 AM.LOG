@@ -1,0 +1,65 @@
+Change Component Designator: OldDesignator=nP1 NewDesignator=LED1
+Change Component Designator: OldDesignator=nP2 NewDesignator=LED2
+Change Component Designator: OldDesignator=S1 NewDesignator=Servo1
+Change Component Designator: OldDesignator=S2 NewDesignator=Servo2
+Added Component: Designator=5VREG(SOP-8-C_N)
+Added Component: Designator=Arduino Clone(TQFP32_N)
+Added Component: Designator=NAND(TSSOP14)
+Added Pin To Net: NetName=Net5VREG_1 Pin=5VREG-1
+Added Pin To Net: NetName=VBATT Pin=5VREG-2
+Added Pin To Net: NetName=Net5VREG_3 Pin=5VREG-3
+Added Pin To Net: NetName=GND Pin=5VREG-4
+Added Pin To Net: NetName=Net5VREG_5 Pin=5VREG-5
+Added Pin To Net: NetName=Net5VREG_6 Pin=5VREG-6
+Added Pin To Net: NetName=Net_1 Pin=5VREG-7
+Added Pin To Net: NetName=Net5VREG_8 Pin=5VREG-8
+Added Pin To Net: NetName=GND Pin=5VREG-9
+Added Pin To Net: NetName=NetArduino Clone_1 Pin=Arduino Clone-1
+Added Pin To Net: NetName=NetArduino Clone_2 Pin=Arduino Clone-2
+Added Pin To Net: NetName=GND Pin=Arduino Clone-3
+Added Pin To Net: NetName=+5V Pin=Arduino Clone-4
+Added Pin To Net: NetName=GND Pin=Arduino Clone-5
+Added Pin To Net: NetName=+5V Pin=Arduino Clone-6
+Added Pin To Net: NetName=Net16MHz_1 Pin=Arduino Clone-7
+Added Pin To Net: NetName=Net16MHz_2 Pin=Arduino Clone-8
+Added Pin To Net: NetName=NetArduino Clone_9 Pin=Arduino Clone-9
+Added Pin To Net: NetName=NetArduino Clone_10 Pin=Arduino Clone-10
+Added Pin To Net: NetName=NetArduino Clone_11 Pin=Arduino Clone-11
+Added Pin To Net: NetName=NetArduino Clone_12 Pin=Arduino Clone-12
+Added Pin To Net: NetName=NetArduino Clone_13 Pin=Arduino Clone-13
+Added Pin To Net: NetName=NetArduino Clone_14 Pin=Arduino Clone-14
+Added Pin To Net: NetName=MOSI Pin=Arduino Clone-15
+Added Pin To Net: NetName=MISO Pin=Arduino Clone-16
+Added Pin To Net: NetName=SCK Pin=Arduino Clone-17
+Added Pin To Net: NetName=NetArduino Clone_18 Pin=Arduino Clone-18
+Added Pin To Net: NetName=NetADC_4 Pin=Arduino Clone-19
+Added Pin To Net: NetName=NetArduino Clone_20 Pin=Arduino Clone-20
+Added Pin To Net: NetName=GND Pin=Arduino Clone-21
+Added Pin To Net: NetName=NetADC_5 Pin=Arduino Clone-22
+Added Pin To Net: NetName=NetADC_1 Pin=Arduino Clone-23
+Added Pin To Net: NetName=NetArduino Clone_24 Pin=Arduino Clone-24
+Added Pin To Net: NetName=NetArduino Clone_25 Pin=Arduino Clone-25
+Added Pin To Net: NetName=NetArduino Clone_26 Pin=Arduino Clone-26
+Added Pin To Net: NetName=NetADC_2 Pin=Arduino Clone-27
+Added Pin To Net: NetName=NetADC_3 Pin=Arduino Clone-28
+Added Pin To Net: NetName=RESET Pin=Arduino Clone-29
+Added Pin To Net: NetName=NetArduino Clone_30 Pin=Arduino Clone-30
+Added Pin To Net: NetName=NetArduino Clone_31 Pin=Arduino Clone-31
+Added Pin To Net: NetName=NetArduino Clone_32 Pin=Arduino Clone-32
+Added Pin To Net: NetName=NetArduino Clone_32 Pin=NAND-1
+Added Pin To Net: NetName=NetArduino Clone_32 Pin=NAND-2
+Added Pin To Net: NetName=NetMC1_3 Pin=NAND-3
+Added Pin To Net: NetName=NetArduino Clone_2 Pin=NAND-4
+Added Pin To Net: NetName=NetArduino Clone_2 Pin=NAND-5
+Added Pin To Net: NetName=NetMC1_14 Pin=NAND-6
+Added Pin To Net: NetName=GND Pin=NAND-7
+Added Pin To Net: NetName=NetMC2_3 Pin=NAND-8
+Added Pin To Net: NetName=NetArduino Clone_11 Pin=NAND-9
+Added Pin To Net: NetName=NetArduino Clone_11 Pin=NAND-10
+Added Pin To Net: NetName=NetMC2_14 Pin=NAND-11
+Added Pin To Net: NetName=NetArduino Clone_12 Pin=NAND-12
+Added Pin To Net: NetName=NetArduino Clone_12 Pin=NAND-13
+Added Member To Class: ClassName=U_PwrSupply Member=Component 5VREG RT8250GSP
+Added Member To Class: ClassName=RpiPaw1_Sch Member=Component Arduino Clone ATmega328P-AUR
+Added Member To Class: ClassName=U_MotorDriverToshiba Member=Component NAND MM74HC132MTC
+Added Member To Class: ClassName=U_PwrSupply Member=Component  Ren

@@ -1,0 +1,5 @@
+Change Component Designator: OldDesignator=Xtal NewDesignator=16MHz
+Added Component: Designator=(J1-0603)
+Added Pin To Net: NetName=Net_1 Pin=-1
+Added Pin To Net: NetName=VBATT Pin=-2
+Added Member To Class: ClassName=U_PwrSupply Member=Component  Ren

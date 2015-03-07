@@ -1,0 +1,83 @@
+
+Start ROSserial node
+$rosrun rosserial_python serial_node.py /dev/ttyAMA0
+
+Start Joystick
+$rosrun joy joy_node
+
+Joystick to PawlyTopic
+$rosrun pawly_joy joy2paw.py
+
+Start the camera node
+$rosrun raspicam raspicam_node
+
+Start the camera
+$rosservice call /camera/start_capture
+
+View the image
+$rosrun image_view image_view image:=/camera/image _image_transport:=compressed
+
+
+Change the master URI Env variable on client
+export ROS_MASTER_URI=http://192.168.1.104:11311/
+
+Change the ROS_IP on clientfile:///B:/Users/Robbie/Downloads/start-pawly.sh
+export ROS_IP=192.168.1.105
+
+Change the ROS_IP on the master
+export ROS_IP=192.168.1.104
+
+Change ROS_HOSTNAME on each or 
+Update /etc/hosts
+
+
+------------Josh's start script
+#!/bin/sh
+source /opt/ros/groovy/setup.bash
+source ~/catkin_ws/devel/setup.bash
+nohup roscore &
+
+# To stream video:
+cd ~/mjpg-streamer/mjpg-streamer-experimental
+export LD_LIBRARY_PATH=.
+nohup ./mjpg_streamer -o "output_http.so -w ./www" -i "input_raspicam.so -x 640 -y 360 -fps 15 -sh 100 -quality 10" &
+
+# Listen to topic:
+nohup rosrun rosserial_python serial_node.py /dev/ttyAMA0 &
+#nohup
+# Listen for client and publish topic
+# This calls node.js which calls:
+# rosrun pawly ros_controller.py
+nodejs ~/node-client/client_controller.js | tee out.log
+
+
+
+# To run:
+# 1)
+# If you want to run the web server on the pawly itself, otherwise skip this step if you are running the web server on
+# another box.
+# Copy the latest web code over if it needs to be updated
+# scp -r /Users/jallen/Documents/pawly/robot-client/web-controller/ pi@192.168.1.103:web-controller
+# This is the quickest way of getting a HTTP server running:
+cd ~/web-controller
+python -m SimpleHTTPServer &
+# Now point your phone's browser to: http://xxx:8000/basic.html?ip=xxx
+
+# 2)
+source /opt/ros/groovy/setup.bash
+source ~/catkin_ws/devel/setup.bash
+nohup roscore &
+
+# 3)
+# This is Robbie's code:
+nohup rosrun rosserial_python serial_node.py /dev/ttyAMA0 &
+
+# 4)
+# To stream video:
+cd ~/mjpg-streamer/mjpg-streamer-experimental
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:.
+nohup ./mjpg_streamer -o "output_http.so -w ./www" -i "input_raspicam.so -x 640 -y 360 -fps 15 -sh 100 -quality 10" &
+
+# 5)
+# This is required to be running for the joystickmodule.js on the webapp to work because of Socket IO
+nodejs ~/node-client/client_controller.js | tee out.logcd webapp

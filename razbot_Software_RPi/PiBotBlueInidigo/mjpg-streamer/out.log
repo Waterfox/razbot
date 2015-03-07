@@ -1,0 +1,521 @@
+Registering  Blue Pawly
+/register-robot POST {"deviceId":"Blue Pawly"}
+Creating IPC between Node.js and Python using stdin/stdout as pipes
+Listening on 10334 for HTTP
+Listening on 10335 for sockets
+info: socket.io started
+Waiting for connection
+LOG: rospack: error while loading shared libraries: librospack.so: cannot open shared object file: No such file or directory
+problem with request: connect EHOSTUNREACH, Error: connect EHOSTUNREACH
+LOG: ROS Controller
+LOG: Listening to stdin in separate thread
+COMMAND raw: {"orientationRightSideUp": true}
+COMMAND parsed: {"orientationRightSideUp":true}
+LOG: sending message {"orientationRightSideUp": true}
+LOG: move  0 0.0 s {left  0.0 > 0.0 , right 0.0 
+LOG: > 0.0 }
+COMMAND raw: {"orientationRightSideUp": false}
+COMMAND parsed: {"orientationRightSideUp":false}
+LOG: sending message {"orientationRightSideUp": false}
+LOG: Main thread ending
+debug: served static content /socket.io.js
+LOG: move  100 10.0 s {left  0.0 > 0.0 , right 0.0 > 0.0 }
+{ angle: 90 }
+LOG: move 
+LOG:  200 20.0 s {left  0.0 > 0.0 , right 0.0 > 0.0 }
+LOG: move 
+LOG:  300 30.0 s {left  0.0 > 0.0 , right 0.0 > 0.0 }
+debug: served static content /socket.io.js
+{ angle: 90 }
+debug: client authorized
+info: handshake authorized KdVJKQqVAXK6GcIrI5VN
+LOG: move 
+LOG:  400 40.0 s {left  0.0 > 0.0 , right 0.0 > 0.0 }
+Registering  Blue Pawly
+/register-robot POST {"deviceId":"Blue Pawly"}
+debug: setting request GET /socket.io/1/websocket/KdVJKQqVAXK6GcIrI5VN
+debug: set heartbeat interval for client KdVJKQqVAXK6GcIrI5VN
+debug: client authorized for 
+debug: websocket writing 1::
+motor_control connection  { id: 'KdVJKQqVAXK6GcIrI5VN',
+  namespace: 
+   { manager: 
+      { server: [Object],
+        namespaces: [Object],
+        sockets: [Circular],
+        _events: [Object],
+        settings: [Object],
+        handshaken: [Object],
+        connected: [Object],
+        open: [Object],
+        closed: {},
+        rooms: [Object],
+        roomClients: [Object],
+        oldListeners: [Object],
+        sequenceNumber: -1205627571,
+        gc: [Object] },
+     name: '',
+     sockets: { KdVJKQqVAXK6GcIrI5VN: [Circular] },
+     auth: false,
+     flags: { endpoint: '', exceptions: [] },
+     _events: { connection: [Object] } },
+  manager: 
+   { server: 
+      { connections: 5,
+        allowHalfOpen: true,
+        _handle: [Object],
+        _events: [Object],
+        httpAllowHalfOpen: false },
+     namespaces: { '': [Object] },
+     sockets: 
+      { manager: [Circular],
+        name: '',
+        sockets: [Object],
+        auth: false,
+        flags: [Object],
+        _events: [Object] },
+     _events: 
+      { 'set:transports': [Object],
+        'set:store': [Function],
+        'set:origins': [Function],
+        'set:flash policy port': [Function],
+        'set:flash policy server': [Function] },
+     settings: 
+      { origins: '*:*',
+        log: true,
+        store: [Object],
+        logger: [Object],
+        static: [Object],
+        heartbeats: true,
+        resource: '/socket.io',
+        transports: [Object],
+        authorization: false,
+        blacklist: [Object],
+        'log level': 3,
+        'log colors': false,
+        'close timeout': 60,
+        'heartbeat interval': 25,
+        'heartbeat timeout': 60,
+        'polling duration': 20,
+        'flash policy server': true,
+        'flash policy port': 10843,
+        'destroy upgrade': true,
+        'destroy buffer size': 100000000,
+        'browser client': true,
+        'browser client cache': true,
+        'browser client minification': false,
+        'browser client etag': false,
+        'browser client expires': 315360000,
+        'browser client gzip': false,
+        'browser client handler': false,
+        'client store expiration': 15,
+        'match origin protocol': false },
+     handshaken: { KdVJKQqVAXK6GcIrI5VN: [Object] },
+     connected: { KdVJKQqVAXK6GcIrI5VN: true },
+     open: { KdVJKQqVAXK6GcIrI5VN: true },
+     closed: {},
+     rooms: { '': [Object] },
+     roomClients: { KdVJKQqVAXK6GcIrI5VN: [Object] },
+     oldListeners: [ [Object] ],
+     sequenceNumber: -1205627571,
+     gc: { ontimeout: [Function] } },
+  disconnected: false,
+  ackPackets: 0,
+  acks: {},
+  flags: { endpoint: '', room: '' },
+  readable: true,
+  store: 
+   { store: { options: undefined, clients: [Object], manager: [Object] },
+     id: 'KdVJKQqVAXK6GcIrI5VN',
+     data: {} },
+  _events: { error: [Function] } }
+problem with request: connect EHOSTUNREACH, Error: connect EHOSTUNREACH
+motor_control  { x: 0, y: 0, date: '2014-05-01T14:15:59.597Z' } Thu, 01 May 2014 14:16:05 GMT
+motor_control  { x: 140, y: -52, date: '2014-05-01T14:16:01.602Z' } Thu, 01 May 2014 14:16:05 GMT
+motor_control  { x: 114, y: -18, date: '2014-05-01T14:16:01.702Z' } Thu, 01 May 2014 14:16:05 GMT
+motor_control  { x: 78, y: 94, date: '2014-05-01T14:16:01.802Z' } Thu, 01 May 2014 14:16:05 GMT
+motor_control  { x: 74, y: 106, date: '2014-05-01T14:16:01.903Z' } Thu, 01 May 2014 14:16:05 GMT
+motor_control  { x: 74, y: 106, date: '2014-05-01T14:16:02.004Z' } Thu, 01 May 2014 14:16:05 GMT
+motor_control  { x: 74, y: 106, date: '2014-05-01T14:16:02.105Z' } Thu, 01 May 2014 14:16:05 GMT
+motor_control  { x: 72, y: 106, date: '2014-05-01T14:16:02.205Z' } Thu, 01 May 2014 14:16:05 GMT
+motor_control  { x: 72, y: 106, date: '2014-05-01T14:16:02.305Z' } Thu, 01 May 2014 14:16:05 GMT
+motor_control  { x: 72, y: 106, date: '2014-05-01T14:16:02.406Z' } Thu, 01 May 2014 14:16:06 GMT
+LOG: input {"x":0,"y":0,"date":"2014-05-01T14:15:59.597Z","velocity":0,"radians":0}
+LOG: input {"x":140,"y":-52,"date":"2014-05-01T14:16:01.602Z","velocity":-149,"radians":-1.21516}
+LOG: input {"x":114,"y":-18,"date":"2014-05-01T14:16:01.702Z","velocity":-115,"radians":-1.41419}
+LOG: input {"x":78,"y":94,"date":"2014-05-01T14:16:01.802Z","velocity":122,"radians":-0.69264}
+LOG: input {"x":74,"y":106,"date":"2014-05-01T14:16:01.903Z","velocity":129,"radians":-0.60946}
+LOG: input {"x":74,"y":106,"date":"2014-05-01T14:16:02.004Z","velocity":129,"radians":-0.60946}
+LOG: input {"x":74,"y":106,"date":"2014-05-01T14:16:02.105Z","velocity":129,"radians":-0.60946}
+LOG: input {"x":72,"y":106,"date":"2014-05-01T14:16:02.205Z","velocity":128,"radians":-0.59666}
+LOG: input {"x":72,"y":106,"date":"2014-05-01T14:16:02.305Z","velocity":128,"radians":-0.59666}
+LOG: input {"x":72,"y":106,"date":"2014-05-01T14:16:02.406Z","velocity":128,"radians":-0.59666}
+motor_control  { x: 72, y: 106, date: '2014-05-01T14:16:02.506Z' } Thu, 01 May 2014 14:16:06 GMT
+motor_control  { x: 70, y: 104, date: '2014-05-01T14:16:02.607Z' } Thu, 01 May 2014 14:16:06 GMT
+motor_control  { x: 0, y: 0, date: '2014-05-01T14:16:02.707Z' } Thu, 01 May 2014 14:16:06 GMT
+motor_control  { x: 68, y: 104, date: '2014-05-01T14:16:04.616Z' } Thu, 01 May 2014 14:16:06 GMT
+motor_control  { x: 50, y: 194, date: '2014-05-01T14:16:04.716Z' } Thu, 01 May 2014 14:16:06 GMT
+motor_control  { x: 50, y: 194, date: '2014-05-01T14:16:04.817Z' } Thu, 01 May 2014 14:16:06 GMT
+motor_control  { x: 50, y: 194, date: '2014-05-01T14:16:04.917Z' } Thu, 01 May 2014 14:16:06 GMT
+motor_control  { x: 50, y: 194, date: '2014-05-01T14:16:05.018Z' } Thu, 01 May 2014 14:16:06 GMT
+motor_control  { x: 50, y: 194, date: '2014-05-01T14:16:05.118Z' } Thu, 01 May 2014 14:16:06 GMT
+motor_control  { x: 50, y: 194, date: '2014-05-01T14:16:05.218Z' } Thu, 01 May 2014 14:16:06 GMT
+motor_control  { x: 50, y: 194, date: '2014-05-01T14:16:05.319Z' } Thu, 01 May 2014 14:16:06 GMT
+motor_control  { x: 50, y: 194, date: '2014-05-01T14:16:05.419Z' } Thu, 01 May 2014 14:16:06 GMT
+motor_control  { x: 50, y: 194, date: '2014-05-01T14:16:05.520Z' } Thu, 01 May 2014 14:16:06 GMT
+motor_control  { x: 50, y: 194, date: '2014-05-01T14:16:05.620Z' } Thu, 01 May 2014 14:16:06 GMT
+motor_control  { x: 50, y: 194, date: '2014-05-01T14:16:05.721Z' } Thu, 01 May 2014 14:16:06 GMT
+motor_control  { x: 50, y: 194, date: '2014-05-01T14:16:05.821Z' } Thu, 01 May 2014 14:16:06 GMT
+motor_control  { x: 50, y: 194, date: '2014-05-01T14:16:05.922Z' } Thu, 01 May 2014 14:16:06 GMT
+motor_control  { x: 50, y: 194, date: '2014-05-01T14:16:06.022Z' } Thu, 01 May 2014 14:16:06 GMT
+motor_control  { x: 50, y: 194, date: '2014-05-01T14:16:06.122Z' } Thu, 01 May 2014 14:16:06 GMT
+motor_control  { x: 50, y: 194, date: '2014-05-01T14:16:06.223Z' } Thu, 01 May 2014 14:16:06 GMT
+motor_control  { x: 50, y: 194, date: '2014-05-01T14:16:06.323Z' } Thu, 01 May 2014 14:16:06 GMT
+motor_control  { x: 50, y: 194, date: '2014-05-01T14:16:06.424Z' } Thu, 01 May 2014 14:16:06 GMT
+motor_control  { x: 50, y: 194, date: '2014-05-01T14:16:06.524Z' } Thu, 01 May 2014 14:16:06 GMT
+motor_control  { x: 50, y: 192, date: '2014-05-01T14:16:06.625Z' } Thu, 01 May 2014 14:16:06 GMT
+motor_control  { x: 50, y: 192, date: '2014-05-01T14:16:06.725Z' } Thu, 01 May 2014 14:16:06 GMT
+motor_control  { x: 50, y: 192, date: '2014-05-01T14:16:06.826Z' } Thu, 01 May 2014 14:16:06 GMT
+LOG: input {"x":72,"y":106,"date":"2014-05-01T14:16:02.506Z","velocity":128,"radians":-0.59666}
+LOG: input {"x":70,"y":104,"date":"2014-05-01T14:16:02.607Z","velocity":125,"radians":-0.59243}
+LOG: input {"x":0,"y":0,"date":"2014-05-01T14:16:02.707Z","velocity":0,"radians":0}
+LOG: input {"x":68,"y":104,"date":"2014-05-01T14:16:04.616Z","velocity":124,"radians":-0.57907}
+LOG: input {"x":50,"y":194,"date":"2014-05-01T14:16:04.716Z","velocity":200,"radians":-0.25224}
+LOG: input {"x":50,"y":194,"date":"2014-05-01T14:16:04.817Z","velocity":200,"radians":-0.25224}
+LOG: input {"x":50,"y":194,"date":"2014-05-01T14:16:04.917Z","velocity":200,"radians":-0.25224}
+LOG: input {"x":50,"y":194,"date":"2014-05-01T14:16:05.018Z","velocity":200,"radians":-0.25224}
+LOG: input {"x":50,"y":194,"date":"2014-05-01T14:16:05.118Z","velocity":200,"radians":-0.25224}
+LOG: input {"x":50,"y":194,"date":"2014-05-01T14:16:05.218Z","velocity":200,"radians":-0.25224}
+LOG: input {"x":50,"y":194,"date":"2014-05-01T14:16:05.319Z","velocity":200,"radians":-0.25224}
+LOG: input {"x":50,"y":194,"date":"2014-05-01T14:16:05.419Z","velocity":200,"radians":-0.25224}
+LOG: input {"x":50,"y":194,"date":"2014-05-01T14:16:05.520Z","velocity":200,"radians":-0.25224}
+LOG: input {"x":50,"y":194,"date":"2014-05-01T14:16:05.620Z","velocity":200,"radians":-0.25224}
+LOG: input {"x":50,"y":194,"date":"2014-05-01T14:16:05.721Z","velocity":200,"radians":-0.25224}
+LOG: input {"x":50,"y":194,"date":"2014-05-01T14:16:05.821Z","velocity":200,"radians":-0.25224}
+LOG: input {"x":50,"y":194,"date":"2014-05-01T14:16:05.922Z","velocity":200,"radians":-0.25224}
+LOG: input {"x":50,"y":194,"date":"2014-05-01T14:16:06.022Z","velocity":200,"radians":-0.25224}
+LOG: input {"x":50,"y":194,"date":"2014-05-01T14:16:06.122Z","velocity":200,"radians":-0.25224}
+LOG: input {"x":50,"y":194,"date":"2014-05-01T14:16:06.223Z","velocity":200,"radians":-0.25224}
+LOG: input {"x":50,"y":194,"date":"2014-05-01T14:16:06.323Z","velocity":200,"radians":-0.25224}
+LOG: input {"x":50,"y":194,"date":"2014-05-01T14:16:06.424Z","velocity":200,"radians":-0.25224}
+LOG: input {"x":50,"y":194,"date":"2014-05-01T14:16:06.524Z","velocity":200,"radians":-0.25224}
+LOG: input {"x":50,"y":192,"date":"2014-05-01T14:16:06.625Z","velocity":198,"radians":-0.25476}
+LOG: input {"x":50,"y":192,"date":"2014-05-01T14:16:06.725Z","velocity":198,"radians":-0.25476}
+LOG: input {"x":50,"y":192,"date":"2014-05-01T14:16:06.826Z","velocity":198,"radians":-0.25476}
+LOG: FAIL_SAFE triggered, setting cmd to None
+motor_control  { x: 50, y: 192, date: '2014-05-01T14:16:06.926Z' } Thu, 01 May 2014 14:16:09 GMT
+motor_control  { x: 50, y: 192, date: '2014-05-01T14:16:07.026Z' } Thu, 01 May 2014 14:16:09 GMT
+motor_control  { x: 50, y: 192, date: '2014-05-01T14:16:07.126Z' } Thu, 01 May 2014 14:16:09 GMT
+motor_control  { x: 50, y: 192, date: '2014-05-01T14:16:07.227Z' } Thu, 01 May 2014 14:16:09 GMT
+motor_control  { x: 50, y: 192, date: '2014-05-01T14:16:07.328Z' } Thu, 01 May 2014 14:16:09 GMT
+motor_control  { x: 0, y: 0, date: '2014-05-01T14:16:07.428Z' } Thu, 01 May 2014 14:16:09 GMT
+motor_control  { x: 50, y: 30, date: '2014-05-01T14:16:07.930Z' } Thu, 01 May 2014 14:16:09 GMT
+motor_control  { x: 22, y: 22, date: '2014-05-01T14:16:08.031Z' } Thu, 01 May 2014 14:16:09 GMT
+motor_control  { x: 16, y: 20, date: '2014-05-01T14:16:08.131Z' } Thu, 01 May 2014 14:16:09 GMT
+motor_control  { x: 0, y: 0, date: '2014-05-01T14:16:08.231Z' } Thu, 01 May 2014 14:16:09 GMT
+motor_control  { x: -76, y: -36, date: '2014-05-01T14:16:08.834Z' } Thu, 01 May 2014 14:16:09 GMT
+motor_control  { x: -58, y: -92, date: '2014-05-01T14:16:08.935Z' } Thu, 01 May 2014 14:16:09 GMT
+motor_control  { x: -54, y: -108, date: '2014-05-01T14:16:09.035Z' } Thu, 01 May 2014 14:16:09 GMT
+motor_control  { x: -52, y: -116, date: '2014-05-01T14:16:09.136Z' } Thu, 01 May 2014 14:16:09 GMT
+motor_control  { x: -40, y: -160, date: '2014-05-01T14:16:09.236Z' } Thu, 01 May 2014 14:16:09 GMT
+motor_control  { x: -34, y: -180, date: '2014-05-01T14:16:09.337Z' } Thu, 01 May 2014 14:16:09 GMT
+motor_control  { x: -32, y: -196, date: '2014-05-01T14:16:09.437Z' } Thu, 01 May 2014 14:16:09 GMT
+motor_control  { x: -32, y: -196, date: '2014-05-01T14:16:09.538Z' } Thu, 01 May 2014 14:16:09 GMT
+motor_control  { x: -34, y: -196, date: '2014-05-01T14:16:09.638Z' } Thu, 01 May 2014 14:16:09 GMT
+motor_control  { x: -34, y: -196, date: '2014-05-01T14:16:09.739Z' } Thu, 01 May 2014 14:16:09 GMT
+motor_control  { x: -34, y: -196, date: '2014-05-01T14:16:09.839Z' } Thu, 01 May 2014 14:16:09 GMT
+LOG: input {"x":50,"y":192,"date":"2014-05-01T14:16:06.926Z","velocity":198,"radians":-0.25476}
+LOG: input {"x":50,"y":192,"date":"2014-05-01T14:16:07.026Z","velocity":198,"radians":-0.25476}
+LOG: input {"x":50,"y":192,"date":"2014-05-01T14:16:07.126Z","velocity":198,"radians":-0.25476}
+LOG: input {"x":50,"y":192,"date":"2014-05-01T14:16:07.227Z","velocity":198,"radians":-0.25476}
+LOG: input {"x":50,"y":192,"date":"2014-05-01T14:16:07.328Z","velocity":198,"radians":-0.25476}
+LOG: input {"x":0,"y":0,"date":"2014-05-01T14:16:07.428Z","velocity":0,"radians":0}
+LOG: input {"x":50,"y":30,"date":"2014-05-01T14:16:07.930Z","velocity":58,"radians":-1.03038}
+LOG: input {"x":22,"y":22,"date":"2014-05-01T14:16:08.031Z","velocity":31,"radians":-0.7854}
+LOG: input {"x":16,"y":20,"date":"2014-05-01T14:16:08.131Z","velocity":26,"radians":-0.67474}
+LOG: input {"x":0,"y":0,"date":"2014-05-01T14:16:08.231Z","velocity":0,"radians":0}
+LOG: input {"x":-76,"y":-36,"date":"2014-05-01T14:16:08.834Z","velocity":-84,"radians":1.12842}
+LOG: input {"x":-58,"y":-92,"date":"2014-05-01T14:16:08.935Z","velocity":-109,"radians":0.5625}
+LOG: input {"x":-54,"y":-108,"date":"2014-05-01T14:16:09.035Z","velocity":-121,"radians":0.46365}
+LOG: input {"x":-52,"y":-116,"date":"2014-05-01T14:16:09.136Z","velocity":-127,"radians":0.42142}
+LOG: input {"x":-40,"y":-160,"date":"2014-05-01T14:16:09.236Z","velocity":-165,"radians":0.24498}
+LOG: input {"x":-34,"y":-180,"date":"2014-05-01T14:16:09.337Z","velocity":-183,"radians":0.18669}
+LOG: input {"x":-32,"y":-196,"date":"2014-05-01T14:16:09.437Z","velocity":-199,"radians":0.16184}
+LOG: input {"x":-32,"y":-196,"date":"2014-05-01T14:16:09.538Z","velocity":-199,"radians":0.16184}
+LOG: input {"x":-34,"y":-196,"date":"2014-05-01T14:16:09.638Z","velocity":-199,"radians":0.17176}
+LOG: input {"x":-34,"y":-196,"date":"2014-05-01T14:16:09.739Z","velocity":-199,"radians":0.17176}
+LOG: input {"x":-34,"y":-196,"date":"2014-05-01T14:16:09.839Z","velocity":-199,"radians":0.17176}
+motor_control  { x: 0, y: 0, date: '2014-05-01T14:16:09.939Z' } Thu, 01 May 2014 14:16:09 GMT
+LOG: input {"x":0,"y":0,"date":"2014-05-01T14:16:09.939Z","velocity":0,"radians":0}
+LOG: FAIL_SAFE triggered, setting cmd to None
+motor_control  { x: 24, y: -128, date: '2014-05-01T14:16:10.944Z' } Thu, 01 May 2014 14:16:10 GMT
+LOG: input {"x":24,"y":-128,"date":"2014-05-01T14:16:10.944Z","velocity":-130,"radians":-0.18535}
+motor_control  { x: 22, y: -198, date: '2014-05-01T14:16:11.044Z' } Thu, 01 May 2014 14:16:10 GMT
+LOG: input {"x":22,"y":-198,"date":"2014-05-01T14:16:11.044Z","velocity":-199,"radians":-0.11066}
+motor_control  { x: 22, y: -198, date: '2014-05-01T14:16:11.145Z' } Thu, 01 May 2014 14:16:10 GMT
+LOG: input {"x":22,"y":-198,"date":"2014-05-01T14:16:11.145Z","velocity":-199,"radians":-0.11066}
+motor_control  { x: 22, y: -198, date: '2014-05-01T14:16:11.245Z' } Thu, 01 May 2014 14:16:10 GMT
+LOG: input {"x":22,"y":-198,"date":"2014-05-01T14:16:11.245Z","velocity":-199,"radians":-0.11066}
+motor_control  { x: 22, y: -198, date: '2014-05-01T14:16:11.346Z' } Thu, 01 May 2014 14:16:10 GMT
+LOG: input {"x":22,"y":-198,"date":"2014-05-01T14:16:11.346Z","velocity":-199,"radians":-0.11066}
+motor_control  { x: 22, y: -198, date: '2014-05-01T14:16:11.446Z' } Thu, 01 May 2014 14:16:10 GMT
+LOG: input {"x":22,"y":-198,"date":"2014-05-01T14:16:11.446Z","velocity":-199,"radians":-0.11066}
+LOG: move 
+LOG:  500 50.0 s {left  -199.0 > -60.0 , right -171.0 > -60.0 }
+motor_control  { x: 0, y: 0, date: '2014-05-01T14:16:11.547Z' } Thu, 01 May 2014 14:16:10 GMT
+LOG: input {"x":0,"y":0,"date":"2014-05-01T14:16:11.547Z","velocity":0,"radians":0}
+motor_control  { x: 16, y: -54, date: '2014-05-01T14:16:12.049Z' } Thu, 01 May 2014 14:16:11 GMT
+LOG: input {"x":16,"y":-54,"date":"2014-05-01T14:16:12.049Z","velocity":-56,"radians":-0.28806}
+motor_control  { x: 0, y: 0, date: '2014-05-01T14:16:12.149Z' } Thu, 01 May 2014 14:16:11 GMT
+LOG: input {"x":0,"y":0,"date":"2014-05-01T14:16:12.149Z","velocity":0,"radians":0}
+LOG: FAIL_SAFE triggered, setting cmd to None
+LOG: move 
+LOG:  600 60.0 s {left  0.0 > 0.0 , right 0.0 > 0.0 }
+debug: emitting heartbeat for client KdVJKQqVAXK6GcIrI5VN
+debug: websocket writing 2::
+debug: set heartbeat timeout for client KdVJKQqVAXK6GcIrI5VN
+LOG: move 
+LOG:  700 70.0 s {left  0.0 > 0.0 , right 0.0 > 0.0 }
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client KdVJKQqVAXK6GcIrI5VN
+debug: set heartbeat interval for client KdVJKQqVAXK6GcIrI5VN
+LOG: move 
+LOG:  800 80.0 s {left  0.0 > 0.0 , right 0.0 > 0.0 }
+LOG: move 
+LOG:  900 90.0 s {left  0.0 > 0.0 , right 0.0 > 0.0 }
+debug: emitting heartbeat for client KdVJKQqVAXK6GcIrI5VN
+debug: websocket writing 2::
+debug: set heartbeat timeout for client KdVJKQqVAXK6GcIrI5VN
+LOG: move 
+LOG:  1000 100.0 s {left  0.0 > 0.0 , right 0.0 > 0.0 }
+Registering  Blue Pawly
+/register-robot POST {"deviceId":"Blue Pawly"}
+problem with request: connect EHOSTUNREACH, Error: connect EHOSTUNREACH
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client KdVJKQqVAXK6GcIrI5VN
+debug: set heartbeat interval for client KdVJKQqVAXK6GcIrI5VN
+LOG: move 
+LOG:  1100 110.0 s {left  0.0 > 0.0 , right 0.0 > 0.0 }
+LOG: move 
+LOG:  1200 120.0 s {left  0.0 > 0.0 , right 0.0 > 0.0 }
+debug: emitting heartbeat for client KdVJKQqVAXK6GcIrI5VN
+debug: websocket writing 2::
+debug: set heartbeat timeout for client KdVJKQqVAXK6GcIrI5VN
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client KdVJKQqVAXK6GcIrI5VN
+debug: set heartbeat interval for client KdVJKQqVAXK6GcIrI5VN
+LOG: move  1300 130.0 s {left  0.0 > 0.0 , right 0.0 > 0.0 }
+LOG: move 
+LOG:  1400 140.0 s {left  0.0 > 0.0 , right 0.0 > 0.0 }
+LOG: move 
+LOG:  1500 150.0 s {left  0.0 > 0.0 , right 0.0 > 0.0 }
+{ angle: 90 }
+debug: emitting heartbeat for client KdVJKQqVAXK6GcIrI5VN
+debug: websocket writing 2::
+debug: set heartbeat timeout for client KdVJKQqVAXK6GcIrI5VN
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client KdVJKQqVAXK6GcIrI5VN
+debug: set heartbeat interval for client KdVJKQqVAXK6GcIrI5VN
+motor_control  { x: -78, y: -82, date: '2014-05-01T14:18:00.581Z' } Thu, 01 May 2014 14:17:59 GMT
+motor_control  { x: -60, y: 48, date: '2014-05-01T14:18:00.681Z' } Thu, 01 May 2014 14:17:59 GMT
+LOG: input {"x":-78,"y":-82,"date":"2014-05-01T14:18:00.581Z","velocity":-113,"radians":0.7604}
+LOG: input {"x":-60,"y":48,"date":"2014-05-01T14:18:00.681Z","velocity":77,"radians":0.89606}
+motor_control  { x: -50, y: 112, date: '2014-05-01T14:18:00.782Z' } Thu, 01 May 2014 14:17:59 GMT
+LOG: input {"x":-50,"y":112,"date":"2014-05-01T14:18:00.782Z","velocity":123,"radians":0.41988}
+motor_control  { x: -46, y: 148, date: '2014-05-01T14:18:00.882Z' } Thu, 01 May 2014 14:18:00 GMT
+LOG: input {"x":-46,"y":148,"date":"2014-05-01T14:18:00.882Z","velocity":155,"radians":0.30135}
+motor_control  { x: -46, y: 148, date: '2014-05-01T14:18:00.983Z' } Thu, 01 May 2014 14:18:00 GMT
+LOG: input {"x":-46,"y":148,"date":"2014-05-01T14:18:00.983Z","velocity":155,"radians":0.30135}
+motor_control  { x: -46, y: 148, date: '2014-05-01T14:18:01.083Z' } Thu, 01 May 2014 14:18:00 GMT
+LOG: input {"x":-46,"y":148,"date":"2014-05-01T14:18:01.083Z","velocity":155,"radians":0.30135}
+motor_control  { x: -46, y: 148, date: '2014-05-01T14:18:01.184Z' } Thu, 01 May 2014 14:18:00 GMT
+LOG: input {"x":-46,"y":148,"date":"2014-05-01T14:18:01.184Z","velocity":155,"radians":0.30135}
+LOG: move 
+LOG:  1600 160.0 s {left  96.0 > 70.0 , right 155.0 > 90.0 }
+motor_control  { x: -46, y: 148, date: '2014-05-01T14:18:01.284Z' } Thu, 01 May 2014 14:18:00 GMT
+LOG: input {"x":-46,"y":148,"date":"2014-05-01T14:18:01.284Z","velocity":155,"radians":0.30135}
+motor_control  { x: 0, y: 0, date: '2014-05-01T14:18:01.385Z' } Thu, 01 May 2014 14:18:00 GMT
+LOG: input {"x":0,"y":0,"date":"2014-05-01T14:18:01.385Z","velocity":0,"radians":0}
+motor_control  { x: -16, y: -66, date: '2014-05-01T14:18:01.887Z' } Thu, 01 May 2014 14:18:01 GMT
+LOG: input {"x":-16,"y":-66,"date":"2014-05-01T14:18:01.887Z","velocity":-68,"radians":0.23784}
+motor_control  { x: -18, y: -74, date: '2014-05-01T14:18:01.987Z' } Thu, 01 May 2014 14:18:01 GMT
+LOG: input {"x":-18,"y":-74,"date":"2014-05-01T14:18:01.987Z","velocity":-76,"radians":0.23861}
+motor_control  { x: -18, y: -90, date: '2014-05-01T14:18:02.088Z' } Thu, 01 May 2014 14:18:01 GMT
+LOG: input {"x":-18,"y":-90,"date":"2014-05-01T14:18:02.088Z","velocity":-92,"radians":0.1974}
+motor_control  { x: -18, y: -110, date: '2014-05-01T14:18:02.188Z' } Thu, 01 May 2014 14:18:01 GMT
+LOG: input {"x":-18,"y":-110,"date":"2014-05-01T14:18:02.188Z","velocity":-111,"radians":0.1622}
+motor_control  { x: -18, y: -110, date: '2014-05-01T14:18:02.289Z' } Thu, 01 May 2014 14:18:01 GMT
+LOG: input {"x":-18,"y":-110,"date":"2014-05-01T14:18:02.289Z","velocity":-111,"radians":0.1622}
+Registering  Blue Pawly
+/register-robot POST {"deviceId":"Blue Pawly"}
+motor_control  { x: 0, y: 0, date: '2014-05-01T14:18:02.390Z' } Thu, 01 May 2014 14:18:01 GMT
+LOG: input {"x":0,"y":0,"date":"2014-05-01T14:18:02.390Z","velocity":0,"radians":0}
+motor_control  { x: -14, y: -118, date: '2014-05-01T14:18:02.590Z' } Thu, 01 May 2014 14:18:01 GMT
+LOG: input {"x":-14,"y":-118,"date":"2014-05-01T14:18:02.590Z","velocity":-119,"radians":0.11809}
+motor_control  { x: -40, y: -196, date: '2014-05-01T14:18:02.690Z' } Thu, 01 May 2014 14:18:02 GMT
+motor_control  { x: -48, y: -194, date: '2014-05-01T14:18:02.791Z' } Thu, 01 May 2014 14:18:02 GMT
+LOG: input {"x":-40,"y":-196,"date":"2014-05-01T14:18:02.690Z","velocity":-200,"radians":0.20132}
+LOG: input {"x":-48,"y":-194,"date":"2014-05-01T14:18:02.791Z","velocity":-200,"radians":0.24255}
+motor_control  { x: -48, y: -194, date: '2014-05-01T14:18:02.891Z' } Thu, 01 May 2014 14:18:02 GMT
+LOG: input {"x":-48,"y":-194,"date":"2014-05-01T14:18:02.891Z","velocity":-200,"radians":0.24255}
+motor_control  { x: -46, y: -194, date: '2014-05-01T14:18:02.992Z' } Thu, 01 May 2014 14:18:02 GMT
+motor_control  { x: -46, y: -194, date: '2014-05-01T14:18:03.092Z' } Thu, 01 May 2014 14:18:02 GMT
+LOG: input {"x":-46,"y":-194,"date":"2014-05-01T14:18:02.992Z","velocity":-199,"radians":0.23281}
+LOG: input {"x":-46,"y":-194,"date":"2014-05-01T14:18:03.092Z","velocity":-199,"radians":0.23281}
+motor_control  { x: -46, y: -194, date: '2014-05-01T14:18:03.193Z' } Thu, 01 May 2014 14:18:02 GMT
+LOG: input {"x":-46,"y":-194,"date":"2014-05-01T14:18:03.193Z","velocity":-199,"radians":0.23281}
+motor_control  { x: -46, y: -194, date: '2014-05-01T14:18:03.293Z' } Thu, 01 May 2014 14:18:02 GMT
+motor_control  { x: -46, y: -194, date: '2014-05-01T14:18:03.394Z' } Thu, 01 May 2014 14:18:02 GMT
+LOG: input {"x":-46,"y":-194,"date":"2014-05-01T14:18:03.293Z","velocity":-199,"radians":0.23281}
+LOG: input {"x":-46,"y":-194,"date":"2014-05-01T14:18:03.394Z","velocity":-199,"radians":0.23281}
+motor_control  { x: -46, y: -194, date: '2014-05-01T14:18:03.494Z' } Thu, 01 May 2014 14:18:02 GMT
+LOG: input {"x":-46,"y":-194,"date":"2014-05-01T14:18:03.494Z","velocity":-199,"radians":0.23281}
+motor_control  { x: -46, y: -194, date: '2014-05-01T14:18:03.594Z' } Thu, 01 May 2014 14:18:02 GMT
+LOG: input {"x":-46,"y":-194,"date":"2014-05-01T14:18:03.594Z","velocity":-199,"radians":0.23281}
+motor_control  { x: -46, y: -194, date: '2014-05-01T14:18:03.695Z' } Thu, 01 May 2014 14:18:02 GMT
+motor_control  { x: -46, y: -194, date: '2014-05-01T14:18:03.795Z' } Thu, 01 May 2014 14:18:02 GMT
+LOG: input {"x":-46,"y":-194,"date":"2014-05-01T14:18:03.695Z","velocity":-199,"radians":0.23281}
+LOG: input {"x":-46,"y":-194,"date":"2014-05-01T14:18:03.795Z","velocity":-199,"radians":0.23281}
+motor_control  { x: -46, y: -194, date: '2014-05-01T14:18:03.896Z' } Thu, 01 May 2014 14:18:03 GMT
+LOG: input {"x":-46,"y":-194,"date":"2014-05-01T14:18:03.896Z","velocity":-199,"radians":0.23281}
+motor_control  { x: -46, y: -194, date: '2014-05-01T14:18:03.996Z' } Thu, 01 May 2014 14:18:03 GMT
+motor_control  { x: -46, y: -194, date: '2014-05-01T14:18:04.097Z' } Thu, 01 May 2014 14:18:03 GMT
+motor_control  { x: -46, y: -194, date: '2014-05-01T14:18:04.197Z' } Thu, 01 May 2014 14:18:03 GMT
+LOG: input {"x":-46,"y":-194,"date":"2014-05-01T14:18:03.996Z","velocity":-199,"radians":0.23281}
+LOG: input {"x":-46,"y":-194,"date":"2014-05-01T14:18:04.097Z","velocity":-199,"radians":0.23281}
+LOG: input {"x":-46,"y":-194,"date":"2014-05-01T14:18:04.197Z","velocity":-199,"radians":0.23281}
+motor_control  { x: -46, y: -194, date: '2014-05-01T14:18:04.298Z' } Thu, 01 May 2014 14:18:03 GMT
+LOG: input {"x":-46,"y":-194,"date":"2014-05-01T14:18:04.298Z","velocity":-199,"radians":0.23281}
+motor_control  { x: -50, y: -194, date: '2014-05-01T14:18:04.398Z' } Thu, 01 May 2014 14:18:03 GMT
+LOG: input {"x":-50,"y":-194,"date":"2014-05-01T14:18:04.398Z","velocity":-200,"radians":0.25224}
+motor_control  { x: -48, y: -194, date: '2014-05-01T14:18:04.498Z' } Thu, 01 May 2014 14:18:03 GMT
+LOG: input {"x":-48,"y":-194,"date":"2014-05-01T14:18:04.498Z","velocity":-200,"radians":0.24255}
+motor_control  { x: -48, y: -194, date: '2014-05-01T14:18:04.599Z' } Thu, 01 May 2014 14:18:03 GMT
+LOG: input {"x":-48,"y":-194,"date":"2014-05-01T14:18:04.599Z","velocity":-200,"radians":0.24255}
+motor_control  { x: -48, y: -194, date: '2014-05-01T14:18:04.699Z' } Thu, 01 May 2014 14:18:03 GMT
+LOG: input {"x":-48,"y":-194,"date":"2014-05-01T14:18:04.699Z","velocity":-200,"radians":0.24255}
+motor_control  { x: -46, y: -194, date: '2014-05-01T14:18:04.800Z' } Thu, 01 May 2014 14:18:03 GMT
+LOG: input {"x":-46,"y":-194,"date":"2014-05-01T14:18:04.800Z","velocity":-199,"radians":0.23281}
+motor_control  { x: 0, y: 0, date: '2014-05-01T14:18:04.900Z' } Thu, 01 May 2014 14:18:04 GMT
+LOG: input {"x":0,"y":0,"date":"2014-05-01T14:18:04.900Z","velocity":0,"radians":0}
+motor_control  { x: -50, y: -188, date: '2014-05-01T14:18:05.302Z' } Thu, 01 May 2014 14:18:04 GMT
+LOG: input {"x":-50,"y":-188,"date":"2014-05-01T14:18:05.302Z","velocity":-195,"radians":0.25994}
+problem with request: connect EHOSTUNREACH, Error: connect EHOSTUNREACH
+motor_control  { x: -50, y: -188, date: '2014-05-01T14:18:05.402Z' } Thu, 01 May 2014 14:18:04 GMT
+motor_control  { x: -50, y: -188, date: '2014-05-01T14:18:05.503Z' } Thu, 01 May 2014 14:18:04 GMT
+LOG: input {"x":-50,"y":-188,"date":"2014-05-01T14:18:05.402Z","velocity":-195,"radians":0.25994}
+LOG: input {"x":-50,"y":-188,"date":"2014-05-01T14:18:05.503Z","velocity":-195,"radians":0.25994}
+motor_control  { x: 0, y: 0, date: '2014-05-01T14:18:05.603Z' } Thu, 01 May 2014 14:18:04 GMT
+LOG: input {"x":0,"y":0,"date":"2014-05-01T14:18:05.603Z","velocity":0,"radians":0}
+motor_control  { x: -6, y: -16, date: '2014-05-01T14:18:05.804Z' } Thu, 01 May 2014 14:18:04 GMT
+LOG: input {"x":-6,"y":-16,"date":"2014-05-01T14:18:05.804Z","velocity":-17,"radians":0.35877}
+motor_control  { x: -10, y: 14, date: '2014-05-01T14:18:05.905Z' } Thu, 01 May 2014 14:18:05 GMT
+LOG: input {"x":-10,"y":14,"date":"2014-05-01T14:18:05.905Z","velocity":17,"radians":0.62025}
+motor_control  { x: -16, y: 20, date: '2014-05-01T14:18:06.005Z' } Thu, 01 May 2014 14:18:05 GMT
+LOG: input {"x":-16,"y":20,"date":"2014-05-01T14:18:06.005Z","velocity":26,"radians":0.67474}
+motor_control  { x: -16, y: 20, date: '2014-05-01T14:18:06.106Z' } Thu, 01 May 2014 14:18:05 GMT
+LOG: input {"x":-16,"y":20,"date":"2014-05-01T14:18:06.106Z","velocity":26,"radians":0.67474}
+motor_control  { x: -16, y: 20, date: '2014-05-01T14:18:06.206Z' } Thu, 01 May 2014 14:18:05 GMT
+LOG: input {"x":-16,"y":20,"date":"2014-05-01T14:18:06.206Z","velocity":26,"radians":0.67474}
+motor_control  { x: 8, y: 12, date: '2014-05-01T14:18:06.307Z' } Thu, 01 May 2014 14:18:05 GMT
+motor_control  { x: 10, y: 10, date: '2014-05-01T14:18:06.407Z' } Thu, 01 May 2014 14:18:05 GMT
+LOG: input {"x":8,"y":12,"date":"2014-05-01T14:18:06.307Z","velocity":14,"radians":-0.588}
+LOG: input {"x":10,"y":10,"date":"2014-05-01T14:18:06.407Z","velocity":14,"radians":-0.7854}
+motor_control  { x: 0, y: 0, date: '2014-05-01T14:18:06.507Z' } Thu, 01 May 2014 14:18:05 GMT
+LOG: input {"x":0,"y":0,"date":"2014-05-01T14:18:06.507Z","velocity":0,"radians":0}
+motor_control  { x: 40, y: 8, date: '2014-05-01T14:18:06.808Z' } Thu, 01 May 2014 14:18:05 GMT
+LOG: input {"x":40,"y":8,"date":"2014-05-01T14:18:06.808Z","velocity":41,"radians":-1.3734}
+motor_control  { x: 46, y: 6, date: '2014-05-01T14:18:06.908Z' } Thu, 01 May 2014 14:18:06 GMT
+LOG: input {"x":46,"y":6,"date":"2014-05-01T14:18:06.908Z","velocity":46,"radians":-1.44109}
+motor_control  { x: 50, y: 4, date: '2014-05-01T14:18:07.009Z' } Thu, 01 May 2014 14:18:06 GMT
+LOG: input {"x":50,"y":4,"date":"2014-05-01T14:18:07.009Z","velocity":50,"radians":-1.49097}
+motor_control  { x: 52, y: 4, date: '2014-05-01T14:18:07.110Z' } Thu, 01 May 2014 14:18:06 GMT
+LOG: input {"x":52,"y":4,"date":"2014-05-01T14:18:07.110Z","velocity":52,"radians":-1.49402}
+motor_control  { x: 0, y: 0, date: '2014-05-01T14:18:07.210Z' } Thu, 01 May 2014 14:18:06 GMT
+LOG: input {"x":0,"y":0,"date":"2014-05-01T14:18:07.210Z","velocity":0,"radians":0}
+motor_control  { x: 44, y: 28, date: '2014-05-01T14:18:07.512Z' } Thu, 01 May 2014 14:18:06 GMT
+LOG: input {"x":44,"y":28,"date":"2014-05-01T14:18:07.512Z","velocity":52,"radians":-1.00407}
+motor_control  { x: 38, y: 86, date: '2014-05-01T14:18:07.612Z' } Thu, 01 May 2014 14:18:06 GMT
+LOG: input {"x":38,"y":86,"date":"2014-05-01T14:18:07.612Z","velocity":94,"radians":-0.41606}
+motor_control  { x: 34, y: 114, date: '2014-05-01T14:18:07.713Z' } Thu, 01 May 2014 14:18:06 GMT
+LOG: input {"x":34,"y":114,"date":"2014-05-01T14:18:07.713Z","velocity":119,"radians":-0.28985}
+motor_control  { x: 20, y: 160, date: '2014-05-01T14:18:07.813Z' } Thu, 01 May 2014 14:18:07 GMT
+LOG: input {"x":20,"y":160,"date":"2014-05-01T14:18:07.813Z","velocity":161,"radians":-0.12435}
+motor_control  { x: 14, y: 178, date: '2014-05-01T14:18:07.914Z' } Thu, 01 May 2014 14:18:07 GMT
+LOG: input {"x":14,"y":178,"date":"2014-05-01T14:18:07.914Z","velocity":179,"radians":-0.07849}
+motor_control  { x: 12, y: 184, date: '2014-05-01T14:18:08.014Z' } Thu, 01 May 2014 14:18:07 GMT
+motor_control  { x: 12, y: 188, date: '2014-05-01T14:18:08.115Z' } Thu, 01 May 2014 14:18:07 GMT
+LOG: input {"x":12,"y":184,"date":"2014-05-01T14:18:08.014Z","velocity":184,"radians":-0.06513}
+LOG: input {"x":12,"y":188,"date":"2014-05-01T14:18:08.115Z","velocity":188,"radians":-0.06374}
+motor_control  { x: 12, y: 186, date: '2014-05-01T14:18:08.215Z' } Thu, 01 May 2014 14:18:07 GMT
+LOG: input {"x":12,"y":186,"date":"2014-05-01T14:18:08.215Z","velocity":186,"radians":-0.06443}
+motor_control  { x: 12, y: 186, date: '2014-05-01T14:18:08.315Z' } Thu, 01 May 2014 14:18:07 GMT
+LOG: input {"x":12,"y":186,"date":"2014-05-01T14:18:08.315Z","velocity":186,"radians":-0.06443}
+LOG: FAIL_SAFE triggered, setting cmd to None
+LOG: move 
+LOG:  1700 170.0 s {left  0.0 > 0.0 , right 0.0 > 0.0 }
+motor_control  { x: 0, y: 0, date: '2014-05-01T14:18:08.416Z' } Thu, 01 May 2014 14:18:15 GMT
+motor_control  { x: 16, y: 36, date: '2014-05-01T14:18:09.019Z' } Thu, 01 May 2014 14:18:15 GMT
+motor_control  { x: 20, y: 34, date: '2014-05-01T14:18:09.119Z' } Thu, 01 May 2014 14:18:15 GMT
+motor_control  { x: 22, y: 34, date: '2014-05-01T14:18:09.219Z' } Thu, 01 May 2014 14:18:15 GMT
+motor_control  { x: 0, y: 0, date: '2014-05-01T14:18:09.320Z' } Thu, 01 May 2014 14:18:15 GMT
+motor_control  { x: 40, y: 18, date: '2014-05-01T14:18:09.621Z' } Thu, 01 May 2014 14:18:15 GMT
+motor_control  { x: 40, y: 18, date: '2014-05-01T14:18:09.722Z' } Thu, 01 May 2014 14:18:15 GMT
+motor_control  { x: 32, y: 18, date: '2014-05-01T14:18:09.822Z' } Thu, 01 May 2014 14:18:15 GMT
+motor_control  { x: -12, y: 2, date: '2014-05-01T14:18:09.923Z' } Thu, 01 May 2014 14:18:15 GMT
+motor_control  { x: -20, y: -2, date: '2014-05-01T14:18:10.023Z' } Thu, 01 May 2014 14:18:15 GMT
+motor_control  { x: -20, y: -2, date: '2014-05-01T14:18:10.123Z' } Thu, 01 May 2014 14:18:15 GMT
+motor_control  { x: -12, y: -14, date: '2014-05-01T14:18:10.224Z' } Thu, 01 May 2014 14:18:15 GMT
+motor_control  { x: -2, y: -14, date: '2014-05-01T14:18:10.324Z' } Thu, 01 May 2014 14:18:15 GMT
+motor_control  { x: -2, y: -14, date: '2014-05-01T14:18:10.425Z' } Thu, 01 May 2014 14:18:15 GMT
+motor_control  { x: -2, y: -14, date: '2014-05-01T14:18:10.527Z' } Thu, 01 May 2014 14:18:15 GMT
+motor_control  { x: -2, y: -12, date: '2014-05-01T14:18:10.626Z' } Thu, 01 May 2014 14:18:15 GMT
+motor_control  { x: -2, y: -4, date: '2014-05-01T14:18:10.726Z' } Thu, 01 May 2014 14:18:15 GMT
+motor_control  { x: -2, y: -2, date: '2014-05-01T14:18:10.827Z' } Thu, 01 May 2014 14:18:15 GMT
+motor_control  { x: 0, y: 0, date: '2014-05-01T14:18:10.927Z' } Thu, 01 May 2014 14:18:15 GMT
+motor_control  { x: 18, y: 6, date: '2014-05-01T14:18:11.228Z' } Thu, 01 May 2014 14:18:15 GMT
+motor_control  { x: 32, y: 6, date: '2014-05-01T14:18:11.329Z' } Thu, 01 May 2014 14:18:15 GMT
+motor_control  { x: 32, y: 6, date: '2014-05-01T14:18:11.429Z' } Thu, 01 May 2014 14:18:15 GMT
+motor_control  { x: 0, y: 0, date: '2014-05-01T14:18:11.530Z' } Thu, 01 May 2014 14:18:15 GMT
+LOG: input {"x":0,"y":0,"date":"2014-05-01T14:18:08.416Z","velocity":0,"radians":0}
+LOG: input {"x":16,"y":36,"date":"2014-05-01T14:18:09.019Z","velocity":39,"radians":-0.41822}
+LOG: input {"x":20,"y":34,"date":"2014-05-01T14:18:09.119Z","velocity":39,"radians":-0.53172}
+LOG: input {"x":22,"y":34,"date":"2014-05-01T14:18:09.219Z","velocity":40,"radians":-0.5743}
+LOG: input {"x":0,"y":0,"date":"2014-05-01T14:18:09.320Z","velocity":0,"radians":0}
+LOG: input {"x":40,"y":18,"date":"2014-05-01T14:18:09.621Z","velocity":44,"radians":-1.14794}
+LOG: input {"x":40,"y":18,"date":"2014-05-01T14:18:09.722Z","velocity":44,"radians":-1.14794}
+LOG: input {"x":32,"y":18,"date":"2014-05-01T14:18:09.822Z","velocity":37,"radians":-1.05841}
+LOG: input {"x":-12,"y":2,"date":"2014-05-01T14:18:09.923Z","velocity":12,"radians":1.40565}
+LOG: input {"x":-20,"y":-2,"date":"2014-05-01T14:18:10.023Z","velocity":-20,"radians":1.47113}
+LOG: input {"x":-20,"y":-2,"date":"2014-05-01T14:18:10.123Z","velocity":-20,"radians":1.47113}
+LOG: input {"x":-12,"y":-14,"date":"2014-05-01T14:18:10.224Z","velocity":-18,"radians":0.70863}
+LOG: input {"x":-2,"y":-14,"date":"2014-05-01T14:18:10.324Z","velocity":-14,"radians":0.1419}
+LOG: input {"x":-2,"y":-14,"date":"2014-05-01T14:18:10.425Z","velocity":-14,"radians":0.1419}
+LOG: input {"x":-2,"y":-14,"date":"2014-05-01T14:18:10.527Z","velocity":-14,"radians":0.1419}
+LOG: input {"x":-2,"y":-12,"date":"2014-05-01T14:18:10.626Z","velocity":-12,"radians":0.16515}
+LOG: input {"x":-2,"y":-4,"date":"2014-05-01T14:18:10.726Z","velocity":-4,"radians":0.46365}
+LOG: input {"x":-2,"y":-2,"date":"2014-05-01T14:18:10.827Z","velocity":-3,"radians":0.7854}
+LOG: input {"x":0,"y":0,"date":"2014-05-01T14:18:10.927Z","velocity":0,"radians":0}
+LOG: input {"x":18,"y":6,"date":"2014-05-01T14:18:11.228Z","velocity":19,"radians":-1.24905}
+LOG: input {"x":32,"y":6,"date":"2014-05-01T14:18:11.329Z","velocity":33,"radians":-1.38545}
+LOG: input {"x":32,"y":6,"date":"2014-05-01T14:18:11.429Z","velocity":33,"radians":-1.38545}
+LOG: input {"x":0,"y":0,"date":"2014-05-01T14:18:11.530Z","velocity":0,"radians":0}
+LOG: FAIL_SAFE triggered, setting cmd to None
+LOG: move 
+LOG:  1800 180.0 s {left  0.0 > 0.0 , right 0.0 > 0.0 }
+debug: emitting heartbeat for client KdVJKQqVAXK6GcIrI5VN
+debug: websocket writing 2::
+debug: set heartbeat timeout for client KdVJKQqVAXK6GcIrI5VN
+LOG: move 
+LOG:  1900 190.0 s {left  0.0 > 0.0 , right 0.0 > 0.0 }
+LOG: move 
+LOG:  2000 200.0 s {left  0.0 > 0.0 , right 0.0 > 0.0 }
+LOG: move 
+LOG:  2100 210.0 s {left  0.0 > 0.0 , right 0.0 > 0.0 }
+LOG: move 
+LOG:  2200 220.0 s {left  0.0 > 0.0 , right 0.0 > 0.0 }
+Registering  Blue Pawly
+/register-robot POST {"deviceId":"Blue Pawly"}
+problem with request: connect EHOSTUNREACH, Error: connect EHOSTUNREACH
+LOG: move 
+LOG:  2300 230.0 s {left  0.0 > 0.0 , right 0.0 > 0.0 }

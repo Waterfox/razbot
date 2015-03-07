@@ -1,0 +1,150 @@
+
+
+
+
+
+
+                                                      <script>
+            // Connecting to ROS
+            // -----------------
+            
+            var ros = new ROSLIB.Ros({
+              url : 'ws://glados-cpr:9090'
+            });
+            
+            ros.on('connection', function() {
+              console.log('Connected to websocket server.');
+            });
+            
+            ros.on('error', function(error) {
+              console.log('Error connecting to websocket server: ', error);
+            });
+            
+            ros.on('close', function() {
+              console.log('Connection to websocket server closed.');
+            });
+            
+            // Publishing a Topic
+            // ------------------
+            
+            var base = new ROSLIB.Topic({
+              ros : ros,
+              name : '/base',
+              messageType : 'std_msgs/UInt8'
+            });
+            var base_val = new ROSLIB.Message({data : 40});
+            
+            var elbow = new ROSLIB.Topic({
+              ros : ros,
+              name : '/elbow',
+              messageType : 'std_msgs/UInt8'
+            });
+            var elbow_val = new ROSLIB.Message({data : 105});
+            
+            var wrist = new ROSLIB.Topic({
+              ros : ros,
+              name : '/wrist',
+              messageType : 'std_msgs/UInt8'
+            });
+            var wrist_val = new ROSLIB.Message({data : 0});
+            
+            var head = new ROSLIB.Topic({
+              ros : ros,
+              name : '/head',
+              messageType : 'std_msgs/UInt8'
+            });
+            var head_val = new ROSLIB.Message({data : 0});
+            
+            function UP() {
+               elbow_val.data = elbow_val.data + 10;
+               elbow.publish(elbow_val);
+            }
+            
+            function DOWN() {
+               elbow_val.data = elbow_val.data - 10;
+               elbow.publish(elbow_val);
+            } 
+            
+            function LEFT() {
+               base_val.data = base_val.data + 3;
+               base.publish(base_val);
+            } 
+            
+            function RIGHT() {
+               base_val.data = base_val.data - 3;
+               base.publish(base_val);
+            } 
+            
+            function POWER_OFF() {
+               base_val.data = 0;
+               base.publish(base_val);
+               base_val.data = 40;
+               elbow_val.data = 0;
+               elbow.publish(elbow_val);
+               elbow_val.data = 105;
+               wrist_val.data = 0;
+               wrist.publish(wrist_val);
+               head_val.data = 0;
+               head.publish(head_val);
+            }
+            
+            var speech = new ROSLIB.Topic({
+                ros : ros,
+                name : '/speech',
+                messageType : 'std_msgs/String'
+            });
+            var speech_val = new ROSLIB.Message({data : ""});
+            
+            function SAY(){
+            speech_val.data = document.getElementById('TEXTBOX_SPEECH').value;
+            speech.publish(speech_val);
+            
+            var color_head = new ROSLIB.Topic({
+                ros : ros,
+                name : '/color_head',
+                messageType : 'std_msgs/ColorRGBA'
+            });
+            var cHead_val = new ROSLIB.Message({r:0, g:0, b:0, a:0});
+            
+            var color_body = new ROSLIB.Topic({
+                ros : ros,
+                name : '/color_body',
+                messageType : 'std_msgs/ColorRGBA'
+            });
+            var cBody_val = new ROSLIB.Message({r:0, g:0, b:0, a:0});
+            
+            function updateHead(color) {
+                cHead_val.r = color.rgb[0];
+                cHead_val.g = color.rgb[1];
+                cHead_val.b = color.rgb[2];
+                color_head.publish(cHead_val);
+            }
+            function updateBody(color) {
+                cBody_val.r = color.rgb[0];
+                cBody_val.g = color.rgb[1];
+                cBody_val.b = color.rgb[2];
+                color_body.publish(cBody_val);
+            }
+            
+            }
+            
+        </script>
+
+
+
+
+
+
+
+
+
+                                                              <script>(function() {with (this[2]) {with (this[1]) {with (this[0]) {return function(event) {UP();
+};}}}})</script>
+                                                                    <script>(function() {with (this[2]) {with (this[1]) {with (this[0]) {return function(event) {LEFT();
+};}}}})</script>                                                       <script>(function() {with (this[2]) {with (this[1]) {with (this[0]) {return function(event) {RIGHT();
+};}}}})</script>
+                                                                    <script>(function() {with (this[2]) {with (this[1]) {with (this[0]) {return function(event) {DOWN();
+};}}}})</script>
+
+                                                                 <script>(function() {with (this[2]) {with (this[1]) {with (this[0]) {return function(event) {SAY();
+};}}}})</script>

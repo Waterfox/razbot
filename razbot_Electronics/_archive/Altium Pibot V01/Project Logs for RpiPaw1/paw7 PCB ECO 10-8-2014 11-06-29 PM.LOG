@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=Netatmega_20 Pin=C3-1
+Removed Pin From Net: NetName=GND Pin=C3-2
+Change Component Comment : Designator=C1 Old Comment= New Comment=10pf 0603
+Change Component Comment : Designator=C3 Old Comment= New Comment=10uF pol
+Change Component Comment : Designator=C0 Old Comment= New Comment=20pf 0603
+Change Component Comment : Designator=C4 Old Comment=Cap New Comment=0.1uF 0603
+Change Component Comment : Designator=C2 Old Comment=Cap New Comment=0.1uF 0603
+Change Component Comment : Designator=F1 Old Comment=Fuse 1 New Comment=Fuse 20mm
+Change Component Comment : Designator=Rst Old Comment=Res2 New Comment=10K 0603
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=+5V Pin=C3-2

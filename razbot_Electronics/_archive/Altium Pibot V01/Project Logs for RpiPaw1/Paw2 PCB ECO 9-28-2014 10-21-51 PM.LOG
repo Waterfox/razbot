@@ -1,0 +1,6 @@
+Change Component Footprint: Designator=C0 Old Footprint=RAD-0.3 New Footprint=J1-0603
+Change Component Footprint: Designator=C1 Old Footprint=RAD-0.3 New Footprint=J1-0603
+Change Component Footprint: Designator=C2 Old Footprint=RAD-0.3 New Footprint=J1-0603
+Change Component Footprint: Designator=C3 Old Footprint=RAD-0.3 New Footprint=J1-0603
+Change Component Footprint: Designator=C4 Old Footprint=RAD-0.3 New Footprint=J1-0603
+Added Member To Class: ClassName=U_PwrSupply Member=Component  Ren

@@ -1,0 +1,3 @@
+Record=SheetSymbol|SourceDocument=RpiPaw1_Sch.SchDoc|Designator=U_MotorDriverToshiba|SchDesignator=U_MotorDriverToshiba|FileName=MotorDriverToshiba.SchDoc|SymbolType=Normal|RawFileName=MotorDriverToshiba.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=SheetSymbol|SourceDocument=RpiPaw1_Sch.SchDoc|Designator=U_PwrSupply|SchDesignator=U_PwrSupply|FileName=PwrSupply.SchDoc|SymbolType=Normal|RawFileName=PwrSupply.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=TopLevelDocument|FileName=RpiPaw1_Sch.SchDoc

@@ -1,0 +1,2 @@
+KERNEL=="ttyAMA0", MODE="0666"
+

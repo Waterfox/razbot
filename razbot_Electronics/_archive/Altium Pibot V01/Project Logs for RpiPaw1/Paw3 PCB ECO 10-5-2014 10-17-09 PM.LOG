@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=Net16MHz_1 Pin=atmega-7
+Removed Pin From Net: NetName=Net16MHz_2 Pin=atmega-8
+Removed Pin From Net: NetName=GND Pin=C3-1
+Removed Pin From Net: NetName=+5V Pin=C3-2
+Removed Pin From Net: NetName=NetArduino Clone_31 Pin=LVL-1
+Removed Pin From Net: NetName=NetArduino Clone_30 Pin=LVL-8
+Removed Pin From Net: NetName=+5V Pin=R3-2
+Removed Pin From Net: NetName=Net16MHz_2 Pin=R4-1
+Removed Pin From Net: NetName=Net16MHz_1 Pin=R4-2
+Removed Member From Class: ClassName=RpiPaw1_Sch Member=R3
+Removed Member From Class: ClassName=RpiPaw1_Sch Member=R4
+Change Component Comment : Designator=C3 Old Comment=Cap New Comment=
+Added Pin To Net: NetName=NetArduino Clone_20 Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C3-2
+Added Pin To Net: NetName=+5V Pin=NAND-14

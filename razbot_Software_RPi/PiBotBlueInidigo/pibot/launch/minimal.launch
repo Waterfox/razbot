@@ -1,0 +1,14 @@
+<launch>
+
+  <node pkg="joy" name="joy_node" type="joy_node" />
+
+  <node pkg="pibot" name="joy2pi" type="joy2pi.py" />
+  <node pkg="pibot" name="camera" type="pibot_camera.sh" />
+  <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch" > 
+     <arg name="port" value="9090"/>
+  </include>
+  <node pkg="rosserial_python"  name="serial_node" type="serial_node.py" >
+  	<param name="port" value="/dev/ttyAMA0" />
+  </node>
+
+</launch>

@@ -1,0 +1,35 @@
+Pawly Pi Board Bringup
+
+-Mistake on PSU
+	*Pin 6 crossed with Pin 7 on Reg
+	*Removed initial REG chip replaced
+
+-PSU not working. Reg chip giving 1.5V, checked all components
+	*Reg Pad 9 not soldered, chip could be fried
+	$rebuild PSU circuit with hot air with new reg chip
+
+
+
+
+-Serial Communication not working between Atmega and Pi
+	*tried basic Serial, tried ROSserial HelloWorld
+	*level shifter had one pad not soldered *fixed*, not showing proper voltage with digital HIGH/LOW Test
+	*Tried with Digital HI/LO from Atmega, timing is wrong, getting 10s delay for delay(1000)
+
+
+setting /run_id to 856c19b4-6ec3-11e4-b8a3-0013efd0278a
+process[rosout-1]: started with pid [4708]
+started core service [/rosout]
+process[joy_node-2]: started with pid [4741]
+process[joy2pi-3]: started with pid [4773]
+[ERROR] [1416274687.337968173]: Couldn't open joystick /dev/input/js0. Will retry every second.
+process[camera-4]: started with pid [4789]
+nohup: redirecting stderr to stdout
+[camera-4] process has finished cleanly
+log file: /home/pi/.ros/log/856c19b4-6ec3-11e4-b8a3-0013efd0278a/camera-4*.log
+process[serial_node-5]: started with pid [4797]
+[ERROR] [WallTime: 1416274695.898802] Error opening serial: could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+[serial_node-5] process has finished cleanly
+log file: /home/pi/.ros/log/856c19b4-6ec3-11e4-b8a3-0013efd0278a/serial_node-5*.log
+
+

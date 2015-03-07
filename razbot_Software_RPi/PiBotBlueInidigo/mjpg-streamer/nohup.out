@@ -1,0 +1,330 @@
+MJPG Streamer Version: svn rev: Unversioned directory
+ o: www-folder-path...: ./www/
+ o: HTTP TCP port.....: 8080
+ o: username:password.: disabled
+ o: commands..........: enabled
+MJPG Streamer Version: svn rev: Unversioned directory
+ o: www-folder-path...: ./www/
+ o: HTTP TCP port.....: 8080
+ o: username:password.: disabled
+ o: commands..........: enabled
+bind: Address already in use
+ o: server_thread(): bind(8080) failed
+MJPG Streamer Version: svn rev: Unversioned directory
+ o: www-folder-path...: ./www/
+ o: HTTP TCP port.....: 8080
+ o: username:password.: disabled
+ o: commands..........: enabled
+MJPG Streamer Version: svn rev: Unversioned directory
+ o: www-folder-path...: ./www/
+ o: HTTP TCP port.....: 8080
+ o: username:password.: disabled
+ o: commands..........: enabled
+bind: Address already in use
+ o: server_thread(): bind(8080) failed
+MJPG Streamer Version: svn rev: Unversioned directory
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[0]=raspicam input plugin
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[1]=-x
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[2]=640
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[3]=-y
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[4]=360
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[5]=-fps
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[6]=15
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[7]=-sh
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[8]=100
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[9]=-quality
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[10]=10
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 175): case 2,3
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 181): case 4,5
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 187): case 6, 7
+ i: fps.............: 15
+ i: resolution........: 640 x 360
+ i: camera parameters..............:
+
+Sharpness 100, Contrast 0, Brightness 50
+Saturation 0, ISO 400, Video Stabilisation No, Exposure compensation 0
+Exposure Mode 'auto', AWB Mode 'auto', Image Effect 'none'
+Metering Mode 'average', Colour Effect Enabled No with U = 128, V = 128
+Rotation 0, hflip No, vflip No
+ o: www-folder-path...: ./www/
+ o: HTTP TCP port.....: 8080
+ o: username:password.: disabled
+ o: commands..........: enabled
+ i: Starting Camera
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, worker_thread(), 553): Host init, starting mmal stuff
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, worker_thread(), 681): Camera enabled, creating encoder
+Encoder Buffer Size 81920
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, worker_thread(), 764): Encoder enabled, creating pool and connecting ports
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, worker_thread(), 880): Starting video output
+MJPG Streamer Version: svn rev: Unversioned directory
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[0]=raspicam input plugin
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[1]=-x
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[2]=640
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[3]=-y
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[4]=360
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[5]=-fps
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[6]=15
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[7]=-sh
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[8]=100
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[9]=-quality
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[10]=10
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 175): case 2,3
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 181): case 4,5
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 187): case 6, 7
+ i: fps.............: 15
+ i: resolution........: 640 x 360
+ i: camera parameters..............:
+
+Sharpness 100, Contrast 0, Brightness 50
+Saturation 0, ISO 400, Video Stabilisation No, Exposure compensation 0
+Exposure Mode 'auto', AWB Mode 'auto', Image Effect 'none'
+Metering Mode 'average', Colour Effect Enabled No with U = 128, V = 128
+Rotation 0, hflip No, vflip No
+ o: www-folder-path...: ./www/
+ o: HTTP TCP port.....: 8080
+ o: username:password.: disabled
+ o: commands..........: enabled
+ i: Starting Camera
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, worker_thread(), 553): Host init, starting mmal stuff
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, worker_thread(), 681): Camera enabled, creating encoder
+Encoder Buffer Size 81920
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, worker_thread(), 764): Encoder enabled, creating pool and connecting ports
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, worker_thread(), 880): Starting video output
+MJPG Streamer Version: svn rev: Unversioned directory
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[0]=raspicam input plugin
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[1]=-x
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[2]=640
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[3]=-y
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[4]=360
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[5]=-fps
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[6]=15
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[7]=-sh
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[8]=100
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[9]=-quality
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[10]=10
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 175): case 2,3
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 181): case 4,5
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 187): case 6, 7
+ i: fps.............: 15
+ i: resolution........: 640 x 360
+ i: camera parameters..............:
+
+Sharpness 100, Contrast 0, Brightness 50
+Saturation 0, ISO 400, Video Stabilisation No, Exposure compensation 0
+Exposure Mode 'auto', AWB Mode 'auto', Image Effect 'none'
+Metering Mode 'average', Colour Effect Enabled No with U = 128, V = 128
+Rotation 0, hflip No, vflip No
+ o: www-folder-path...: ./www/
+ o: HTTP TCP port.....: 8080
+ o: username:password.: disabled
+ o: commands..........: enabled
+ i: Starting Camera
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, worker_thread(), 553): Host init, starting mmal stuff
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, worker_thread(), 681): Camera enabled, creating encoder
+Encoder Buffer Size 81920
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, worker_thread(), 764): Encoder enabled, creating pool and connecting ports
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, worker_thread(), 880): Starting video output
+MJPG Streamer Version: svn rev: Unversioned directory
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[0]=raspicam input plugin
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[1]=-x
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[2]=640
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[3]=-y
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[4]=360
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[5]=-fps
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[6]=15
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[7]=-sh
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[8]=100
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[9]=-quality
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[10]=10
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 175): case 2,3
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 181): case 4,5
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 187): case 6, 7
+ i: fps.............: 15
+ i: resolution........: 640 x 360
+ i: camera parameters..............:
+
+Sharpness 100, Contrast 0, Brightness 50
+Saturation 0, ISO 400, Video Stabilisation No, Exposure compensation 0
+Exposure Mode 'auto', AWB Mode 'auto', Image Effect 'none'
+Metering Mode 'average', Colour Effect Enabled No with U = 128, V = 128
+Rotation 0, hflip No, vflip No
+ o: www-folder-path...: ./www/
+ o: HTTP TCP port.....: 8080
+ o: username:password.: disabled
+ o: commands..........: enabled
+ i: Starting Camera
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, worker_thread(), 553): Host init, starting mmal stuff
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, worker_thread(), 681): Camera enabled, creating encoder
+Encoder Buffer Size 81920
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, worker_thread(), 764): Encoder enabled, creating pool and connecting ports
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, worker_thread(), 880): Starting video output
+MJPG Streamer Version: svn rev: Unversioned directory
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[0]=raspicam input plugin
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[1]=-x
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[2]=640
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[3]=-y
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[4]=360
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[5]=-fps
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[6]=15
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[7]=-sh
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[8]=100
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[9]=-quality
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[10]=10
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 175): case 2,3
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 181): case 4,5
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 187): case 6, 7
+ i: fps.............: 15
+ i: resolution........: 640 x 360
+ i: camera parameters..............:
+
+Sharpness 100, Contrast 0, Brightness 50
+Saturation 0, ISO 400, Video Stabilisation No, Exposure compensation 0
+Exposure Mode 'auto', AWB Mode 'auto', Image Effect 'none'
+Metering Mode 'average', Colour Effect Enabled No with U = 128, V = 128
+Rotation 0, hflip No, vflip No
+ o: www-folder-path...: ./www/
+ o: HTTP TCP port.....: 8080
+ o: username:password.: disabled
+ o: commands..........: enabled
+ i: Starting Camera
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, worker_thread(), 553): Host init, starting mmal stuff
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, worker_thread(), 681): Camera enabled, creating encoder
+Encoder Buffer Size 81920
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, worker_thread(), 764): Encoder enabled, creating pool and connecting ports
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, worker_thread(), 880): Starting video output
+MJPG Streamer Version: svn rev: Unversioned directory
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[0]=raspicam input plugin
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[1]=-x
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[2]=640
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[3]=-y
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[4]=360
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[5]=-fps
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[6]=15
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[7]=-sh
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[8]=100
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[9]=-quality
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[10]=10
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 175): case 2,3
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 181): case 4,5
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 187): case 6, 7
+ i: fps.............: 15
+ i: resolution........: 640 x 360
+ i: camera parameters..............:
+
+Sharpness 100, Contrast 0, Brightness 50
+Saturation 0, ISO 400, Video Stabilisation No, Exposure compensation 0
+Exposure Mode 'auto', AWB Mode 'auto', Image Effect 'none'
+Metering Mode 'average', Colour Effect Enabled No with U = 128, V = 128
+Rotation 0, hflip No, vflip No
+ o: www-folder-path...: ./www/
+ o: HTTP TCP port.....: 8080
+ o: username:password.: disabled
+ o: commands..........: enabled
+ i: Starting Camera
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, worker_thread(), 553): Host init, starting mmal stuff
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, worker_thread(), 681): Camera enabled, creating encoder
+Encoder Buffer Size 81920
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, worker_thread(), 764): Encoder enabled, creating pool and connecting ports
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, worker_thread(), 880): Starting video output
+MJPG Streamer Version: svn rev: Unversioned directory
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[0]=raspicam input plugin
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[1]=-x
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[2]=640
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[3]=-y
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[4]=360
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[5]=-fps
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[6]=15
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[7]=-sh
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[8]=100
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[9]=-quality
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[10]=10
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 175): case 2,3
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 181): case 4,5
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 187): case 6, 7
+ i: fps.............: 15
+ i: resolution........: 640 x 360
+ i: camera parameters..............:
+
+Sharpness 100, Contrast 0, Brightness 50
+Saturation 0, ISO 400, Video Stabilisation No, Exposure compensation 0
+Exposure Mode 'auto', AWB Mode 'auto', Image Effect 'none'
+Metering Mode 'average', Colour Effect Enabled No with U = 128, V = 128
+Rotation 0, hflip No, vflip No
+ o: www-folder-path...: ./www/
+ o: HTTP TCP port.....: 8080
+ o: username:password.: disabled
+ o: commands..........: enabled
+ i: Starting Camera
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, worker_thread(), 553): Host init, starting mmal stuff
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, worker_thread(), 681): Camera enabled, creating encoder
+Encoder Buffer Size 81920
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, worker_thread(), 764): Encoder enabled, creating pool and connecting ports
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, worker_thread(), 880): Starting video output
+MJPG Streamer Version: svn rev: Unversioned directory
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[0]=raspicam input plugin
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[1]=-x
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[2]=640
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[3]=-y
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[4]=360
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[5]=-fps
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[6]=15
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[7]=-sh
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[8]=100
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[9]=-quality
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[10]=10
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 175): case 2,3
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 181): case 4,5
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 187): case 6, 7
+ i: fps.............: 15
+ i: resolution........: 640 x 360
+ i: camera parameters..............:
+
+Sharpness 100, Contrast 0, Brightness 50
+Saturation 0, ISO 400, Video Stabilisation No, Exposure compensation 0
+Exposure Mode 'auto', AWB Mode 'auto', Image Effect 'none'
+Metering Mode 'average', Colour Effect Enabled No with U = 128, V = 128
+Rotation 0, hflip No, vflip No
+ o: www-folder-path...: ./www/
+ o: HTTP TCP port.....: 8080
+ o: username:password.: disabled
+ o: commands..........: enabled
+ i: Starting Camera
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, worker_thread(), 553): Host init, starting mmal stuff
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, worker_thread(), 681): Camera enabled, creating encoder
+Encoder Buffer Size 81920
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, worker_thread(), 764): Encoder enabled, creating pool and connecting ports
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, worker_thread(), 880): Starting video output
+MJPG Streamer Version: svn rev: Unversioned directory
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[0]=raspicam input plugin
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[1]=-x
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[2]=640
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[3]=-y
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[4]=360
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[5]=-fps
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[6]=24
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[7]=-sh
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[8]=100
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[9]=-quality
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 118): argv[10]=10
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 175): case 2,3
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 181): case 4,5
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, input_init(), 187): case 6, 7
+ i: fps.............: 24
+ i: resolution........: 640 x 360
+ i: camera parameters..............:
+
+Sharpness 100, Contrast 0, Brightness 50
+Saturation 0, ISO 400, Video Stabilisation No, Exposure compensation 0
+Exposure Mode 'auto', AWB Mode 'auto', Image Effect 'none'
+Metering Mode 'average', Colour Effect Enabled No with U = 128, V = 128
+Rotation 0, hflip No, vflip No
+ o: www-folder-path...: ./www/
+ o: HTTP TCP port.....: 8080
+ o: username:password.: disabled
+ o: commands..........: enabled
+ i: Starting Camera
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, worker_thread(), 553): Host init, starting mmal stuff
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, worker_thread(), 681): Camera enabled, creating encoder
+Encoder Buffer Size 81920
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, worker_thread(), 764): Encoder enabled, creating pool and connecting ports
+ DBG(/home/pi/mjpg-streamer/mjpg-streamer-experimental/plugins/input_raspicam/input_raspicam.c, worker_thread(), 880): Starting video output

@@ -1,0 +1,7 @@
+Change Component Comment : Designator= Old Comment=Ren New Comment=
+Change Component Designator: OldDesignator= NewDesignator=Ren
+Added Pin To Net: NetName=+5V Pin=Cout-2
+Added Pin To Net: NetName=+5V Pin=L1-2
+Added Pin To Net: NetName=+5V Pin=R1-2
+Change Net Name : Old Net Name=Net_1 New Net Name=Net5VREG_7
+Added Room: Name=U_PwrSupply

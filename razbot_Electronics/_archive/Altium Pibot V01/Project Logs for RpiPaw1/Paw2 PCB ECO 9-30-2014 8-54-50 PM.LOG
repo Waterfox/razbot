@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=GND Pin=SW1-1
+Removed Pin From Net: NetName=RESET Pin=SW1-2
+Removed Member From Class: ClassName=RpiPaw1_Sch Member=SW1

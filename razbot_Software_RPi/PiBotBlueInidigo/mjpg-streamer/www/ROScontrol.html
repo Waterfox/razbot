@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<script src="http://cdn.robotwebtools.org/EventEmitter2/current/eventemitter2.min.js"></script>
+<script src="./roslib.js"></script>
+<script src="./virtualjoystick.js"></script>
+<style>
+body {
+  overflow  : hidden;
+  padding   : 0;
+  margin    : 0;
+  background-color: #BBB;
+}
+#info {
+  position  : absolute;
+  top   : 0px;
+  width   : 100%;
+  padding   : 5px;
+  text-align  : center;
+}
+#info a {
+  color   : #66F;
+  text-decoration : none;
+}
+#info a:hover {
+  text-decoration : underline;
+}
+#container {
+  width   : 500px;
+  height    : 500px;
+  overflow  : hidden;
+  border: 5px;
+  border-color: green;
+  padding   : 0;
+  margin    : 0;
+  background-color: #AAA;
+  float:right;
+  -webkit-user-select : none;
+  -moz-user-select  : none;
+}
+</style>
+
+<script>
+  // Connecting to ROS
+  // -----------------
+  var ros = new ROSLIB.Ros();
+  // If there is an error on the backend, an 'error' emit will be emitted.
+  ros.on('error', function(error) {
+    document.getElementById('connecting').style.display = 'none';
+    document.getElementById('connected').style.display = 'none';
+    document.getElementById('closed').style.display = 'none';
+    document.getElementById('error').style.display = 'inline';
+    console.log(error);
+  });
+  // Find out exactly when we made a connection.
+  ros.on('connection', function() {
+    console.log('Connection made!');
+    document.getElementById('connecting').style.display = 'none';
+    document.getElementById('error').style.display = 'none';
+    document.getElementById('closed').style.display = 'none';
+    document.getElementById('connected').style.display = 'inline';
+  });
+  ros.on('close', function() {
+    console.log('Connection closed.');
+    document.getElementById('connecting').style.display = 'none';
+    document.getElementById('connected').style.display = 'none';
+    document.getElementById('closed').style.display = 'inline';
+  });
+  // Create a connection to the rosbridge WebSocket server.
+  ros.connect('ws://10.27.13.226:9090');
+  // Publishing a Topic
+  // ------------------
+  // First, we create a Topic object with details of the topic's name and message type.
+  // var cmdVel = new ROSLIB.Topic({
+  //   ros : ros,
+  //   name : '/cmd_vel',
+  //   messageType : 'geometry_msgs/Twist'
+  // });
+  // // Then we create the payload to be published. The object we pass in to ros.Message matches the
+  // // fields defined in the geometry_msgs/Twist.msg definition.
+  // var twist = new ROSLIB.Message({
+  //   linear : {
+  //     x : 0.0,
+  //     y : 0.0,
+  //     z : 0.0
+  //   },
+  //   angular : {
+  //     x : -0.0,
+  //     y : -0.0,
+  //     z : -0.0
+  //   }
+  // });
+  // // And finally, publish.
+  // cmdVel.publish(twist);
+
+  var pub_motor = new ROSLIB.Topic({
+    ros : ros,
+    name : '/piBot_motors',
+    messageType : 'std_msgs/ColorRGBA'
+  });
+  // Then we create the payload to be published. The object we pass in to ros.Message matches the
+  // fields defined in the geometry_msgs/Twist.msg definition.
+  var motor = new ROSLIB.Message({
+    r : 0,
+    g : 0,
+    b : 0,
+    a : 0
+  });
+  pub_motor.publish(motor);
+
+  //Subscribing to a Topic
+  //----------------------
+  // Like when publishing a topic, we first create a Topic object with details of the topic's name
+  // and message type. Note that we can call publish or subscribe on the same topic object.
+  //EXAMPLE SUB
+  // var listener = new ROSLIB.Topic({
+  //   ros : ros,
+  //   name : '/listener',
+  //   messageType : 'std_msgs/String'
+  // });
+  // // Then we add a callback to be called every time a message is published on this topic.
+  // listener.subscribe(function(message) {
+  //   console.log('Received message on ' + listener.name + ': ' + message.data);
+  //   // If desired, we can unsubscribe from the topic as well.
+  //   listener.unsubscribe();
+  // });
+
+  var listener = new ROSLIB.Topic({
+    ros : ros,
+    name : '/piBot_bat',
+    messageType : 'std_msgs/float32'
+  });
+  // Then we add a callback to be called every time a message is published on this topic.
+  listener.subscribe(function(message) {
+    console.log('Received message on ' + listener.name + ': ' + message.data);
+
+  });
+
+
+
+  // Calling a service
+  // -----------------
+  // First, we create a Service client with details of the service's name and service type.
+  //var addTwoIntsClient = new ROSLIB.Service({
+  //  ros : ros,
+  //  name : '/add_two_ints',
+  //  serviceType : 'rospy_tutorials/AddTwoInts'
+  //});
+  // Then we create a Service Request. The object we pass in to ROSLIB.ServiceRequest matches the
+  // fields defined in the rospy_tutorials AddTwoInts.srv file.
+  //var request = new ROSLIB.ServiceRequest({
+  //  a : 1,
+  //  b : 2
+  //});
+  // Finally, we call the /add_two_ints service and get back the results in the callback. The result
+  // is a ROSLIB.ServiceResponse object.
+  //addTwoIntsClient.callService(request, function(result) {
+  //  console.log('Result for service call on ' + addTwoIntsClient.name + ': ' + result.sum);
+  //});
+
+
+  // Setting a param value
+  // ---------------------
+  //ros.getParams(function(params) {
+  //  console.log(params);
+  //});
+  // First, we create a Param object with the name of the param.
+  //var maxVelX = new ROSLIB.Param({
+  //  ros : ros,
+  //  name : 'max_vel_y'
+  //});
+  //Then we set the value of the param, which is sent to the ROS Parameter Server.
+  //maxVelX.set(0.8);
+  //maxVelX.get(function(value) {
+  //  console.log('MAX VAL: ' + value);
+  //});
+
+  // Getting a param value
+  // ---------------------
+  //var favoriteColor = new ROSLIB.Param({
+  //  ros : ros,
+  //  name : 'favorite_color'
+  //});
+  //favoriteColor.set('red');
+  //favoriteColor.get(function(value) {
+  //  console.log('My robot\'s favorite color is ' + value);
+  //});
+</script>
+
+<script type="text/javascript">
+//MJPG-STREAMER CODE
+/* Copyright (C) 2007 Richard Atterer, richard©atterer.net
+   This program is free software; you can redistribute it and/or modify it
+   under the terms of the GNU General Public License, version 2. See the file
+   COPYING for details. */
+
+var imageNr = 0; // Serial number of current image
+var finished = new Array(); // References to img objects which have finished downloading
+var paused = false;
+
+function createImageLayer() {
+  var img = new Image();
+  img.style.position = "absolute";
+  img.style.zIndex = -1;
+  img.onload = imageOnload;
+  img.onclick = imageOnclick;
+  img.src = "/?action=snapshot&n=" + (++imageNr);
+  var webcam = document.getElementById("webcam");
+  webcam.insertBefore(img, webcam.firstChild);
+}
+
+// Two layers are always present (except at the very beginning), to avoid flicker
+function imageOnload() {
+  this.style.zIndex = imageNr; // Image finished, bring to front!
+  while (1 < finished.length) {
+    var del = finished.shift(); // Delete old image(s) from document
+    del.parentNode.removeChild(del);
+  }
+  finished.push(this);
+  if (!paused) createImageLayer();
+}
+
+function imageOnclick() { // Clicking on the image will pause the stream
+  paused = !paused;
+  if (!paused) createImageLayer();
+}
+
+</script>
+
+</head>
+
+<body onload="createImageLayer();">
+  <div id="container"></div>
+  <div id="webcam"><noscript><img src="/?action=snapshot" /></noscript></div>
+  <div id="info">
+ Click and drag your mouse in the touch pad
+    <br/>
+    <span id="result"></span>
+  </div>
+
+<script>
+// VIRTUAL JOYSTICK CODE------------------------
+  console.log("touchscreen is", VirtualJoystick.touchScreenAvailable() ? "available" : "not available");
+
+  var joystick  = new VirtualJoystick({
+    container : document.getElementById('container'),
+    mouseSupport  : true,
+  });
+  joystick.addEventListener('touchStart', function(){
+    console.log('down')
+  })
+  joystick.addEventListener('touchEnd', function(){
+    console.log('up')
+  })
+  setInterval(function(){
+    var jsX = joystick.deltaX();
+    var jsY = -joystick.deltaY();
+    //set max limits
+    if (jsX>200) {jsX=200;}
+    if (jsX<-200) {jsX=-200;}
+    if (jsY>200) {jsY=200;}
+    if (jsY<-200) {jsY=-200;}
+  //want a range of -200..200 px on joystick but next part expects -100..100
+    jsX = jsX/2.0;
+    jsY = jsY/2.0;
+
+    var f = Math.abs(jsY/100.0)
+    var left = jsY*f+(1-f)*jsX
+    var right = jsY*f -(1-f)*jsX
+
+    //Change to 0..127..255
+    motor.b = left*254.0/200.0 +127.0
+    motor.a = left*254.0/200.0 +127.0
+    motor.r = right*254.0/200.0 +127.0
+    motor.g = right*254.0/200.0 +127.0
+    pub_motor.publish(motor)
+
+
+    var outputEl  = document.getElementById('result');
+    outputEl.innerHTML  = '<b>Result:</b> '
+      + ' dx:'+joystick.deltaX()
+      + ' dy:'+joystick.deltaY()
+      + (joystick.right() ? ' right'  : '')
+      + (joystick.up()  ? ' up'   : '')
+      + (joystick.left()  ? ' left' : '')
+      + (joystick.down()  ? ' down'   : '') 
+  }, 1/30 * 1000);
+
+</script>
+  
+  <!--
+  <h1>Simple roslib Example</h1>
+  <p>Run the following commands in the terminal then refresh this page. Check the JavaScript
+    console for the output.</p>
+  <ol>
+    <li><tt>roscore</tt></li>
+    <li><tt>rostopic pub /listener std_msgs/String "Hello, World"</tt></li>
+    <li><tt>rostopic echo /cmd_vel</tt></li>
+    <li><tt>rosrun rospy_tutorials add_two_ints_server</tt></li>
+    <li><tt>roslaunch rosbridge_server rosbridge_websocket.launch</tt></li>
+  </ol>
+-->
+
+  <div id="statusIndicator">
+    <p id="connecting">
+      Connecting to rosbridge...
+    </p>
+    <p id="connected" style="color:#00D600; display:none">
+      Connected
+    </p>
+    <p id="error" style="color:#FF0000; display:none">
+      Error in the backend!
+    </p>
+    <p id="closed" style="display:none">
+      Connection closed.
+    </p>
+  </div>
+</body>
+</html>

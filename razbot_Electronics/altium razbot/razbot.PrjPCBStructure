@@ -1,0 +1,4 @@
+Record=SheetSymbol|SourceDocument=razbot.SchDoc|Designator=LwVlt|SchDesignator=LwVlt|FileName=razbotLowVoltageProt.SCHDOC|SymbolType=Normal|RawFileName=razbotLowVoltageProt.SCHDOC|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=SheetSymbol|SourceDocument=razbot.SchDoc|Designator=U_MotorDriverToshiba|SchDesignator=U_MotorDriverToshiba|FileName=razbotMotorDriverToshiba.SchDoc|SymbolType=Normal|RawFileName=razbotMotorDriverToshiba.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=SheetSymbol|SourceDocument=razbot.SchDoc|Designator=U_PwrSupply|SchDesignator=U_PwrSupply|FileName=razbotPwrSupply.SchDoc|SymbolType=Normal|RawFileName=razbotPwrSupply.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=TopLevelDocument|FileName=razbot.SchDoc

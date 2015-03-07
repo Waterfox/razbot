@@ -1,0 +1,9 @@
+[Unit]
+Description=robot upstart pibot
+
+[Service]
+Type=oneshot
+ExecStart=/bin/sh -c "pibot-start"
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,4 @@
+Change Component Designator: OldDesignator=RN1D NewDesignator=Rst
+Added Room: Name=RpiPaw1_Sch
+Added Room: Name=U_MotorDriverToshiba
+Added Room: Name=U_PwrSupply

@@ -1,0 +1,3 @@
+Change Component Footprint: Designator=L1 Old Footprint=3261 New Footprint=Inductor_Paw
+Change Component Designator: OldDesignator=ATMEGA NewDesignator=Arduino Clone
+Added Member To Class: ClassName=U_PwrSupply Member=Component  Ren

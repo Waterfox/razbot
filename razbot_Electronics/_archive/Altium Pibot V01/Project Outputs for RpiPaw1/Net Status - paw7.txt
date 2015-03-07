@@ -1,0 +1,75 @@
+Net Status Report
+Filename     : C:\Users\Robbie\Dropbox\Pawly\Electronics\Altium Paw\paw7.PcbDoc
+Date         : 10/8/2014
+Time         : 11:48:13 PM
+Time Elapsed : 00:00:00
+
+Nets, Layer, Length
+    +3.3V, Signal Layers Only, 8.4534mm
+    +5V, Signal Layers Only, 182.1928mm
+    GND, Signal Layers Only, 126.7097mm
+    GPIO(SCLK), Signal Layers Only, 0mm
+    GPIO0(SDA), Signal Layers Only, 0mm
+    GPIO1(SCL), Signal Layers Only, 0mm
+    GPIO10(MOSI), Signal Layers Only, 0mm
+    GPIO17, Signal Layers Only, 0mm
+    GPIO18, Signal Layers Only, 0mm
+    GPIO21, Signal Layers Only, 0mm
+    GPIO22, Signal Layers Only, 0mm
+    GPIO23, Signal Layers Only, 0mm
+    GPIO24, Signal Layers Only, 0mm
+    GPIO25, Signal Layers Only, 0mm
+    GPIO4, Signal Layers Only, 0mm
+    GPIO7(CE1), Signal Layers Only, 0mm
+    GPIO8(CE0), Signal Layers Only, 0mm
+    GPIO9(MISO), Signal Layers Only, 0mm
+    MISO, Signal Layers Only, 27.1984mm
+    MOSI, Signal Layers Only, 49.6933mm
+    NetADC_1, Signal Layers Only, 34.4143mm
+    NetADC_2, Signal Layers Only, 19.6168mm
+    NetADC_3, Signal Layers Only, 19.8004mm
+    NetADC_4, Signal Layers Only, 11.4808mm
+    NetADC_5, Signal Layers Only, 19.2334mm
+    NetCbt_1, Signal Layers Only, 30.2096mm
+    NetCbt_2, Signal Layers Only, 17.6495mm
+    NetCc_1, Signal Layers Only, 24.6463mm
+    NetCc_2, Signal Layers Only, 5.0764mm
+    NetCss_2, Signal Layers Only, 41.2247mm
+    NetF1_1, Signal Layers Only, 11.8944mm
+    NetM1_1, Signal Layers Only, 5.6348mm
+    NetM1_2, Signal Layers Only, 3.8279mm
+    NetM2_1, Signal Layers Only, 12.5133mm
+    NetM2_2, Signal Layers Only, 5.5296mm
+    NetM3_1, Signal Layers Only, 5.7038mm
+    NetM3_2, Signal Layers Only, 5.1784mm
+    NetM4_1, Signal Layers Only, 12.6313mm
+    NetM4_2, Signal Layers Only, 5.5296mm
+    NetMC1_14, Signal Layers Only, 9.5206mm
+    NetMC1_3, Signal Layers Only, 12.6642mm
+    NetMC2_14, Signal Layers Only, 24.886mm
+    NetMC2_3, Signal Layers Only, 14.6868mm
+    NetR1_1, Signal Layers Only, 7.4684mm
+    NetREG_7, Signal Layers Only, 18.6915mm
+    Netatmega_1, Signal Layers Only, 45.9548mm
+    Netatmega_10, Signal Layers Only, 35.6761mm
+    Netatmega_11, Signal Layers Only, 28.1607mm
+    Netatmega_12, Signal Layers Only, 36.6638mm
+    Netatmega_13, Signal Layers Only, 15.2194mm
+    Netatmega_14, Signal Layers Only, 13.8592mm
+    Netatmega_2, Signal Layers Only, 35.3918mm
+    Netatmega_20, Signal Layers Only, 26.8955mm
+    Netatmega_24, Signal Layers Only, 58.3503mm
+    Netatmega_25, Signal Layers Only, 96.6432mm
+    Netatmega_26, Signal Layers Only, 29.0161mm
+    Netatmega_30, Signal Layers Only, 23.5373mm
+    Netatmega_31, Signal Layers Only, 26.0184mm
+    Netatmega_32, Signal Layers Only, 46.164mm
+    Netatmega_7, Signal Layers Only, 9.2193mm
+    Netatmega_8, Signal Layers Only, 9.9153mm
+    Netatmega_9, Signal Layers Only, 24.1048mm
+    RESET, Signal Layers Only, 20.7396mm
+    RXD, Signal Layers Only, 14.2844mm
+    SCK, Signal Layers Only, 27.7074mm
+    TXD, Signal Layers Only, 12.6221mm
+    VBATT, Signal Layers Only, 99.3094mm
+count : 67

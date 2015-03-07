@@ -1,0 +1,26 @@
+Pawly Battery Options
+
+Target 3S1P 2.2Ah Turnigy LiPO
+
+Option 1: Charge Robot with LiPo Charger
+$30 HK 3A Charger 1Hr
+$7 KF 0.8A Charger 3Hr
+Breakout charge and balance ports 
+
+Option 2: Find a 3S lithium Management Chip
+May exist, may be able to couple chips
+
+
+Option 3: Create BMS functionality with MCU
+Work!
+Need 3ADCs, 3DO, MCU capability or 2nd MCU
+Have 3ADCS 3DO (remove 1NP)
+Program charge profile, could use charge counting as battery is fixed
+
+Plug in, Power switches to 15V port (MOSFet?)
+Button disconnects power
+Charger goes to work, balances with MOSFets, powers battery with constant current through MOSFet (2A)
+
+Option 4: Switch to 2S battery, 6V motors, use OTS chip
+May be low power
+

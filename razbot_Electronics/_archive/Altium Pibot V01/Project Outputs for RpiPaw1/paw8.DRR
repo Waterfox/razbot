@@ -1,0 +1,19 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: paw8.PcbDoc   10/22/2014  5:19:42 PM
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : paw8.TXT
+EIA File   : paw8.DRL
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        24mil (0.6096mm)         Round          65               299.46 Inch (7606.31 mm)
+T2        28mil (0.7112mm)         Round          1                288.38 Inch (7324.96 mm)
+T3        31mil (0.7874mm)         Round          4                288.00 Inch (7315.21 mm)
+T4        35mil (0.889mm)          Round          60               298.65 Inch (7585.70 mm)
+T5        78mil (1.9812mm)         Round          6                288.56 Inch (7329.51 mm)
+---------------------------------------------------------------------------
+Totals                                            136              1463.06 Inch (37161.70 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:00

@@ -1,0 +1,6 @@
+#!/bin/bash
+#Start stuff up on Pawly
+
+cd ~/mjpg-streamer/mjpg-streamer-experimental~/mjpg-streamer/mjpg-streamer-experimental
+export LD_LIBRARY_PATH=.
+nohup ./mjpg_streamer -o "output_http.so -w ./www" -i "input_raspicam.so -x 640 -y 360 -fps 24 -sh 100 -quality 10" &

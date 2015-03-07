@@ -1,0 +1,6 @@
+Change Component Designator: OldDesignator=reg NewDesignator=5VREG
+Change Component Designator: OldDesignator=Res NewDesignator=RN1D
+Added Member To Class: ClassName=U_PwrSupply Member=Component  Ren
+Added Room: Name=RpiPaw1_Sch
+Added Room: Name=U_MotorDriverToshiba
+Added Room: Name=U_PwrSupply

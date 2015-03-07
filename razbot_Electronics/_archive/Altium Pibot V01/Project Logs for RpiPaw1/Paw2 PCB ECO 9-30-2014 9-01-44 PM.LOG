@@ -1,0 +1,2 @@
+Change Component Footprint: Designator=5VREG Old Footprint=SOIC8_M New Footprint=SOP-8-C_N
+Added Pin To Net: NetName=GND Pin=5VREG-9
