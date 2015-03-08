@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=Net12hdr_1 Pin=12hdr-1
+Removed Pin From Net: NetName=GND Pin=12hdr-2
+Change Component Comment : Designator=R4 Old Comment=10K 0603 New Comment=100K 0603
+Change Component Comment : Designator=R3 Old Comment=15K 0603 New Comment=150K 0603
+Added Pin To Net: NetName=GND Pin=12hdr-1
+Added Pin To Net: NetName=Net12hdr_1 Pin=12hdr-2
+Change Net Name : Old Net Name=Net12hdr_1 New Net Name=Net12hdr_2
+Change Class Name : Old Net Name=PiBot New Net Name=razbot
+Added Room: Name=LwVlt
+Added Room: Name=razbot
+Added Room: Name=U_MotorDriverToshiba
+Added Room: Name=U_PwrSupply
