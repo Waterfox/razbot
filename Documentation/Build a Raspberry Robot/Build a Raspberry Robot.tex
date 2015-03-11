@@ -28,7 +28,7 @@
 \vspace{50mm}
 % Title
 \HRule \\[0.4cm]
-{ \huge \bfseries Raspberry Robot Build Instructions}\\[0.4cm]
+{ \huge \bfseries Razbot Build Instructions}\\[0.4cm]
 
 \HRule \\[1.5cm]
 
@@ -64,7 +64,7 @@ Robbie \textsc{Edwards}\\
 %\centering
 %\end{figure}
 
-The Raspberry Robot was created to provide a low cost Linux/Robot Operating System (ROS) enabled mobile robot platform. It currently runs ROS Indigo and Raspbian Jessie. The \href{http://wiki.ros.org/ROS/Introduction}{Robot Operating System} is a BSD licensed meta-operating system which provides a convenient set of tools for developing software for robot applications. It is well documented online and explained in further detail in various \href{http://wiki.ros.org/Books}{books}. Many open source ROS packages are freely available to carry out robot related software tasks ranging from interfacing with sensor hardware to carrying out navigation and mapping \\
+The Razbot was created to provide a low cost Linux/Robot Operating System (ROS) enabled mobile robot platform. It currently runs ROS Indigo and Raspbian Jessie. The \href{http://wiki.ros.org/ROS/Introduction}{Robot Operating System} is a BSD licensed meta-operating system which provides a convenient set of tools for developing software for robot applications. It is well documented online and explained in further detail in various \href{http://wiki.ros.org/Books}{books}. Many open source ROS packages are freely available to carry out robot related software tasks ranging from interfacing with sensor hardware to carrying out navigation and mapping \\
 
 
 
@@ -125,7 +125,7 @@ Raspberry Pi Wifi USB Adapter & adafruit, element14 & 1 & \$12 & \includegraphic
 Raspberry Pi Camera Board, NoIR & adafruit, element14 & 1 & \$30 &  \includegraphics[width=80px]{picture/picam.jpg}\\
 SD card & & 1 & \$15 & NA\\
 Turnigy 2200mAh 3S 20C LiPo Pack & HobbyKing & 1 & \$10 &  \includegraphics[width=80px]{picture/lipo.jpg}\\
-Raspberry Robot Electronics Board & None & 1 & N/A &  \includegraphics[width=80px]{picture/piboard.jpg}\\
+Razbot Electronics Board & None & 1 & N/A &  \includegraphics[width=80px]{picture/piboard.jpg}\\
 Lithium Polymer B3AC Battery Charger & HobbyKing & 1 & \$8 & \includegraphics[width=80px]{picture/charger.jpg}\\
 Wiring and connectors & NA & 1 & \$15 & NA \\
 Screws and bolts & NA &1 & \$10 & NA \\
@@ -170,9 +170,9 @@ Hobby Tweezers & \includegraphics[width=80px]{picture/tweezer.jpg}
 \begin{tabular}{p{5cm} | c | c | c }
 part & Spaenaur part number & quantity & image \\
 \hline
-Hex Socket Cap Screw M4 x 0.7mm x 25mm Full Thread & 367-022 & 4 & \includegraphics[width=80px]{hw/M3X06LHC.jpg}\\
-Hex Socket Low Head Cap Screw M3 x 0.5mm x 5mm	& 366-1071 & 12 & \includegraphics[width=80px]{hw/M3X10FC.jpg}\\
-Hex Socket Flat Head Cap Screw M3 x 0.5mm x 10mm & 366-566 & 18 & \\
+Hex Socket Cap Screw M4 x 0.7mm x 25mm Full Thread & 367-022 & 4 & \\
+Hex Socket Low Head Cap Screw M3 x 0.5mm x 5mm	& 366-1071 & 12 &\includegraphics[width=80px]{hw/M3X06LHC.jpg} \\
+Hex Socket Flat Head Cap Screw M3 x 0.5mm x 10mm & 366-566 & 18 & \includegraphics[width=80px]{hw/M3X10FC.jpg}\\
 Hex Socket Cap Screw M3 x 0.5mm x 10mm & 367-B04-1P	& 5 & \\
 Hex Socket Cap Screw M2 x 0.4mm x 6mm	& 366-663 & 4 & \\
 \end{tabular}
@@ -198,7 +198,7 @@ Power Switch SPST & SW627-ND & digikey & 1 & \includegraphics[width=80px]{pictur
 
 \section{3D printing}
 
-The Raspberry Robot is made up of 8 unique 3D printed parts and a total of 12 3D printed pieces. The table: \ref{table:3Dprint} lists each part which is made with a 3D printer. The Raspberry Robot has been previously constructed with the printers listed and tested in Table: \ref{table:3Dprint}. Note that hex cap screws on this platform thread directly into 3D printed plastic. Holes have been sized appropriately to allow clearance for screws and appropriate diameters for threading. Appropriate hole sizing may vary printer to printer and should be checked on initial prints. Repeated screwing and unscrewing or forcing taps or screws may result in damage to 3D printed threaded holes.  
+The Razbot is made up of 8 unique 3D printed parts and a total of 12 3D printed pieces. The table: \ref{table:3Dprint} lists each part which is made with a 3D printer. The Razbot has been previously constructed with the printers listed and tested in Table: \ref{table:3Dprint}. Note that hex cap screws on this platform thread directly into 3D printed plastic. Holes have been sized appropriately to allow clearance for screws and appropriate diameters for threading. Appropriate hole sizing may vary printer to printer and should be checked on initial prints. Repeated screwing and unscrewing or forcing taps or screws may result in damage to 3D printed threaded holes.  
 
 Some parts will require support material. All parts have been found to function well when printed at 20\% infill. 3D printing settings and parameter decisions will ultimately be left to the operator. 
 
@@ -238,11 +238,25 @@ Tinkerines Ditto+ & 21.0 L X 18.5 W X 23.0 H cm  & \includegraphics[width=70px]{
 
 The rover is easy enough to assemble but it isn't perfect, yet. Many components and wires are packed tightly into a small space. Screws may be difficult to access with hex keys. Once the vehicle has been assembled and is running properly, minimal disassembly and maintenance will be required. Once all the 3D printed components are available with support material removed assembly can begin.\\
 
+\section{Razbot MCU board}
+
+The Razbot MCU board is easy to make with the proper tools and soldering skills.
+\includegraphics[width=400px]{picture/mcu.png}
+
+
+\begin{enumerate}
+\item The unpopulated PCB board can be ordered from a low cost PCB manufacturer such as \href{http://www.seeedstudio.com/}{Seeed Studio} using the exported PCB design files in the electronics folder. 
+\item The electronics components can be ordered from a supplier such as \href{http://www.digikey.com/}{Digikey} or \href{http://www.Newark.com/}{Newark}. The component part numbers and quantities can be found in the excel document razbot BOM.xlsx in the electronics folder.
+\item Once the boards and components arrive, the components can be soldered on to the PCB using a fine tipped, temperature controlled soldering iron. Tweezers will greatly assist in placing components. Proper use of flux will ensure easy soldering without jumping component pins.
+\item Use the AVRISP-mkii programmer with the Arduino IDE to load the Arduino bootloader on to the ATmega328P on the MCU board by connecting to the ICSP header on the board. This will set the proper fuse bits on the ATmega328P for use with Arduino code.
+\item Use the programmer again to load on the razbot arduino V02 code located in the razbot Software MCU folder. The ros lib library must be played in your Arduino IDE's libraries folder to compile the code. 
+\end{enumerate}
+
 \section{Electronics Assembly and Test}
 
 \begin{enumerate}
 
-\item Download the latest RaspberryRover SD card image from <MAKE A LINK>. Use a program such as Win32diskimager to mount it on to an 8GB SD card. Later when the image is booted, raspi-config can be used to expand the file system to fill the full 8GB of storage.
+\item Download the latest Razbot SD card image from \href{https://drive.google.com/file/d/0B4yfrdhk2e0OVlA1alJoRXBPeXM/view?usp=sharing}{SD card image on Google Drive}. Extract it with Winrar and use a program such as Win32diskimager to mount it on to an 8GB SD card. Later when the image is booted, raspi-config can be used to expand the file system to fill the full 8GB of storage.
 \item Plug the Raspberry Pi Camera and Wifi dongle into the Pi and insert the SD card for now. Connect the unit to an Ethernet port on your router. Use conventional wall power to power the unit.
 	\begin{enumerate}
 	\item  Using your router's user interface, locate the IP address of the Raspberry Pi. The initial hostname will appear as <color>pibot. This can be changed with raspi-config at a later time.
@@ -310,6 +324,10 @@ The rover is easy enough to assemble but it isn't perfect, yet. Many components 
 \end{enumerate}
 The electronics bring-up is complete
 
+\section{Electrical Board Assembly}
+
+The Razbot micro-controller board can be created by ordering PCB design from a PCB manufacturer such as 
+
 \section{Mechanical Assembly}
 
 \begin{enumerate}
@@ -327,12 +345,14 @@ The electronics bring-up is complete
 \item Connect the battery JST to the switch.
 \item Connect the switched JST power to the MCU board. Test the functionality by turning it on. Ensure the electronics are not in contact with metal surface or other potential shorts during testing. Remove the MCU Board. 
 \item Connect the Pi camera ribbon cable to the Pi.
-\item Push the LED and wiring through the hole in Side Left V01. Attach the LED to the Top Plate. Screw the Top plate down to Side Left V01 using M3 x 0.5 x 10mm Flat Head Hex Cap screws.\\
+\item Push the LED and wiring through the hole in Side Left V01. Attach the LED to the Top Plate using M2 screws if possible or just hot glue. Screw the Top plate down to Side Left V01 using M3 x 0.5 x 10mm Flat Head Hex Cap screws.\\
 \item Install the motors in each of the motor holders using M3 x 0.5 x 6mm Low Head Hex Cap screws.
-\item Push the wheels on to the motor shafts. This may require a tap from a hammer. Use M3 x 0.5 x 10mm set screws in the wheels if required.
+\item Push the wheels on to the motor shafts. This may require a tap from a hammer. Use M3 x 0.5 x 10mm set screws in the wheels if required.\\
 \includegraphics[width=400px]{assem/step3.PDF}[h]
-\item Install the motor holder assemblies into the vehicle chassis sides (Side Left V01, Side Right V01)
-\item Connect the motor wires to the MCU board in proper order shown in Figure XXX. You may wish to verify proper operation of the electronics one more time at this points
+\item Install the motor holder assemblies into the vehicle chassis sides (Side Left V01, Side Right V01) using the M3 x 0.5 x 10mm flat head cap screws.\\
+\includegraphics[width=400px]{assem/step4.PDF}[h]
+\item Connect the motor wires to the MCU board in proper order shown in Figure XXX. You may wish to verify proper operation of the electronics one more time at this points.\\
+\includegraphics[width=400px]{picture/side.jpg}[h]
 \item Push the two sides of the vehicle together while taking care not to tangle or stress wiring. This may take patience. 
 \item Use four M4 x 0.7 x 25mm bolts to attach the chassis sides together.
 
@@ -342,13 +362,55 @@ Mechanical assembly is complete.
 
 \chapter{Operation}
 
+The Razbot is easy to use! Simply turn it on and begin enjoying your ROS-robot experience.
+Razbot uses the ROS robot upstart package to launch its ROS nodes.
 
+\begin{enumerate}
+\item Press the Red power button on the left side of robot. The status LED will illuminate Blue
+\item Give the robot some time to boot up. The red camera light will come on and shine through the 3D printed chassis at the front when launch is complete. Joystick control will also be available if a USB gamepad joystick is plugged in.
+\item Locate your robot's IP address with your router. Log into your router, typically located at 192.168.1.1 and find the IP address assigned to the razbot hostname. In some case you will be able to use the hostname (razbot) in place of the IP address
+\item Navigate to the server hosted by mjpg-streamer at  (robot-IP-address):8080 or (robot-hostname):8080.
+\item To control the robot using a browser and view the video feed, navigate to (robot-IP-address):8080/ROScontrol.html. (Currently Unfinished but works)
+\end{enumerate}
 
+\section{ROS Operation}
+
+ROS nodes which are run on start-up
+\begin{verbatim}
+$rosnode list
+\end{verbatim}
+
+\begin{itemize}
+\item pibot - subscribes to the joy topic and publishes piBot motors, piBot light
+\item joy - publishes the joy topic using a Linux Joystick device
+\item rosbridge server - opens a websocket to receive topics from ROSlibjs
+\item rosserial python - interface with the MCU board to transmit topics
+\end{itemize}
+
+A script is also used to start Mjpg Streamer with the Pi Camera\\
+
+ROS topics provided
+\begin{verbatim}
+$rosnode list
+\end{verbatim}
+
+\begin{itemize}
+\item piBot motors
+\item piBot light
+\item piBot bat
+\item joy
+\end{itemize}
 
 \begin{appendices}
 \chapter{Special Thanks}
-Person 1\\
-Person 2
+\textbf{Paul Bovbel} Created the razbot tutorials for learning about URDFs (Universal Robot Description Files) and the Gazebo Simulation Environment\\
+\textbf{Ilia Baranov} Provided useful advice throughout development as well as sanity checks and emotional support in the form of an unstoppable Starcraft opponent for most in the office. \\
+\textbf{Mike Palmer} Provided feedback on electronics board designs and contributed the low voltage protection circuit to the design.\\
+\textbf{Mike Purvis} Provded advice which helped significantly with getting robot upstart to run.\\
+\textbf{Martin Hummel} Provided a full ROS Indigo built on Raspbian Jessie image on \href{http://answers.ros.org/question/200504/raspbian-jessie-ros-indigo-download-image/?comment=203168#comment-203168}{answers.ros.org}
+
+Thank you all, this would not be possible without your input and support.
+
 \end{appendices}
 
 

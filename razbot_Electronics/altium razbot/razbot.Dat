@@ -1,0 +1,38 @@
+Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~razbot.PrjPCB|ReportField=ProjectFullPath~C:\Users\Robbie\Dropbox\razbot\razbot_Electronics\altium razbot\razbot.PrjPCB|ReportField=Title~Bill of Materials For Project [razbot.PrjPCB] (No PCB Document Selected)|ReportField=TotalQuantity~55|ReportField=ReportTime~10:20:18 PM|ReportField=ReportDate~3/8/2015|ReportField=ReportDateTime~3/8/2015 10:20:18 PM|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~3/8/2015|ReportField=CurrentTime~10:20:05 PM|ReportField=Date~|ReportField=DocumentFullPathAndName~C:\Users\Robbie\Dropbox\razbot\razbot_Electronics\altium razbot\razbot.SchDoc|ReportField=DocumentName~razbot.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~3/8/2015|ReportField=Organization~|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~razbot.PrjPCB|ReportField=DataSourceFullPath~C:\Users\Robbie\Dropbox\razbot\razbot_Electronics\altium razbot\razbot.PrjPCB
+Hdr12|Header, 2-Pin|12hdr|PwrPlug1|Header 2|1
+A0A4A5A6A7|Header, 5-Pin|ADC|HDR1X5|Header 5|1
+ATmega328P-AUR|8-bit AVR Microcontroller, 32KB Flash, 1KB EEPROM, 2KB SRAM, 32-pin TQFP, Industrial Grade (-40°C to 85°C)|atmega|TQFP32_N|ATmega328P-AUR|1
+20pf 0603|Capacitor|C0, C1|J1-0603|Cap|2
+0.1uF 0603|Capacitor|C2, C4, C5, C6|J1-0603|Cap|4
+20uF EL|Capacitor|C7|CAPR5-4X5|Cap2|1
+10nF 0603|Capacitor|Cbt|J1-0603|CAP|1
+3.9nF 0603|Capacitor|Cc|J1-0603|CAP|1
+10uF CAP Cer 0603|Capacitor|Cin|J1-0603|CAP|1
+22uF CAP CER 0805|Capacitor|Cout|C0805|CAP|1
+0.1uF CAP CER 0603|Capacitor|Css|J1-0603|CAP|1
+10uF EL|Capacitor|Cv1|CAPR5-4X5|Cap2|1
+0.1uF 0603|Capacitor|Cv2|C0805|CAP|1
+Fuse 1206|Fuse, Fuse 12V 5A|F5, F12|3216[1206]|Fuse 1|2
+Header 3X2|Header, 3-Pin, Dual row|ICSP|HDR2X3|Header 3X2|1
+|Inductor|L1|Inductor_Paw|Inductor|1
+TXB0102|3.3V Level translator|lvl|TSSOP50P310X90-8N|TXB0102|1
+Header 2H|Header, 2-Pin, Right Angle|M1, M2, M3, M4|HDR1X2H|Header 2H|4
+TB6552FNG|2CH 1A PMIC|MC1, MC2|SSOP16|TB6552FNG|2
+MM74HC132MTC|4Ch NAND Gate|NAND|TSSOP14|MM74HC132MTC|1
+neoPix2|Header, 3-Pin|np1|HDR1X3|Header 3|1
+neoPix1|Header, 3-Pin|np2|HDR1X3|Header 3|1
+Header 13X2|Header, 13-Pin, Dual row|pihdr|HDR2X13|Header 13X2|1
+Header 2|Header, 2-Pin|Pwr|PwrPlug1|Header 2|1
+PMBT5550|NPN High-voltage Transistor|Q1|SOT23_M|PMBT5550|1
+AO4407A|P ch MOSFET 12A|Q2|SOIC8_M|AO4407A|1
+45.3K 0603|Resistor|R1|J1-0603|Res3|1
+10K 0603|Resistor|R2, Rst, Rv1, Rv2, Rv3, Rv4, Rv6, Rv7, Rv8|J1-0603|Res2, Res3|9
+150K 0603|Resistor|R3|J1-0603|Res2|1
+100K 0603|Resistor|R4, Ren|J1-0603|Res2, Res3|2
+13K 0603|Resistor|Rc|J1-0603|Res3|1
+RT8250GSP|3A 5V Buck Regulator|REG|SOP-8-C_N|RT8250GSP|1
+Servo1|Header, 3-Pin|S1|HDR1X3|Header 3|1
+Servo2|Header, 3-Pin|S2|HDR1X3|Header 3|1
+LM293D|Low-Power Dual Voltage Comparator|U1|SO8_M|LM293D|1
+LM4040AIM3-2.5|Precision Micropower Shunt Voltage Reference|Vref|MF03A_N|LM4040AIM3-2.5|1
+16MHz|Crystal Oscillator|xt|Axial 0.2|XTAL|1

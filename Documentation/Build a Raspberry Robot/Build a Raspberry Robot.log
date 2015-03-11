@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2011.7.30)  23 FEB 2015 22:07
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2011.7.30)  11 MAR 2015 00:06
 entering extended mode
 **Build*a*Raspberry*Robot.tex
 
-("C:\Users\Robbie\Dropbox\raspberry_robot\Documentation\Build a Raspberry Robot
-\Build a Raspberry Robot.tex"
+("C:\Users\Robbie\Dropbox\razbot\Documentation\Build a Raspberry Robot\Build a 
+Raspberry Robot.tex"
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -598,8 +598,8 @@ LaTeX Warning: Unused global option(s):
     [titlepage].
 
 
-("C:\Users\Robbie\Dropbox\raspberry_robot\Documentation\Build a Raspberry Robot
-\Build a Raspberry Robot.aux"
+("C:\Users\Robbie\Dropbox\razbot\Documentation\Build a Raspberry Robot\Build a 
+Raspberry Robot.aux"
 
 LaTeX Warning: Label `table:3Dprint' multiply defined.
 
@@ -652,22 +652,20 @@ LaTeX Info: Redefining \ref on input line 23.
 LaTeX Info: Redefining \pageref on input line 23.
 LaTeX Info: Redefining \nameref on input line 23.
 
-("C:\Users\Robbie\Dropbox\raspberry_robot\Documentation\Build a Raspberry Robot
-\Build a Raspberry Robot.out")
-("C:\Users\Robbie\Dropbox\raspberry_robot\Documentation\Build a Raspberry Robot
-\Build a Raspberry Robot.out")
+("C:\Users\Robbie\Dropbox\razbot\Documentation\Build a Raspberry Robot\Build a 
+Raspberry Robot.out")
+("C:\Users\Robbie\Dropbox\razbot\Documentation\Build a Raspberry Robot\Build a 
+Raspberry Robot.out")
 \@outlinefile=\write4
 LaTeX Font Info:    Try loading font information for U+msa on input line 41.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 41.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-<render/pibot2.jpg, id=43, 1284.8pt x 707.64375pt>
+<render/pibot2.jpg, id=55, 1284.8pt x 707.64375pt>
 File: render/pibot2.jpg Graphic file (type jpg)
  <use render/pibot2.jpg>
 Overfull \hbox (31.68915pt too wide) in paragraph at lines 43--45
@@ -677,8 +675,7 @@ Overfull \hbox (31.68915pt too wide) in paragraph at lines 43--45
 [1
 
 {C:/Users/Robbie/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/R
-obbie/Dropbox/raspberry_robot/Documentation/Build a Raspberry Robot/render/pibo
-t2.jpg>]
+obbie/Dropbox/razbot/Documentation/Build a Raspberry Robot/render/pibot2.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
@@ -709,43 +706,43 @@ l.86 \begin
 
 
 ]
-<render/pibotfront.jpg, id=59, 853.1875pt x 599.23875pt>
+<render/pibotfront.jpg, id=71, 853.1875pt x 599.23875pt>
 File: render/pibotfront.jpg Graphic file (type jpg)
 
 <use render/pibotfront.jpg>
-<render/pibottop.jpg, id=60, 711.65875pt x 704.6325pt>
+<render/pibottop.jpg, id=72, 711.65875pt x 704.6325pt>
 File: render/pibottop.jpg Graphic file (type jpg)
 
 <use render/pibottop.jpg>
-<render/pibotstarboard.jpg, id=61, 875.27pt x 591.20876pt>
+<render/pibotstarboard.jpg, id=73, 875.27pt x 591.20876pt>
 File: render/pibotstarboard.jpg Graphic file (type jpg)
 
 <use render/pibotstarboard.jpg>
-<render/pibotport.jpg, id=62, 845.1575pt x 473.77pt>
+<render/pibotport.jpg, id=74, 845.1575pt x 473.77pt>
 File: render/pibotport.jpg Graphic file (type jpg)
 
 <use render/pibotport.jpg>
-<render/pibotback.jpg, id=63, 832.10875pt x 479.7925pt>
+<render/pibotback.jpg, id=75, 832.10875pt x 479.7925pt>
 File: render/pibotback.jpg Graphic file (type jpg)
 
 <use render/pibotback.jpg>
 Overfull \vbox (1.49998pt too high) has occurred while \output is active []
 
 
-[2 <C:/Users/Robbie/Dropbox/raspberry_robot/Documentation/Build a Raspberry Rob
-ot/render/pibotfront.jpg>]
+[2 <C:/Users/Robbie/Dropbox/razbot/Documentation/Build a Raspberry Robot/render
+/pibotfront.jpg>]
 Overfull \vbox (1.49998pt too high) has occurred while \output is active []
 
 
-[3 <C:/Users/Robbie/Dropbox/raspberry_robot/Documentation/Build a Raspberry Rob
-ot/render/pibottop.jpg> <C:/Users/Robbie/Dropbox/raspberry_robot/Documentation/
-Build a Raspberry Robot/render/pibotstarboard.jpg>]
+[3 <C:/Users/Robbie/Dropbox/razbot/Documentation/Build a Raspberry Robot/render
+/pibottop.jpg> <C:/Users/Robbie/Dropbox/razbot/Documentation/Build a Raspberry 
+Robot/render/pibotstarboard.jpg>]
 Overfull \vbox (1.49998pt too high) has occurred while \output is active []
 
 
-[4 <C:/Users/Robbie/Dropbox/raspberry_robot/Documentation/Build a Raspberry Rob
-ot/render/pibotport.jpg> <C:/Users/Robbie/Dropbox/raspberry_robot/Documentation
-/Build a Raspberry Robot/render/pibotback.jpg>]
+[4 <C:/Users/Robbie/Dropbox/razbot/Documentation/Build a Raspberry Robot/render
+/pibotport.jpg> <C:/Users/Robbie/Dropbox/razbot/Documentation/Build a Raspberry
+ Robot/render/pibotback.jpg>]
 Underfull \hbox (badness 6284) in paragraph at lines 122--122
 []|\OT1/cmr/m/n/12 12V 100rpm 25mm
  []
@@ -755,30 +752,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 122--122
 []|\OT1/cmr/m/n/12 ebay, aliex-press,
  []
 
-<picture/motor.png, id=81, 214.55156pt x 201.00093pt>
+<picture/motor.png, id=93, 214.55156pt x 201.00093pt>
 File: picture/motor.png Graphic file (type png)
  <use picture/motor.png>
-<picture/pi.jpg, id=82, 292.09125pt x 219.219pt>
+<picture/pi.jpg, id=94, 292.09125pt x 219.219pt>
 File: picture/pi.jpg Graphic file (type jpg)
  <use picture/pi.jpg>
 Underfull \hbox (badness 10000) in paragraph at lines 124--124
 []|\OT1/cmr/m/n/12 Raspberry Pi Wifi
  []
 
-<picture/piwifi.jpg, id=83, 1204.5pt x 903.375pt>
+<picture/piwifi.jpg, id=95, 1204.5pt x 903.375pt>
 File: picture/piwifi.jpg Graphic file (type jpg)
  <use picture/piwifi.jpg>
-<picture/picam.jpg, id=84, 292.09125pt x 219.219pt>
+<picture/picam.jpg, id=96, 292.09125pt x 219.219pt>
 File: picture/picam.jpg Graphic file (type jpg)
  <use picture/picam.jpg>
-<picture/lipo.jpg, id=85, 511.9125pt x 394.47375pt>
+<picture/lipo.jpg, id=97, 511.9125pt x 394.47375pt>
 File: picture/lipo.jpg Graphic file (type jpg)
  <use picture/lipo.jpg>
 Underfull \hbox (badness 10000) in paragraph at lines 128--128
-[]|\OT1/cmr/m/n/12 Raspberry Robot
+[]|\OT1/cmr/m/n/12 Razbot Elec-tron-ics
  []
 
-<picture/piboard.jpg, id=86, 961.5925pt x 728.7225pt>
+<picture/piboard.jpg, id=98, 961.5925pt x 728.7225pt>
 File: picture/piboard.jpg Graphic file (type jpg)
 
 <use picture/piboard.jpg>
@@ -791,7 +788,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 129--129
 \OT1/cmr/m/n/12 B3AC Bat-tery
  []
 
-<picture/charger.jpg, id=87, 567.11874pt x 415.5525pt>
+<picture/charger.jpg, id=99, 567.11874pt x 415.5525pt>
 File: picture/charger.jpg Graphic file (type jpg)
 
 <use picture/charger.jpg>
@@ -815,7 +812,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 142--142
 []|\OT1/cmr/m/n/12 Logitech F710
  []
 
-<picture/f710.png, id=88, 522.95375pt x 343.2825pt>
+<picture/f710.png, id=100, 522.95375pt x 343.2825pt>
 File: picture/f710.png Graphic file (type png)
  <use picture/f710.png>
 Overfull \hbox (26.74915pt too wide) in paragraph at lines 139--144
@@ -825,38 +822,38 @@ Overfull \hbox (26.74915pt too wide) in paragraph at lines 139--144
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<picture/hexkey.jpg, id=90, 504.88625pt x 378.41376pt>
+<picture/hexkey.jpg, id=102, 504.88625pt x 378.41376pt>
 File: picture/hexkey.jpg Graphic file (type jpg)
 
 <use picture/hexkey.jpg>
-<picture/solderingiron.jpg, id=91, 233.673pt x 175.3752pt>
+<picture/solderingiron.jpg, id=103, 233.673pt x 175.3752pt>
 File: picture/solderingiron.jpg Graphic file (type jpg)
 
 <use picture/solderingiron.jpg>
-<picture/knife.jpg, id=92, 301.125pt x 301.125pt>
+<picture/knife.jpg, id=104, 301.125pt x 301.125pt>
 File: picture/knife.jpg Graphic file (type jpg)
  <use picture/knife.jpg>
-<picture/wirestripper.jpg, id=93, 2055.68pt x 1380.15625pt>
+<picture/wirestripper.jpg, id=105, 2055.68pt x 1380.15625pt>
 File: picture/wirestripper.jpg Graphic file (type jpg)
 
 <use picture/wirestripper.jpg>
-<picture/avrisp.jpg, id=94, 1184.425pt x 1129.21875pt>
+<picture/avrisp.jpg, id=106, 1184.425pt x 1129.21875pt>
 File: picture/avrisp.jpg Graphic file (type jpg)
 
-<use picture/avrisp.jpg> <picture/taps.jpg, id=95, 469.755pt x 351.3125pt>
+<use picture/avrisp.jpg> <picture/taps.jpg, id=107, 469.755pt x 351.3125pt>
 File: picture/taps.jpg Graphic file (type jpg)
 
-<use picture/taps.jpg> <picture/tweezer.jpg, id=96, 301.125pt x 184.69pt>
+<use picture/taps.jpg> <picture/tweezer.jpg, id=108, 301.125pt x 184.69pt>
 File: picture/tweezer.jpg Graphic file (type jpg)
 
 <use picture/tweezer.jpg>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<hw/M3X06LHC.jpg, id=97, 98.3675pt x 54.604pt>
+<hw/M3X06LHC.jpg, id=109, 98.3675pt x 54.604pt>
 File: hw/M3X06LHC.jpg Graphic file (type jpg)
  <use hw/M3X06LHC.jpg>
-<hw/M3X10FC.jpg, id=98, 72.6715pt x 43.7635pt>
+<hw/M3X10FC.jpg, id=110, 72.6715pt x 43.7635pt>
 File: hw/M3X10FC.jpg Graphic file (type jpg)
  <use hw/M3X10FC.jpg>
 Overfull \hbox (10.71379pt too wide) in paragraph at lines 170--179
@@ -866,7 +863,7 @@ Overfull \hbox (10.71379pt too wide) in paragraph at lines 170--179
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<picture/wires.jpg, id=99, 292.09125pt x 219.219pt>
+<picture/wires.jpg, id=111, 292.09125pt x 219.219pt>
 File: picture/wires.jpg Graphic file (type jpg)
  <use picture/wires.jpg>
 Underfull \hbox (badness 10000) in paragraph at lines 188--188
@@ -878,20 +875,20 @@ Underfull \hbox (badness 2042) in paragraph at lines 188--188
 \OT1/cmr/m/n/12 Male Polyquest 3S 10cm
  []
 
-<picture/jstext.jpg, id=100, 511.9125pt x 377.41pt>
+<picture/jstext.jpg, id=112, 511.9125pt x 377.41pt>
 File: picture/jstext.jpg Graphic file (type jpg)
  <use picture/jstext.jpg>
-<picture/fjst.jpg, id=101, 511.9125pt x 395.4775pt>
+<picture/fjst.jpg, id=113, 511.9125pt x 395.4775pt>
 File: picture/fjst.jpg Graphic file (type jpg)
  <use picture/fjst.jpg>
 Underfull \hbox (badness 1400) in paragraph at lines 190--190
 []|\OT1/cmr/m/n/12 Male JST bat-tery pig-tail
  []
 
-<picture/mjst.jpg, id=102, 511.9125pt x 375.4025pt>
+<picture/mjst.jpg, id=114, 511.9125pt x 375.4025pt>
 File: picture/mjst.jpg Graphic file (type jpg)
  <use picture/mjst.jpg>
-<picture/pwr.jpg, id=103, 200.75pt x 200.75pt>
+<picture/pwr.jpg, id=115, 200.75pt x 200.75pt>
 File: picture/pwr.jpg Graphic file (type jpg)
  <use picture/pwr.jpg>
 Overfull \hbox (86.30202pt too wide) in paragraph at lines 184--194
@@ -901,35 +898,35 @@ Overfull \hbox (86.30202pt too wide) in paragraph at lines 184--194
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<diagram/Side_Left_V01.pdf, id=106, 142.26349pt x 142.26349pt>
+<diagram/Side_Left_V01.pdf, id=118, 142.26349pt x 142.26349pt>
 File: diagram/Side_Left_V01.pdf Graphic file (type pdf)
 
 <use diagram/Side_Left_V01.pdf>
-<diagram/Side_Right_V01.pdf, id=107, 142.26349pt x 142.26349pt>
+<diagram/Side_Right_V01.pdf, id=119, 142.26349pt x 142.26349pt>
 File: diagram/Side_Right_V01.pdf Graphic file (type pdf)
 
 <use diagram/Side_Right_V01.pdf>
-<diagram/FR_motor_holder.pdf, id=108, 142.26349pt x 142.26349pt>
+<diagram/FR_motor_holder.pdf, id=120, 142.26349pt x 142.26349pt>
 File: diagram/FR_motor_holder.pdf Graphic file (type pdf)
 
 <use diagram/FR_motor_holder.pdf>
-<diagram/RR_motor_holder.pdf, id=109, 142.26349pt x 142.26349pt>
+<diagram/RR_motor_holder.pdf, id=121, 142.26349pt x 142.26349pt>
 File: diagram/RR_motor_holder.pdf Graphic file (type pdf)
 
 <use diagram/RR_motor_holder.pdf>
-<diagram/L_motor_holder.pdf, id=110, 142.26349pt x 142.26349pt>
+<diagram/L_motor_holder.pdf, id=122, 142.26349pt x 142.26349pt>
 File: diagram/L_motor_holder.pdf Graphic file (type pdf)
 
 <use diagram/L_motor_holder.pdf>
-<diagram/PiTrayB.pdf, id=111, 142.26349pt x 142.26349pt>
+<diagram/PiTrayB.pdf, id=123, 142.26349pt x 142.26349pt>
 File: diagram/PiTrayB.pdf Graphic file (type pdf)
 
 <use diagram/PiTrayB.pdf>
-<diagram/Top_Plate.pdf, id=112, 142.26349pt x 142.26349pt>
+<diagram/Top_Plate.pdf, id=124, 142.26349pt x 142.26349pt>
 File: diagram/Top_Plate.pdf Graphic file (type pdf)
 
 <use diagram/Top_Plate.pdf>
-<diagram/Wheel.pdf, id=113, 142.26349pt x 142.26349pt>
+<diagram/Wheel.pdf, id=125, 142.26349pt x 142.26349pt>
 File: diagram/Wheel.pdf Graphic file (type pdf)
  <use diagram/Wheel.pdf>
 Overfull \hbox (16.73442pt too wide) in paragraph at lines 206--218
@@ -939,11 +936,11 @@ Overfull \hbox (16.73442pt too wide) in paragraph at lines 206--218
 
 LaTeX Warning: Float too large for page by 16.97285pt on input line 220.
 
-<picture/makerbotrep2.jpg, id=114, 160.6pt x 90.3375pt>
+<picture/makerbotrep2.jpg, id=126, 160.6pt x 90.3375pt>
 File: picture/makerbotrep2.jpg Graphic file (type jpg)
 
 <use picture/makerbotrep2.jpg>
-<picture/ditto.jpg, id=115, 1204.5pt x 903.375pt>
+<picture/ditto.jpg, id=127, 1204.5pt x 903.375pt>
 File: picture/ditto.jpg Graphic file (type jpg)
  <use picture/ditto.jpg>
 Overfull \hbox (39.32036pt too wide) in paragraph at lines 223--230
@@ -960,100 +957,90 @@ Overfull \vbox (1.49998pt too high) has occurred while \output is active []
 Overfull \vbox (1.49998pt too high) has occurred while \output is active []
 
 
-[6 <C:/Users/Robbie/Dropbox/raspberry_robot/Documentation/Build a Raspberry Rob
-ot/picture/motor.png (PNG copy)> <C:/Users/Robbie/Dropbox/raspberry_robot/Docum
-entation/Build a Raspberry Robot/picture/pi.jpg> <C:/Users/Robbie/Dropbox/raspb
-erry_robot/Documentation/Build a Raspberry Robot/picture/piwifi.jpg> <C:/Users/
-Robbie/Dropbox/raspberry_robot/Documentation/Build a Raspberry Robot/picture/pi
-cam.jpg> <C:/Users/Robbie/Dropbox/raspberry_robot/Documentation/Build a Raspber
-ry Robot/picture/lipo.jpg> <C:/Users/Robbie/Dropbox/raspberry_robot/Documentati
-on/Build a Raspberry Robot/picture/piboard.jpg> <C:/Users/Robbie/Dropbox/raspbe
-rry_robot/Documentation/Build a Raspberry Robot/picture/charger.jpg>]
+[6 <C:/Users/Robbie/Dropbox/razbot/Documentation/Build a Raspberry Robot/pictur
+e/motor.png (PNG copy)> <C:/Users/Robbie/Dropbox/razbot/Documentation/Build a R
+aspberry Robot/picture/pi.jpg> <C:/Users/Robbie/Dropbox/razbot/Documentation/Bu
+ild a Raspberry Robot/picture/piwifi.jpg> <C:/Users/Robbie/Dropbox/razbot/Docum
+entation/Build a Raspberry Robot/picture/picam.jpg> <C:/Users/Robbie/Dropbox/ra
+zbot/Documentation/Build a Raspberry Robot/picture/lipo.jpg> <C:/Users/Robbie/D
+ropbox/razbot/Documentation/Build a Raspberry Robot/picture/piboard.jpg> <C:/Us
+ers/Robbie/Dropbox/razbot/Documentation/Build a Raspberry Robot/picture/charger
+.jpg>]
 Overfull \vbox (1.49998pt too high) has occurred while \output is active []
 
 
-[7 <C:/Users/Robbie/Dropbox/raspberry_robot/Documentation/Build a Raspberry Rob
-ot/picture/f710.png>]
+[7 <C:/Users/Robbie/Dropbox/razbot/Documentation/Build a Raspberry Robot/pictur
+e/f710.png>]
 Overfull \vbox (1.49998pt too high) has occurred while \output is active []
 
 
-[8 <C:/Users/Robbie/Dropbox/raspberry_robot/Documentation/Build a Raspberry Rob
-ot/picture/hexkey.jpg> <C:/Users/Robbie/Dropbox/raspberry_robot/Documentation/B
-uild a Raspberry Robot/picture/solderingiron.jpg> <C:/Users/Robbie/Dropbox/rasp
-berry_robot/Documentation/Build a Raspberry Robot/picture/knife.jpg> <C:/Users/
-Robbie/Dropbox/raspberry_robot/Documentation/Build a Raspberry Robot/picture/wi
-restripper.jpg> <C:/Users/Robbie/Dropbox/raspberry_robot/Documentation/Build a 
-Raspberry Robot/picture/avrisp.jpg> <C:/Users/Robbie/Dropbox/raspberry_robot/Do
-cumentation/Build a Raspberry Robot/picture/taps.jpg> <C:/Users/Robbie/Dropbox/
-raspberry_robot/Documentation/Build a Raspberry Robot/picture/tweezer.jpg>]
+[8 <C:/Users/Robbie/Dropbox/razbot/Documentation/Build a Raspberry Robot/pictur
+e/hexkey.jpg> <C:/Users/Robbie/Dropbox/razbot/Documentation/Build a Raspberry R
+obot/picture/solderingiron.jpg> <C:/Users/Robbie/Dropbox/razbot/Documentation/B
+uild a Raspberry Robot/picture/knife.jpg> <C:/Users/Robbie/Dropbox/razbot/Docum
+entation/Build a Raspberry Robot/picture/wirestripper.jpg> <C:/Users/Robbie/Dro
+pbox/razbot/Documentation/Build a Raspberry Robot/picture/avrisp.jpg> <C:/Users
+/Robbie/Dropbox/razbot/Documentation/Build a Raspberry Robot/picture/taps.jpg> 
+<C:/Users/Robbie/Dropbox/razbot/Documentation/Build a Raspberry Robot/picture/t
+weezer.jpg>]
 Overfull \vbox (1.49998pt too high) has occurred while \output is active []
 
 
-[9 <C:/Users/Robbie/Dropbox/raspberry_robot/Documentation/Build a Raspberry Rob
-ot/hw/M3X06LHC.jpg> <C:/Users/Robbie/Dropbox/raspberry_robot/Documentation/Buil
-d a Raspberry Robot/hw/M3X10FC.jpg>]
+[9 <C:/Users/Robbie/Dropbox/razbot/Documentation/Build a Raspberry Robot/hw/M3X
+06LHC.jpg> <C:/Users/Robbie/Dropbox/razbot/Documentation/Build a Raspberry Robo
+t/hw/M3X10FC.jpg>]
 Overfull \vbox (1.49998pt too high) has occurred while \output is active []
 
 
-[10 <C:/Users/Robbie/Dropbox/raspberry_robot/Documentation/Build a Raspberry Ro
-bot/picture/wires.jpg> <C:/Users/Robbie/Dropbox/raspberry_robot/Documentation/B
-uild a Raspberry Robot/picture/jstext.jpg> <C:/Users/Robbie/Dropbox/raspberry_r
-obot/Documentation/Build a Raspberry Robot/picture/fjst.jpg> <C:/Users/Robbie/D
-ropbox/raspberry_robot/Documentation/Build a Raspberry Robot/picture/mjst.jpg> 
-<C:/Users/Robbie/Dropbox/raspberry_robot/Documentation/Build a Raspberry Robot/
-picture/pwr.jpg>]
+[10 <C:/Users/Robbie/Dropbox/razbot/Documentation/Build a Raspberry Robot/pictu
+re/wires.jpg> <C:/Users/Robbie/Dropbox/razbot/Documentation/Build a Raspberry R
+obot/picture/jstext.jpg> <C:/Users/Robbie/Dropbox/razbot/Documentation/Build a 
+Raspberry Robot/picture/fjst.jpg> <C:/Users/Robbie/Dropbox/razbot/Documentation
+/Build a Raspberry Robot/picture/mjst.jpg> <C:/Users/Robbie/Dropbox/razbot/Docu
+mentation/Build a Raspberry Robot/picture/pwr.jpg>]
 Overfull \vbox (1.49998pt too high) has occurred while \output is active []
 
 
-[11 <C:/Users/Robbie/Dropbox/raspberry_robot/Documentation/Build a Raspberry Ro
-bot/diagram/Side_Left_V01.pdf> <C:/Users/Robbie/Dropbox/raspberry_robot/Documen
-tation/Build a Raspberry Robot/diagram/Side_Right_V01.pdf> <C:/Users/Robbie/Dro
-pbox/raspberry_robot/Documentation/Build a Raspberry Robot/diagram/FR_motor_hol
-der.pdf> <C:/Users/Robbie/Dropbox/raspberry_robot/Documentation/Build a Raspber
-ry Robot/diagram/RR_motor_holder.pdf> <C:/Users/Robbie/Dropbox/raspberry_robot/
-Documentation/Build a Raspberry Robot/diagram/L_motor_holder.pdf> <C:/Users/Rob
-bie/Dropbox/raspberry_robot/Documentation/Build a Raspberry Robot/diagram/PiTra
-yB.pdf> <C:/Users/Robbie/Dropbox/raspberry_robot/Documentation/Build a Raspberr
-y Robot/diagram/Top_Plate.pdf> <C:/Users/Robbie/Dropbox/raspberry_robot/Documen
-tation/Build a Raspberry Robot/diagram/Wheel.pdf>]
+[11 <C:/Users/Robbie/Dropbox/razbot/Documentation/Build a Raspberry Robot/diagr
+am/Side_Left_V01.pdf> <C:/Users/Robbie/Dropbox/razbot/Documentation/Build a Ras
+pberry Robot/diagram/Side_Right_V01.pdf> <C:/Users/Robbie/Dropbox/razbot/Docume
+ntation/Build a Raspberry Robot/diagram/FR_motor_holder.pdf> <C:/Users/Robbie/D
+ropbox/razbot/Documentation/Build a Raspberry Robot/diagram/RR_motor_holder.pdf
+> <C:/Users/Robbie/Dropbox/razbot/Documentation/Build a Raspberry Robot/diagram
+/L_motor_holder.pdf> <C:/Users/Robbie/Dropbox/razbot/Documentation/Build a Rasp
+berry Robot/diagram/PiTrayB.pdf> <C:/Users/Robbie/Dropbox/razbot/Documentation/
+Build a Raspberry Robot/diagram/Top_Plate.pdf> <C:/Users/Robbie/Dropbox/razbot/
+Documentation/Build a Raspberry Robot/diagram/Wheel.pdf>]
 Overfull \vbox (1.49998pt too high) has occurred while \output is active []
 
 
-[12 <C:/Users/Robbie/Dropbox/raspberry_robot/Documentation/Build a Raspberry Ro
-bot/picture/makerbotrep2.jpg> <C:/Users/Robbie/Dropbox/raspberry_robot/Document
-ation/Build a Raspberry Robot/picture/ditto.jpg>]
+[12 <C:/Users/Robbie/Dropbox/razbot/Documentation/Build a Raspberry Robot/pictu
+re/makerbotrep2.jpg> <C:/Users/Robbie/Dropbox/razbot/Documentation/Build a Rasp
+berry Robot/picture/ditto.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 239--240
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 249--252
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 252--253
-
- []
-
-
+<picture/mcu.png, id=178, 477.28313pt x 601.4972pt>
+File: picture/mcu.png Graphic file (type png)
+ <use picture/mcu.png>
 Overfull \vbox (1.49998pt too high) has occurred while \output is active []
 
 
 [13
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 263--265
+Overfull \vbox (1.49998pt too high) has occurred while \output is active []
+
+
+[14 <C:/Users/Robbie/Dropbox/razbot/Documentation/Build a Raspberry Robot/pictu
+re/mcu.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 263--266
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 268--269
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 271--272
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
 
  []
 
@@ -1061,22 +1048,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 271--272
 Overfull \vbox (1.49998pt too high) has occurred while \output is active []
 
 
-[14]
-Overfull \hbox (24.24957pt too wide) in paragraph at lines 289--289
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 277--279
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 282--283
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 285--286
+
+ []
+
+
+Overfull \vbox (1.49998pt too high) has occurred while \output is active []
+
+
+[16]
+Overfull \hbox (24.24957pt too wide) in paragraph at lines 303--303
  []\OT1/cmtt/m/n/12 $ rostopic pub /piBot_motors std_msgs/ColorRGBA 255 255 255
  255[] 
  []
 
 
-Overfull \hbox (24.24957pt too wide) in paragraph at lines 297--297
+Overfull \hbox (24.24957pt too wide) in paragraph at lines 311--311
  []\OT1/cmtt/m/n/12 $ rostopic pub /piBot_motors std_msgs/ColorRGBA 127 127 127
  127[] 
  []
 
-<assem/step1.PDF, id=192, 853.58296pt x 853.58296pt>
+<assem/step1.PDF, id=223, 853.58296pt x 853.58296pt>
 File: assem/step1.PDF Graphic file (type pdf)
  <use assem/step1.PDF>
-Overfull \hbox (10.87616pt too wide) in paragraph at lines 316--318
+Overfull \hbox (10.87616pt too wide) in paragraph at lines 334--336
 [] 
  []
 
@@ -1084,11 +1090,11 @@ Overfull \hbox (10.87616pt too wide) in paragraph at lines 316--318
 Overfull \vbox (1.49998pt too high) has occurred while \output is active []
 
 
-[15] <assem/step2.PDF, id=206, 853.58296pt x 853.58296pt>
+[17] <assem/step2.PDF, id=237, 853.58296pt x 853.58296pt>
 File: assem/step2.PDF Graphic file (type pdf)
 
 <use assem/step2.PDF>
-Overfull \hbox (82.81152pt too wide) in paragraph at lines 319--321
+Overfull \hbox (82.81152pt too wide) in paragraph at lines 337--339
 \OT1/cmr/m/n/12 Cap screws [][h] 
  []
 
@@ -1096,21 +1102,21 @@ Overfull \hbox (82.81152pt too wide) in paragraph at lines 319--321
 Overfull \vbox (1.49998pt too high) has occurred while \output is active []
 
 
-[16 <C:/Users/Robbie/Dropbox/raspberry_robot/Documentation/Build a Raspberry Ro
-bot/assem/step1.PDF>]
+[18 <C:/Users/Robbie/Dropbox/razbot/Documentation/Build a Raspberry Robot/assem
+/step1.PDF>]
 Overfull \vbox (1.49998pt too high) has occurred while \output is active []
 
 
-[17 <C:/Users/Robbie/Dropbox/raspberry_robot/Documentation/Build a Raspberry Ro
-bot/assem/step2.PDF>]
-Underfull \hbox (badness 10000) in paragraph at lines 330--331
+[19 <C:/Users/Robbie/Dropbox/razbot/Documentation/Build a Raspberry Robot/assem
+/step2.PDF>]
+Underfull \hbox (badness 10000) in paragraph at lines 348--349
 
  []
 
-<assem/step3.PDF, id=225, 853.58296pt x 853.58296pt>
+<assem/step3.PDF, id=257, 853.58296pt x 853.58296pt>
 File: assem/step3.PDF Graphic file (type pdf)
  <use assem/step3.PDF>
-Overfull \hbox (23.93158pt too wide) in paragraph at lines 332--334
+Overfull \hbox (23.93158pt too wide) in paragraph at lines 350--352
 []\OT1/cmr/m/n/12 [h] 
  []
 
@@ -1118,37 +1124,72 @@ Overfull \hbox (23.93158pt too wide) in paragraph at lines 332--334
 Overfull \vbox (1.49998pt too high) has occurred while \output is active []
 
 
-[18 <C:/Users/Robbie/Dropbox/raspberry_robot/Documentation/Build a Raspberry Ro
-bot/assem/step3.PDF>]
+[20] <assem/step4.PDF, id=267, 853.58296pt x 853.58296pt>
+File: assem/step4.PDF Graphic file (type pdf)
+
+<use assem/step4.PDF>
+Overfull \hbox (23.93158pt too wide) in paragraph at lines 352--354
+[]\OT1/cmr/m/n/12 [h] 
+ []
+
+
 Overfull \vbox (1.49998pt too high) has occurred while \output is active []
 
 
-[19]
+[21 <C:/Users/Robbie/Dropbox/razbot/Documentation/Build a Raspberry Robot/assem
+/step3.PDF>] <picture/side.jpg, id=274, 4143.48pt x 2330.7075pt>
+File: picture/side.jpg Graphic file (type jpg)
+
+<use picture/side.jpg>
+Overfull \hbox (23.93158pt too wide) in paragraph at lines 354--356
+[]\OT1/cmr/m/n/12 [h] 
+ []
+
+
 Overfull \vbox (1.49998pt too high) has occurred while \output is active []
 
 
-[20
+[22 <C:/Users/Robbie/Dropbox/razbot/Documentation/Build a Raspberry Robot/assem
+/step4.PDF>]
+Overfull \vbox (1.49998pt too high) has occurred while \output is active []
+
+
+[23 <C:/Users/Robbie/Dropbox/razbot/Documentation/Build a Raspberry Robot/pictu
+re/side.jpg>]
+Overfull \vbox (1.49998pt too high) has occurred while \output is active []
+
+
+[24
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 390--391
+
+ []
+
+
+Overfull \vbox (1.49998pt too high) has occurred while \output is active []
+
+
+[25]
 
 Class memoir Warning: The material used in the headers is too large
 (14.49998pt) for the given head height (13.0pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 358.
+(in both cases you will find help in the memoir manual). on input line 420.
 
 
 Overfull \vbox (1.49998pt too high) has occurred while \output is active []
 
 
-[21
+[26
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 358.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 358.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 420.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 420.
 
-("C:\Users\Robbie\Dropbox\raspberry_robot\Documentation\Build a Raspberry Robot
-\Build a Raspberry Robot.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 358.
+("C:\Users\Robbie\Dropbox\razbot\Documentation\Build a Raspberry Robot\Build a 
+Raspberry Robot.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 420.
 Package rerunfilecheck Info: File `Build*a*Raspberry*Robot.out' has not changed
 .
 (rerunfilecheck)             Checksum: <no file>.
@@ -1158,22 +1199,22 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 9246 strings out of 494053
- 131577 string characters out of 3148600
+ 9282 strings out of 494053
+ 131920 string characters out of 3148600
  252405 words of memory out of 3000000
- 12311 multiletter control sequences out of 15000+200000
+ 12326 multiletter control sequences out of 15000+200000
  11219 words of font info for 42 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 34i,11n,29p,737b,607s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,11n,29p,719b,498s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program F
 iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmtt12.pfb>
-Output written on "Build a Raspberry Robot.pdf" (22 pages, 4296295 bytes).
+Output written on "Build a Raspberry Robot.pdf" (27 pages, 7344140 bytes).
 PDF statistics:
- 293 PDF objects out of 1000 (max. 8388607)
- 81 named destinations out of 1000 (max. 500000)
- 286 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 349 PDF objects out of 1000 (max. 8388607)
+ 99 named destinations out of 1000 (max. 500000)
+ 325 words of extra memory for PDF output out of 10000 (max. 10000000)
 
