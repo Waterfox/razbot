@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=GND Pin=R4-1
+Change Component Comment : Designator=Rv8 Old Comment=10K 0603 New Comment=6.8K 0603
+Change Component Comment : Designator=Rv7 Old Comment=10K 0603 New Comment=27K 0603
+Change Component Comment : Designator=Rv3 Old Comment=10K 0603 New Comment=50K 0603
+Change Component Comment : Designator=Rv6 Old Comment=10K 0603 New Comment=100K 0603
+Added Component: Designator=R5(J1-0603)
+Added Pin To Net: NetName=GND Pin=R5-1
+Added Pin To Net: NetName=NetR4_1 Pin=R4-1
+Added Pin To Net: NetName=NetR4_1 Pin=R5-2
+Added Net: Name=NetR4_1
+Added Member To Class: ClassName=razbot Member=Component R5 0 0603
+Added Room: Name=LwVlt
+Added Room: Name=razbot
+Added Room: Name=U_MotorDriverToshiba
+Added Room: Name=U_PwrSupply

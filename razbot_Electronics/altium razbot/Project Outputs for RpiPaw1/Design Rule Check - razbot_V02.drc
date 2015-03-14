@@ -1,10 +1,11 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Robbie\Dropbox\razbot\razbot_Electronics\altium razbot\razbot_V02.PcbDoc
-Date     : 3/9/2015
-Time     : 7:50:41 PM
+Date     : 3/14/2015
+Time     : 12:42:28 PM
 
 Processing Rule : Width Constraint (Min=0.2mm) (Max=2mm) (Preferred=0.2mm) (All)
-Rule Violations :0
+   Violation between Width Constraint: Track (29.845mm,37.973mm)(29.845mm,38.1mm)  Top Layer
+Rule Violations :1
 
 Processing Rule : Width Constraint (Min=0.254mm) (Max=1mm) (Preferred=0.35mm) (InNet('+3.3V'))
 Rule Violations :0
@@ -139,6 +140,8 @@ Processing Rule : Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)
                      Pad MC2-3(19.58503mm,12.151mm)  Top Layer
    Violation between Pad MC2-1(19.58503mm,13.45103mm)  Top Layer and 
                      Pad MC2-2(19.58503mm,12.80099mm)  Top Layer
+   Violation between Via (25.908mm,15.24mm) Top Layer to Bottom Layer and 
+                     Pad C6-2(26.07401mm,16.764mm)  Top Layer
    Violation between Pad NAND-9(19.539mm,20.54398mm)  Top Layer and 
                      Pad NAND-8(19.539mm,19.89399mm)  Top Layer
    Violation between Pad NAND-10(19.539mm,21.19401mm)  Top Layer and 
@@ -191,7 +194,7 @@ Processing Rule : Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)
                      Pad MC1-3(4.85303mm,12.151mm)  Top Layer
    Violation between Pad MC1-1(4.85303mm,13.45103mm)  Top Layer and 
                      Pad MC1-2(4.85303mm,12.80099mm)  Top Layer
-Rule Violations :68
+Rule Violations :69
 
 Processing Rule : Silkscreen Over Component Pads (Clearance=0.254mm) (All),(All)
    Violation between Track (4.28mm,47.45203mm)(4.28mm,48.05202mm)  Top Overlay and 
@@ -212,16 +215,12 @@ Processing Rule : Silkscreen Over Component Pads (Clearance=0.254mm) (All),(All)
                      Pad F5-2(9.144mm,46.352mm)  Top Layer
    Violation between Track (28.30601mm,42.80398mm)(29.60599mm,42.80398mm)  Top Overlay and 
                      Pad Cout-1(28.956mm,43.75399mm)  Top Layer
-   Violation between Text "Rv2" (15.9004mm,45.4406mm)  Top Overlay and 
-                     Pad Q2-2(19.90202mm,46.355mm)  Top Layer
-   Violation between Text "Rv2" (15.9004mm,45.4406mm)  Top Overlay and 
-                     Pad Q2-3(19.90202mm,45.085mm)  Top Layer
    Violation between Track (12.05001mm,47.11202mm)(13.34999mm,47.11202mm)  Top Overlay and 
                      Pad Cv2-1(12.7mm,46.16201mm)  Top Layer
-   Violation between Pad xt-1(28.956mm,23.368mm)  Multi-Layer and 
-                     Track (28.956mm,24.4348mm)(28.956mm,26.9748mm)  Top Overlay
-   Violation between Pad xt-2(28.956mm,28.2448mm)  Multi-Layer and 
-                     Track (28.956mm,24.638mm)(28.956mm,27.178mm)  Top Overlay
+   Violation between Pad xt-1(28.448mm,22.86mm)  Multi-Layer and 
+                     Track (28.448mm,23.9268mm)(28.448mm,26.4668mm)  Top Overlay
+   Violation between Pad xt-2(28.448mm,27.7368mm)  Multi-Layer and 
+                     Track (28.448mm,24.13mm)(28.448mm,26.67mm)  Top Overlay
    Violation between Pad Pwr-2(5.08mm,60.452mm)  Multi-Layer and 
                      Track (5.08mm,59.436mm)(6.35mm,59.436mm)  Top Overlay
    Violation between Pad Pwr-2(5.08mm,60.452mm)  Multi-Layer and 
@@ -230,11 +229,15 @@ Processing Rule : Silkscreen Over Component Pads (Clearance=0.254mm) (All),(All)
                      Track (12.192mm,59.436mm)(13.462mm,59.436mm)  Top Overlay
    Violation between Pad 12hdr-2(12.192mm,60.452mm)  Multi-Layer and 
                      Track (8.128mm,60.452mm)(9.906mm,60.452mm)  Top Overlay
-Rule Violations :18
+Rule Violations :16
 
 Processing Rule : Silk to Silk (Clearance=0.254mm) (All),(All)
-   Violation between Text "R4" (28.6004mm,35.2806mm)  Top Overlay and 
-                     Arc (27.43201mm,38.1mm)  Top Overlay
+   Violation between Text "2" (52.832mm,60.96mm)  Top Overlay and 
+                     Track (49.53mm,59.69mm)(54.61mm,59.69mm)  Top Overlay
+   Violation between Text "25" (50.292mm,26.416mm)  Top Overlay and 
+                     Track (49.53mm,26.67mm)(54.61mm,26.67mm)  Top Overlay
+   Violation between Text "26" (52.832mm,26.416mm)  Top Overlay and 
+                     Track (49.53mm,26.67mm)(54.61mm,26.67mm)  Top Overlay
    Violation between Text "1" (40.64mm,42.672mm)  Top Overlay and 
                      Track (39.878mm,41.91mm)(44.958mm,41.91mm)  Top Overlay
    Violation between Text "2" (43.18mm,43.18mm)  Top Overlay and 
@@ -243,20 +246,14 @@ Processing Rule : Silk to Silk (Clearance=0.254mm) (All),(All)
                      Track (39.878mm,34.29mm)(44.958mm,34.29mm)  Top Overlay
    Violation between Text "6" (43.18mm,34.036mm)  Top Overlay and 
                      Track (39.878mm,34.29mm)(44.958mm,34.29mm)  Top Overlay
-   Violation between Text "25" (49.784mm,30.988mm)  Top Overlay and 
-                     Track (49.022mm,31.242mm)(54.102mm,31.242mm)  Top Overlay
-   Violation between Text "26" (52.324mm,30.988mm)  Top Overlay and 
-                     Track (49.022mm,31.242mm)(54.102mm,31.242mm)  Top Overlay
-   Violation between Text "2" (52.324mm,65.532mm)  Top Overlay and 
-                     Track (49.022mm,64.262mm)(54.102mm,64.262mm)  Top Overlay
    Violation between Text "C4" (49.9364mm,21.5646mm)  Top Overlay and 
                      Text "C2" (51.9684mm,21.5646mm)  Top Overlay
-   Violation between Text "Ren" (37.2364mm,63.7286mm)  Top Overlay and 
-                     Text "Css" (40.2844mm,63.7286mm)  Top Overlay
-Rule Violations :10
+Rule Violations :8
 
 Processing Rule : Net Antennae (Tolerance=0mm) (All)
-Rule Violations :0
+   Violation between Net Antennae: Track (29.845mm,37.973mm)(29.845mm,38.1mm)  Top Layer
+   Violation between Net Antennae: Track (29.845mm,37.973mm)(29.845mm,38.1mm)  Top Layer
+Rule Violations :2
 
 
 Violations Detected : 96

@@ -122,21 +122,118 @@ ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 
+[Document8]
+DocumentPath=razbot_pcb_output\razbot_cam.Cam
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+
+[Document9]
+DocumentPath=razbot_pcb_output\razbot_drill.Cam
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for RpiPaw1\Design Rule Check - razbot_V02.html
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for RpiPaw1\razbot_V02.DRL
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for RpiPaw1\razbot_V02.DRR
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for RpiPaw1\razbot_V02.EXTREP
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for RpiPaw1\razbot_V02.GBL
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for RpiPaw1\razbot_V02.GBO
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for RpiPaw1\razbot_V02.GBP
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for RpiPaw1\razbot_V02.GBS
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for RpiPaw1\razbot_V02.GD1
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for RpiPaw1\razbot_V02.GG1
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for RpiPaw1\razbot_V02.GKO
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for RpiPaw1\razbot_V02.GM1
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for RpiPaw1\razbot_V02.GM13
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for RpiPaw1\razbot_V02.GM15
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for RpiPaw1\razbot_V02.GPB
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for RpiPaw1\razbot_V02.GPT
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for RpiPaw1\razbot_V02.GTL
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for RpiPaw1\razbot_V02.GTO
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for RpiPaw1\razbot_V02.GTP
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for RpiPaw1\razbot_V02.GTS
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for RpiPaw1\razbot_V02.LDP
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for RpiPaw1\razbot_V02.REP
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for RpiPaw1\razbot_V02.RUL
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for RpiPaw1\razbot_V02.TXT
 
 [Generic_SmartPDF]
 AutoOpenFile=-1
 AutoOpenOutJob=-1
 
 [Generic_SmartPDFSettings]
-ProjectMode=-1
+ProjectMode=0
 ZoomPrecision=50
 AddNetsInformation=-1
 AddNetPins=-1
 AddNetNetLabels=-1
 AddNetPorts=-1
-ExportBOM=-1
+ExportBOM=0
 TemplateFilename=BOM Default Template 95.xlt
 TemplateStoreRelative=-1
 PCB_PrintColor=0
@@ -144,7 +241,7 @@ SCH_PrintColor=0
 SCH_ShowNoErc=-1
 SCH_ShowParameter=-1
 SCH_ShowProbes=-1
-OutputFileName=razbot.PrjPCB=C:\Users\Robbie\Dropbox\razbot\razbot_Electronics\altium razbot\razbot.pdf
+OutputFileName=razbot_V02.PcbDoc=C:\Users\Robbie\Dropbox\razbot\razbot_Electronics\altium razbot\razbot_V02.pdf
 SCH_ExpandLogicalToPhysical=-1
 SCH_VariantName=[None]
 SCH_ExpandComponentDesignators=-1
@@ -400,7 +497,7 @@ OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
 Configuration2_Name1=OutputConfigurationParameter1
-Configuration2_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=3|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressTrailingZeroes
+Configuration2_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=5|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressTrailingZeroes
 OutputType3=Test Points
 OutputName3=Test Point Report
 OutputDocumentPath3=
@@ -423,7 +520,7 @@ OutputName6=Drill Drawing/Guides
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
-PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.35|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
+PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.77|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
 Configuration6_Name1=OutputConfigurationParameter1
 Configuration6_Item1=PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView
 Configuration6_Name2=OutputConfigurationParameter2
@@ -608,7 +705,7 @@ OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
 Configuration9_Name1=OutputConfigurationParameter1
-Configuration9_Item1=AddToAllPlots_Mechanical 1=False|AddToAllPlots_Mechanical 10=False|AddToAllPlots_Mechanical 11=False|AddToAllPlots_Mechanical 12=False|AddToAllPlots_Mechanical 13=False|AddToAllPlots_Mechanical 14=False|AddToAllPlots_Mechanical 15=False|AddToAllPlots_Mechanical 16=False|AddToAllPlots_Mechanical 2=False|AddToAllPlots_Mechanical 3=False|AddToAllPlots_Mechanical 4=False|AddToAllPlots_Mechanical 5=False|AddToAllPlots_Mechanical 6=False|AddToAllPlots_Mechanical 7=False|AddToAllPlots_Mechanical 8=False|AddToAllPlots_Mechanical 9=False|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=500000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MirrorBottomLayerPlot=False|MirrorBottomOverlayPlot=False|MirrorBottomPadMasterPlot=False|MirrorBottomPastePlot=False|MirrorBottomSolderPlot=False|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|MirrorInternalPlane10Plot=False|MirrorInternalPlane11Plot=False|MirrorInternalPlane12Plot=False|MirrorInternalPlane13Plot=False|MirrorInternalPlane14Plot=False|MirrorInternalPlane15Plot=False|MirrorInternalPlane16Plot=False|MirrorInternalPlane1Plot=False|MirrorInternalPlane2Plot=False|MirrorInternalPlane3Plot=False|MirrorInternalPlane4Plot=False|MirrorInternalPlane5Plot=False|MirrorInternalPlane6Plot=False|MirrorInternalPlane7Plot=False|MirrorInternalPlane8Plot=False|MirrorInternalPlane9Plot=False|MirrorKeepOutLayerPlot=False|MirrorMechanical10Plot=False|MirrorMechanical11Plot=False|MirrorMechanical12Plot=False|MirrorMechanical13Plot=False|MirrorMechanical14Plot=False|MirrorMechanical15Plot=False|MirrorMechanical16Plot=False|MirrorMechanical1Plot=False|MirrorMechanical2Plot=False|MirrorMechanical3Plot=False|MirrorMechanical4Plot=False|MirrorMechanical5Plot=False|MirrorMechanical6Plot=False|MirrorMechanical7Plot=False|MirrorMechanical8Plot=False|MirrorMechanical9Plot=False|MirrorMidLayer10Plot=False|MirrorMidLayer11Plot=False|MirrorMidLayer12Plot=False|MirrorMidLayer13Plot=False|MirrorMidLayer14Plot=False|MirrorMidLayer15Plot=False|MirrorMidLayer16Plot=False|MirrorMidLayer17Plot=False|MirrorMidLayer18Plot=False|MirrorMidLayer19Plot=False|MirrorMidLayer1Plot=False|MirrorMidLayer20Plot=False|MirrorMidLayer21Plot=False|MirrorMidLayer22Plot=False|MirrorMidLayer23Plot=False|MirrorMidLayer24Plot=False|MirrorMidLayer25Plot=False|MirrorMidLayer26Plot=False|MirrorMidLayer27Plot=False|MirrorMidLayer28Plot=False|MirrorMidLayer29Plot=False|MirrorMidLayer2Plot=False|MirrorMidLayer30Plot=False|MirrorMidLayer3Plot=False|MirrorMidLayer4Plot=False|MirrorMidLayer5Plot=False|MirrorMidLayer6Plot=False|MirrorMidLayer7Plot=False|MirrorMidLayer8Plot=False|MirrorMidLayer9Plot=False|MirrorTopLayerPlot=False|MirrorTopOverlayPlot=False|MirrorTopPadMasterPlot=False|MirrorTopPastePlot=False|MirrorTopSolderPlot=False|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|PlotBottomLayerPlot=True|PlotBottomOverlayPlot=True|PlotBottomPadMasterPlot=True|PlotBottomPastePlot=True|PlotBottomSolderPlot=True|PlotInternalPlane10Plot=False|PlotInternalPlane11Plot=False|PlotInternalPlane12Plot=False|PlotInternalPlane13Plot=False|PlotInternalPlane14Plot=False|PlotInternalPlane15Plot=False|PlotInternalPlane16Plot=False|PlotInternalPlane1Plot=False|PlotInternalPlane2Plot=False|PlotInternalPlane3Plot=False|PlotInternalPlane4Plot=False|PlotInternalPlane5Plot=False|PlotInternalPlane6Plot=False|PlotInternalPlane7Plot=False|PlotInternalPlane8Plot=False|PlotInternalPlane9Plot=False|PlotKeepOutLayerPlot=True|PlotMechanical10Plot=True|PlotMechanical11Plot=True|PlotMechanical12Plot=True|PlotMechanical13Plot=True|PlotMechanical14Plot=True|PlotMechanical15Plot=True|PlotMechanical16Plot=True|PlotMechanical1Plot=True|PlotMechanical2Plot=True|PlotMechanical3Plot=True|PlotMechanical4Plot=True|PlotMechanical5Plot=True|PlotMechanical6Plot=True|PlotMechanical7Plot=True|PlotMechanical8Plot=True|PlotMechanical9Plot=True|PlotMidLayer10Plot=False|PlotMidLayer11Plot=False|PlotMidLayer12Plot=False|PlotMidLayer13Plot=False|PlotMidLayer14Plot=False|PlotMidLayer15Plot=False|PlotMidLayer16Plot=False|PlotMidLayer17Plot=False|PlotMidLayer18Plot=False|PlotMidLayer19Plot=False|PlotMidLayer1Plot=False|PlotMidLayer20Plot=False|PlotMidLayer21Plot=False|PlotMidLayer22Plot=False|PlotMidLayer23Plot=False|PlotMidLayer24Plot=False|PlotMidLayer25Plot=False|PlotMidLayer26Plot=False|PlotMidLayer27Plot=False|PlotMidLayer28Plot=False|PlotMidLayer29Plot=False|PlotMidLayer2Plot=False|PlotMidLayer30Plot=False|PlotMidLayer3Plot=False|PlotMidLayer4Plot=False|PlotMidLayer5Plot=False|PlotMidLayer6Plot=False|PlotMidLayer7Plot=False|PlotMidLayer8Plot=False|PlotMidLayer9Plot=False|PlotPositivePlaneLayers=False|PlotTopLayerPlot=True|PlotTopOverlayPlot=True|PlotTopPadMasterPlot=True|PlotTopPastePlot=True|PlotTopSolderPlot=True|PlotUsedDrillDrawingLayerPairs=True|PlotUsedDrillGuideLayerPairs=True|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False
+Configuration9_Item1=AddToAllPlots_Mechanical 1=False|AddToAllPlots_Mechanical 10=False|AddToAllPlots_Mechanical 11=False|AddToAllPlots_Mechanical 12=False|AddToAllPlots_Mechanical 13=False|AddToAllPlots_Mechanical 14=False|AddToAllPlots_Mechanical 15=False|AddToAllPlots_Mechanical 16=False|AddToAllPlots_Mechanical 2=False|AddToAllPlots_Mechanical 3=False|AddToAllPlots_Mechanical 4=False|AddToAllPlots_Mechanical 5=False|AddToAllPlots_Mechanical 6=False|AddToAllPlots_Mechanical 7=False|AddToAllPlots_Mechanical 8=False|AddToAllPlots_Mechanical 9=False|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=500000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MirrorBottomLayerPlot=False|MirrorBottomOverlayPlot=False|MirrorBottomPadMasterPlot=False|MirrorBottomPastePlot=False|MirrorBottomSolderPlot=False|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|MirrorInternalPlane10Plot=False|MirrorInternalPlane11Plot=False|MirrorInternalPlane12Plot=False|MirrorInternalPlane13Plot=False|MirrorInternalPlane14Plot=False|MirrorInternalPlane15Plot=False|MirrorInternalPlane16Plot=False|MirrorInternalPlane1Plot=False|MirrorInternalPlane2Plot=False|MirrorInternalPlane3Plot=False|MirrorInternalPlane4Plot=False|MirrorInternalPlane5Plot=False|MirrorInternalPlane6Plot=False|MirrorInternalPlane7Plot=False|MirrorInternalPlane8Plot=False|MirrorInternalPlane9Plot=False|MirrorKeepOutLayerPlot=False|MirrorMechanical10Plot=False|MirrorMechanical11Plot=False|MirrorMechanical12Plot=False|MirrorMechanical13Plot=False|MirrorMechanical14Plot=False|MirrorMechanical15Plot=False|MirrorMechanical16Plot=False|MirrorMechanical1Plot=False|MirrorMechanical2Plot=False|MirrorMechanical3Plot=False|MirrorMechanical4Plot=False|MirrorMechanical5Plot=False|MirrorMechanical6Plot=False|MirrorMechanical7Plot=False|MirrorMechanical8Plot=False|MirrorMechanical9Plot=False|MirrorMidLayer10Plot=False|MirrorMidLayer11Plot=False|MirrorMidLayer12Plot=False|MirrorMidLayer13Plot=False|MirrorMidLayer14Plot=False|MirrorMidLayer15Plot=False|MirrorMidLayer16Plot=False|MirrorMidLayer17Plot=False|MirrorMidLayer18Plot=False|MirrorMidLayer19Plot=False|MirrorMidLayer1Plot=False|MirrorMidLayer20Plot=False|MirrorMidLayer21Plot=False|MirrorMidLayer22Plot=False|MirrorMidLayer23Plot=False|MirrorMidLayer24Plot=False|MirrorMidLayer25Plot=False|MirrorMidLayer26Plot=False|MirrorMidLayer27Plot=False|MirrorMidLayer28Plot=False|MirrorMidLayer29Plot=False|MirrorMidLayer2Plot=False|MirrorMidLayer30Plot=False|MirrorMidLayer3Plot=False|MirrorMidLayer4Plot=False|MirrorMidLayer5Plot=False|MirrorMidLayer6Plot=False|MirrorMidLayer7Plot=False|MirrorMidLayer8Plot=False|MirrorMidLayer9Plot=False|MirrorTopLayerPlot=False|MirrorTopOverlayPlot=False|MirrorTopPadMasterPlot=False|MirrorTopPastePlot=False|MirrorTopSolderPlot=False|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|PlotBottomLayerPlot=True|PlotBottomOverlayPlot=True|PlotBottomPadMasterPlot=True|PlotBottomPastePlot=True|PlotBottomSolderPlot=True|PlotInternalPlane10Plot=False|PlotInternalPlane11Plot=False|PlotInternalPlane12Plot=False|PlotInternalPlane13Plot=False|PlotInternalPlane14Plot=False|PlotInternalPlane15Plot=False|PlotInternalPlane16Plot=False|PlotInternalPlane1Plot=False|PlotInternalPlane2Plot=False|PlotInternalPlane3Plot=False|PlotInternalPlane4Plot=False|PlotInternalPlane5Plot=False|PlotInternalPlane6Plot=False|PlotInternalPlane7Plot=False|PlotInternalPlane8Plot=False|PlotInternalPlane9Plot=False|PlotKeepOutLayerPlot=True|PlotMechanical10Plot=False|PlotMechanical11Plot=False|PlotMechanical12Plot=False|PlotMechanical13Plot=True|PlotMechanical14Plot=False|PlotMechanical15Plot=True|PlotMechanical16Plot=False|PlotMechanical1Plot=True|PlotMechanical2Plot=False|PlotMechanical3Plot=False|PlotMechanical4Plot=False|PlotMechanical5Plot=False|PlotMechanical6Plot=False|PlotMechanical7Plot=False|PlotMechanical8Plot=False|PlotMechanical9Plot=False|PlotMidLayer10Plot=False|PlotMidLayer11Plot=False|PlotMidLayer12Plot=False|PlotMidLayer13Plot=False|PlotMidLayer14Plot=False|PlotMidLayer15Plot=False|PlotMidLayer16Plot=False|PlotMidLayer17Plot=False|PlotMidLayer18Plot=False|PlotMidLayer19Plot=False|PlotMidLayer1Plot=False|PlotMidLayer20Plot=False|PlotMidLayer21Plot=False|PlotMidLayer22Plot=False|PlotMidLayer23Plot=False|PlotMidLayer24Plot=False|PlotMidLayer25Plot=False|PlotMidLayer26Plot=False|PlotMidLayer27Plot=False|PlotMidLayer28Plot=False|PlotMidLayer29Plot=False|PlotMidLayer2Plot=False|PlotMidLayer30Plot=False|PlotMidLayer3Plot=False|PlotMidLayer4Plot=False|PlotMidLayer5Plot=False|PlotMidLayer6Plot=False|PlotMidLayer7Plot=False|PlotMidLayer8Plot=False|PlotMidLayer9Plot=False|PlotPositivePlaneLayers=False|PlotTopLayerPlot=True|PlotTopOverlayPlot=True|PlotTopPadMasterPlot=True|PlotTopPastePlot=True|PlotTopSolderPlot=True|PlotUsedDrillDrawingLayerPairs=True|PlotUsedDrillGuideLayerPairs=True|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False
 
 [OutputGroup6]
 Name=Report Outputs
@@ -1122,5 +1219,7 @@ Configuration_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|
 Configuration_Name7=OutputConfigurationParameter7
 Configuration_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
 Configuration_Name8=OutputConfigurationParameter8
-Configuration_Item8=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration_Item8=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration_Name9=OutputConfigurationParameter9
+Configuration_Item9=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
 

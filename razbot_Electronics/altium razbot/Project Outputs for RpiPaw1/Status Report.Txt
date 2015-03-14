@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [razbot.PrjPCB]
+   Generated File[razbot_V02.TXT]
+   Generated File[razbot_V02.DRL]
+   Generated File[razbot_V02.LDP]
+   Generated File[razbot_V02.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 12:46:47 PM On 3/14/2015
