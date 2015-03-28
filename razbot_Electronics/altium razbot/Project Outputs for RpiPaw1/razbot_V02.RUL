@@ -1,14 +1,14 @@
 DRC Rules Export File for PCB: C:\Users\Robbie\Dropbox\razbot\razbot_Electronics\altium razbot\razbot_V02.PcbDoc
-RuleKind=Width|RuleName=gnd|Scope=Board|Minimum=7.87
-RuleKind=Width|RuleName=3.3V|Scope=Board|Minimum=10.00
-RuleKind=Width|RuleName=5V|Scope=Board|Minimum=7.87
-RuleKind=Width|RuleName=Vbatt|Scope=Board|Minimum=10.00
-RuleKind=Width|RuleName=reg1|Scope=Board|Minimum=10.00
-RuleKind=Width|RuleName=pwr1|Scope=Board|Minimum=10.00
-RuleKind=Width|RuleName=pwr3|Scope=Board|Minimum=7.87
-RuleKind=Width|RuleName=pwr2|Scope=Board|Minimum=10.00
-RuleKind=Width|RuleName=motorpins|Scope=Board|Minimum=11.81
-RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
-RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=5.91
-RuleKind=Width|RuleName=Width|Scope=Board|Minimum=7.87
 RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=7.87
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=5.91
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=Width|RuleName=motorpins|Scope=Board|Minimum=11.81
+RuleKind=Width|RuleName=pwr2|Scope=Board|Minimum=10.00
+RuleKind=Width|RuleName=pwr3|Scope=Board|Minimum=7.87
+RuleKind=Width|RuleName=pwr1|Scope=Board|Minimum=10.00
+RuleKind=Width|RuleName=reg1|Scope=Board|Minimum=10.00
+RuleKind=Width|RuleName=Vbatt|Scope=Board|Minimum=10.00
+RuleKind=Width|RuleName=5V|Scope=Board|Minimum=7.87
+RuleKind=Width|RuleName=3.3V|Scope=Board|Minimum=10.00
+RuleKind=Width|RuleName=gnd|Scope=Board|Minimum=7.87

@@ -64,9 +64,7 @@ Robbie \textsc{Edwards}\\
 %\centering
 %\end{figure}
 
-The Razbot was created to provide a low cost Linux/Robot Operating System (ROS) enabled mobile robot platform. It currently runs ROS Indigo and Raspbian Jessie. The \href{http://wiki.ros.org/ROS/Introduction}{Robot Operating System} is a BSD licensed meta-operating system which provides a convenient set of tools for developing software for robot applications. It is well documented online and explained in further detail in various \href{http://wiki.ros.org/Books}{books}. Many open source ROS packages are freely available to carry out robot related software tasks ranging from interfacing with sensor hardware to carrying out navigation and mapping \\
-
-
+The Razbot was created to provide a low cost Linux/Robot Operating System (ROS) enabled mobile robot platform. The goal was to provide access to high quality software on a low cost platform which can be printed and assembled by the user. It currently runs ROS Indigo and Raspbian Jessie. The \href{http://wiki.ros.org/ROS/Introduction}{Robot Operating System} is a BSD licensed meta-operating system which provides a convenient set of tools for developing software for robot applications. It is well documented online and explained in further detail in various \href{http://wiki.ros.org/Books}{books}. Many open source ROS packages are freely available to carry out robot related software tasks ranging from interfacing with sensor hardware to carrying out navigation and mapping \\
 
 \section{Features}:
 \begin{itemize}
@@ -77,12 +75,17 @@ The Razbot was created to provide a low cost Linux/Robot Operating System (ROS) 
 \item Raspberry Pi camera
 \item Lithium Battery: Turnigy Nanotech 3S 2200mAh,
 \item 2 hour or greater run time
-\item USB ports
-\item Wifi expandable
+\item USB ports, Wifi
 \item Logitech F710 Game pad expandable
 \end{itemize}
 
 \pagebreak
+\begin{figure}[!htbp]
+\includegraphics[width=350px]{picture/3bots.jpg}
+\centering
+\end{figure}
+
+
 \begin{figure}[!htbp]
 \includegraphics[width=350px]{render/pibotfront.jpg}
 \centering
@@ -108,12 +111,17 @@ The Razbot was created to provide a low cost Linux/Robot Operating System (ROS) 
 \centering
 \end{figure}
 
+\begin{figure}[!htbp]
+\includegraphics[width=350px]{picture/bot1.jpg}
+\centering
+\end{figure}
+
 \pagebreak
 \chapter{Bill of Materials and Required Tools}
 \section{Parts and Tools}
 
 The following tables provide a list of the parts and tools required to build the rover. The parts are currently sourced from many suppliers resulting in many orders and higher shipping costs. 
-After additional development is complete, we may offer a single source supply for all components necessary to build the rover. Table \ref{table:BOM} lists the major components of the rover. Table \ref{table:opBOM}. The basic tools required are found in Table \ref{table:tools}. A list of screws required for assembly is found in Table \ref{table:screws}. The wiring components are in Table \ref{table:wires}. The instructions for the assembly of the circuit board and a list of the required components are given in a later section.
+One day, someone can perhaps offer a single source supply for all components necessary to build the rover. Table \ref{table:BOM} lists the major components of the rover. Table \ref{table:opBOM}. The basic tools required are found in Table \ref{table:tools}. A list of screws required for assembly is found in Table \ref{table:screws}. The wiring components are in Table \ref{table:wires}. The instructions for the assembly of the circuit board and a list of the required components are given in a later section.
 
 \begin{table}[!h]
 \begin{tabular}{p{4cm} | p{3.5cm} | c | c | c}
@@ -188,7 +196,8 @@ Hook up wire 20-22AWG & various, adafruit & adafruit 1311 & various colors & \in
 Female JST-XH <-> Male Polyquest 3S 10cm (5pcs/bag) & HobbyKing & 101b-103a-3s & 1 & \includegraphics[width=80px]{picture/jstext.jpg}\\
 Female JST battery pigtail 12cm length & HobbyKing & AM-9017A & 2 & \includegraphics[width=80px]{picture/fjst.jpg}\\
 Male JST battery pigtail 10cm length & HobbyKing & AM-9017B & 2 & \includegraphics[width=80px]{picture/mjst.jpg}\\
-Power Switch SPST & SW627-ND & digikey & 1 & \includegraphics[width=80px]{picture/pwr.jpg}
+Power Switch SPST & SW627-ND & digikey & 1 & \includegraphics[width=80px]{picture/pwr.jpg}\\
+2 pin connector: motor to MCU & Aliexpress, Digikey & & 4 & \includegraphics[width=80px]{picture/2pinconn.png}\\
 
 \end{tabular}
 \caption{Bill of Wires and Connectors}
@@ -198,7 +207,7 @@ Power Switch SPST & SW627-ND & digikey & 1 & \includegraphics[width=80px]{pictur
 
 \section{3D printing}
 
-The Razbot is made up of 8 unique 3D printed parts and a total of 12 3D printed pieces. The table: \ref{table:3Dprint} lists each part which is made with a 3D printer. The Razbot has been previously constructed with the printers listed and tested in Table: \ref{table:3Dprint}. Note that hex cap screws on this platform thread directly into 3D printed plastic. Holes have been sized appropriately to allow clearance for screws and appropriate diameters for threading. Appropriate hole sizing may vary printer to printer and should be checked on initial prints. Repeated screwing and unscrewing or forcing taps or screws may result in damage to 3D printed threaded holes.  
+The Razbot is made up of 8 unique 3D printed parts and a total of 12 3D printed pieces. The table: \ref{table:3Dprintparts} lists each part which is made with a 3D printer. The Razbot has been previously constructed with the printers listed and tested in Table: \ref{table:3Dprinters}. Note that hex cap screws on this platform thread directly into 3D printed plastic. Holes have been sized appropriately to allow clearance for screws and appropriate diameters for threading. Appropriate hole sizing may vary printer to printer and should be checked on initial prints. Repeated screwing and unscrewing or forcing taps or screws may result in damage to 3D printed threaded holes.  
 
 Some parts will require support material. All parts have been found to function well when printed at 20\% infill. 3D printing settings and parameter decisions will ultimately be left to the operator. 
 
@@ -216,7 +225,7 @@ Top Plate & 1 & \includegraphics[width=70px]{diagram/Top_Plate.pdf} & not requir
 Wheel & 4 & \includegraphics[width=70px]{diagram/Wheel.pdf} & not required
 \end{tabular}
 \caption{Bill of 3D printed components}
-\label{table:3Dprint}
+\label{table:3Dprintparts}
 \end{table}
 
 \begin{table}
@@ -228,7 +237,7 @@ Tinkerines Ditto+ & 21.0 L X 18.5 W X 23.0 H cm  & \includegraphics[width=70px]{
  
 \end{tabular}
 \caption{3D printers used}
-\label{table:3Dprint}
+\label{table:3Dprinters}
 \end{table}
 
 
@@ -240,23 +249,65 @@ The rover is easy enough to assemble but it isn't perfect, yet. Many components 
 
 \section{Razbot MCU board}
 
-The Razbot MCU board is easy to make with the proper tools and soldering skills.
+The Razbot MCU board is easy to make with the proper tools and soldering skills. Some of the components are quite small so proper tools and a good deal of patience is important.
+\begin{figure}
 \includegraphics[width=400px]{picture/mcu.png}
+\caption{MCU board layout}
+\end{figure}
+\begin{figure}
+\includegraphics[width=400px]{picture/piboard.jpg}
+\caption{A prototype version of the Razbot PCB}
+\label{figure:pcbv1}
+\end{figure}
+
 
 
 \begin{enumerate}
-\item The unpopulated PCB board can be ordered from a low cost PCB manufacturer such as \href{http://www.seeedstudio.com/}{Seeed Studio} using the exported PCB design files in the electronics folder. 
+\item The unpopulated PCB board can be ordered from a low cost PCB manufacturer such as \href{http://www.seeedstudio.com/}{SeeedStudio} using the exported PCB design files or Gerber files in the electronics folder. The exported files are zipped in razbot{\_}pcb{\_}output.rar.
 \item The electronics components can be ordered from a supplier such as \href{http://www.digikey.com/}{Digikey} or \href{http://www.Newark.com/}{Newark}. The component part numbers and quantities can be found in the excel document razbot BOM.xlsx in the electronics folder.
-\item Once the boards and components arrive, the components can be soldered on to the PCB using a fine tipped, temperature controlled soldering iron. Tweezers will greatly assist in placing components. Proper use of flux will ensure easy soldering without jumping component pins.
+\item Once the boards and components arrive, the components can be soldered on to the PCB using a fine tipped, temperature controlled soldering iron. Tweezers will greatly assist in placing components. Proper use of flux will ensure easy soldering without jumping component pins. Solder the components on to the board following the designators on the board (also found in the razbot schematics pdf in the electronics folder) and the designator table in the Bill of Materials for the electronics components.\\
+The power regulator chip RT8250 has a ground pad on the bottom surface of the chip which requires an electrical connection with the board. A hot air station can be used to reflow solder on the PCB and attach the chip. Conductive paste may also be an easier solution.
 \item Use the AVRISP-mkii programmer with the Arduino IDE to load the Arduino bootloader on to the ATmega328P on the MCU board by connecting to the ICSP header on the board. This will set the proper fuse bits on the ATmega328P for use with Arduino code.
 \item Use the programmer again to load on the razbot arduino V02 code located in the razbot Software MCU folder. The ros lib library must be played in your Arduino IDE's libraries folder to compile the code. 
 \end{enumerate}
+
+\begin{figure}
+\includegraphics[width=40pc]{hw/razbot_BOM.pdf}
+\caption{MCU electronics board bill of materials}
+\end{figure}
+
+\subsection{MCU Board Alternatives}
+
+Ordering and assembling your own PCB may seem like a daunting task. Razbot was originally developed using off the shelf components connected to a Raspberry Pi. This may be appealing to users not wanting to create their own PCB so some guidelines are presented here. Note that the increase in wiring can result in larger potential for error and possibly more work than building the PCB in the first place.
+
+Razbot was initially build with an Arduino Micro mounted to the GPIO pins on the Raspberry Pi connected to the serial port. This could have also been connected over USB. It was used to control an L298 2 channel motor driver as well as other servos. A Turnigy 5V 5A switching regulator was used to supply 5V to the robot from the 11.1V Lithium battery. Users may be able to do away with the Arduino Micro and simply drive the L298 motor controller with the Raspberry Pi GPIO. 
+
+Squeezing components into the small Razbot chassis may prove difficult. The Razbot has 4 motors, thus the 2 motors on each side of the vehicle must be wired in parallel removing potential for future omnidirectional upgrades.
+
+The components for the MCU board alternative solution are listed in \ref{table:altparts}.
+
+\begin{table}[!h]
+\begin{tabular}{p{5cm} | c | c | c }
+part  & supplier  & cost & image \\
+\hline
+Arduino Micro & Adafruit &  \$22 & \\
+L298 2 ch motor controller & Aliexpress, Ebay, Seeedstudio &  \$4-20 & \\
+Turnigy 5V 5A Switching Regulator & HobbyKing &  \$5 & \\
+
+\end{tabular}s
+\caption{Parts for MCU alternative robot}
+\label{table:altparts}
+\end{table}
+
 
 \section{Electronics Assembly and Test}
 
 \begin{enumerate}
 
-\item Download the latest Razbot SD card image from \href{https://drive.google.com/file/d/0B4yfrdhk2e0OVlA1alJoRXBPeXM/view?usp=sharing}{SD card image on Google Drive}. Extract it with Winrar and use a program such as Win32diskimager to mount it on to an 8GB SD card. Later when the image is booted, raspi-config can be used to expand the file system to fill the full 8GB of storage.
+\item Download the latest Razbot SD card image from \href{https://drive.google.com/file/d/0B4yfrdhk2e0OVlA1alJoRXBPeXM/view?usp=sharing}{SD card image on Google Drive}. Extract it with Winrar and use a program such as Win32diskimager to mount it on to an 8GB SD card. Later when the image is booted, raspi-config can be used to expand the file system to fill the full 8GB of storage.\\
+\textbf{Raspberry Pi B only!}\\
+The current SD card image does not support the Raspberry Pi 2. It can be easily updated to run on the RPi2 by updating the firmware following instructions on the internet such as (\textbf{INSERT LINK}). The next image update will be RPi 2 compatible.
+
 \item Plug the Raspberry Pi Camera and Wifi dongle into the Pi and insert the SD card for now. Connect the unit to an Ethernet port on your router. Use conventional wall power to power the unit.
 	\begin{enumerate}
 	\item  Using your router's user interface, locate the IP address of the Raspberry Pi. The initial hostname will appear as <color>pibot. This can be changed with raspi-config at a later time.
@@ -324,9 +375,10 @@ The Razbot MCU board is easy to make with the proper tools and soldering skills.
 \end{enumerate}
 The electronics bring-up is complete
 
-\section{Electrical Board Assembly}
-
-The Razbot micro-controller board can be created by ordering PCB design from a PCB manufacturer such as 
+\begin{figure}
+\includegraphics[width=400px]{picture/side.jpg}
+\caption{Electronics assembled, mounted in chassis}
+\end{figure}
 
 \section{Mechanical Assembly}
 
@@ -352,7 +404,6 @@ The Razbot micro-controller board can be created by ordering PCB design from a P
 \item Install the motor holder assemblies into the vehicle chassis sides (Side Left V01, Side Right V01) using the M3 x 0.5 x 10mm flat head cap screws.\\
 \includegraphics[width=400px]{assem/step4.PDF}[h]
 \item Connect the motor wires to the MCU board in proper order shown in Figure XXX. You may wish to verify proper operation of the electronics one more time at this points.\\
-\includegraphics[width=400px]{picture/side.jpg}[h]
 \item Push the two sides of the vehicle together while taking care not to tangle or stress wiring. This may take patience. 
 \item Use four M4 x 0.7 x 25mm bolts to attach the chassis sides together.
 
@@ -375,31 +426,113 @@ Razbot uses the ROS robot upstart package to launch its ROS nodes.
 
 \section{ROS Operation}
 
-ROS nodes which are run on start-up
+The Razbot will start some of it's own software when the Raspberry Pi boots up. This will allow it to connect to a USB joystick and drive the rover as well as view the camera and accept commands from a web browser.
+
+To view the ROS nodes which are run on start-up type:
 \begin{verbatim}
 $rosnode list
 \end{verbatim}
+
+The following nodes should be enumerated
 
 \begin{itemize}
 \item pibot - subscribes to the joy topic and publishes piBot motors, piBot light
 \item joy - publishes the joy topic using a Linux Joystick device
-\item rosbridge server - opens a websocket to receive topics from ROSlibjs
-\item rosserial python - interface with the MCU board to transmit topics
+\item rosbridge{\_}server - opens a websocket to receive topics from ROSlibjs
+\item rosserial{\_}python - interface with the MCU board to transmit topics
 \end{itemize}
 
 A script is also used to start Mjpg Streamer with the Pi Camera\\
 
-ROS topics provided
+To begin working in more depth with the robot and developing your own software, you can SSH into the robot to see what is really going on and run your own code. Use a program such as Putty in Windows to connect to the robot's IP address (determined from your router's DHCP client list). In some cases using the robot's hostname (razbot) will also work. From Linux, simply open a terminal and type:
+
 \begin{verbatim}
-$rosnode list
+ssh pi@<IP address or hostname>
+\end{verbatim}
+
+\begin{verbatim}
+ssh pi@192.168.1.101
+\end{verbatim}
+
+\begin{verbatim}
+ssh pi@razbot
+\end{verbatim}
+
+The following ROS topics will be visible after start-up by running:
+\begin{verbatim}
+$rostopic list
 \end{verbatim}
 
 \begin{itemize}
-\item piBot motors
-\item piBot light
-\item piBot bat
+\item piBot{\_}motors
+\item piBot{\_}light
+\item piBot{\_}bat
 \item joy
 \end{itemize}
+
+To view the data being transmitted in a given topic type:
+\begin{verbatim}
+$rostopic echo joy
+\end{verbatim}
+Move the joystick around and watch the data update. Try this for different topics.
+
+\subsection{software disclaimer}
+With the electrical and mechanical design now in a somewhat stable state, development work will now focus on updating some of the software on the robot. There may be frequent changes to the razbot packages and the topics and instructions listed above may not always be recent or accurate. Some of the nodes will be reimplemented in a more \textit{standard} fashion of the Robot Operating System. For example: the pibot package will likely be reimplemented using a standard diff-drive controller outputting the cmd vel topic. This will be subsequently used by a razbot base package and a different message type to control the motors.
+
+\section{Simulation and Visualization}
+
+Paul Bovbel has created a URDF (Universal Robot Description File) and a ROS package which allows the Razbot to be simulated in the Gazebo physics simulation environment. Gazebo is a popular tool for roboticist to simulate their platforms, software and sensor arrangements in a virtual environment.
+
+Paul has created tutorials and files which will guide users through setting up the simulation. These are partially available for now (awaiting permission) on \href{https://github.com/Waterfox/razbot_tutorials}{Github}.
+
+
+
+\chapter{Future Work}
+
+There remains much to do and much to work on with the Razbot, the following are a few ideas.
+
+\section{software}
+\begin{enumerate}
+\item update ROS packages to standard format, consistent with gazebo simulation
+\item rename ROS topics and packages from pibot to razbot
+\item update RPi SD image to be compatible with RPi2
+\item Provide a demonstration or control interface with RVIZ
+\item Continue development of the Web based camera and control interface. Improve latency
+\item update the MCU firmware to accommodate all of the above
+\end{enumerate}
+
+\section{electrical hardware}
+\begin{enumerate}
+\item integrate one or two optical flow sensors to provide odometry to the robot. Update the MCU board to support the sensors. Attempt to do this experimentally on an existing Razbot with and additional Arduino Micro connected over USB.
+\item Provide breakouts for additional power and communications on the robot chassis. Break-out the fused 12V power on the robot chassis and make the servo PWM outputs available on the chassis and as a ROStopic for control
+\item Add an inertial measurement unit such as the MPU-6000 to the MCU board if cost feasible on the next revision.
+\end{enumerate}
+
+\section{mechanical hardware}
+\begin{enumerate}
+\item Develop or adapt 3D printed Mecanum wheels for the razbot. Implement the appropriate control hardware.
+\item Improve assembly ergonomics, access to screws required for assembly, reliability of screw hardware in 3D printed holes
+\item Create new industrial design options so users can chose the look of their Razbot
+\item Develop better sensor and additional hardware capabilities
+\item Modify the wheel design and material to improve \textit{off-road} and carpet capability
+\end{enumerate}
+
+\section{general robotics}
+\begin{enumerate}
+\item Borrow a laser scanner such as an RP-600, SICK TIM 551 or Hokuyo UST 10LX and attempt to run SLAM (Simultaneous Localization and Mapping) as well as autonomy on the robot.
+\item Do some form of computer vision or visual SLAM with the RPi camera.
+\item offload intensive processing to a server from the RPi.
+\end{enumerate}
+
+\section{Final Notes}
+If you are attempting to build your own Razbot or are even thinking of building your own system, please drop me a line! Rob.a.Edwards@gmail.com.
+
+Don't hesitate to send any suggestions for improvements, new ideas, questions, requests for support or even complaints. If the documentation is insufficient, let me know or post an issue to the github with where you are having trouble building your bot.
+
+If you do anything cool with your bot, please share! Send pictures, videos, software.
+
+Good luck! There is still a long road ahead to get razbot to the point where it may be useful as an education tool and for roboticists without the fair amount of multidisciplinary design and assembly skills required to get a robot working from the ground up. It may never get to that point, but with your help it will be one step closer.
+
 
 \begin{appendices}
 \chapter{Special Thanks}

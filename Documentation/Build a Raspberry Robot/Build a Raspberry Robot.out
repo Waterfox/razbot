@@ -6,8 +6,14 @@
 \BOOKMARK [0][-]{chapter.3}{Assembly}{}% 6
 \BOOKMARK [1][-]{section.3.1}{Razbot MCU board}{chapter.3}% 7
 \BOOKMARK [1][-]{section.3.2}{Electronics Assembly and Test}{chapter.3}% 8
-\BOOKMARK [1][-]{section.3.3}{Electrical Board Assembly}{chapter.3}% 9
-\BOOKMARK [1][-]{section.3.4}{Mechanical Assembly}{chapter.3}% 10
-\BOOKMARK [0][-]{chapter.4}{Operation}{}% 11
-\BOOKMARK [1][-]{section.4.1}{ROS Operation}{chapter.4}% 12
-\BOOKMARK [0][-]{chapter.A}{Special Thanks}{}% 13
+\BOOKMARK [1][-]{section.3.3}{Mechanical Assembly}{chapter.3}% 9
+\BOOKMARK [0][-]{chapter.4}{Operation}{}% 10
+\BOOKMARK [1][-]{section.4.1}{ROS Operation}{chapter.4}% 11
+\BOOKMARK [1][-]{section.4.2}{Simulation and Visualization}{chapter.4}% 12
+\BOOKMARK [0][-]{chapter.5}{Future Work}{}% 13
+\BOOKMARK [1][-]{section.5.1}{software}{chapter.5}% 14
+\BOOKMARK [1][-]{section.5.2}{electrical hardware}{chapter.5}% 15
+\BOOKMARK [1][-]{section.5.3}{mechanical hardware}{chapter.5}% 16
+\BOOKMARK [1][-]{section.5.4}{general robotics}{chapter.5}% 17
+\BOOKMARK [1][-]{section.5.5}{Final Notes}{chapter.5}% 18
+\BOOKMARK [0][-]{chapter.A}{Special Thanks}{}% 19

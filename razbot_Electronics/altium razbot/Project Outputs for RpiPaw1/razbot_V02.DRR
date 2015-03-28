@@ -1,5 +1,5 @@
 ---------------------------------------------------------------------------
-NCDrill File Report For: razbot_V02.PcbDoc   3/14/2015  12:46:47 PM
+NCDrill File Report For: razbot_V02.PcbDoc   2015-03-17  9:08:59 AM
 ---------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -8,11 +8,11 @@ EIA File   : razbot_V02.DRL
 
 Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
 ---------------------------------------------------------------------------
-T1        28mil (0.7112mm)         Round          71               299.18 Inch (7599.19 mm)
+T1        28mil (0.7112mm)         Round          71               299.14 Inch (7598.11 mm)
 T2        31.5mil (0.8001mm)       Round          4                284.87 Inch (7235.59 mm)
 T3        35.43mil (0.89992mm)     Round          59               294.27 Inch (7474.48 mm)
 T4        78mil (1.9812mm)         Round          4                285.26 Inch (7245.55 mm)
 ---------------------------------------------------------------------------
-Totals                                            138              1163.57 Inch (29554.80 mm)
+Totals                                            138              1163.53 Inch (29553.72 mm)
 
 Total Processing Time (hh:mm:ss) : 00:00:00

@@ -7,6 +7,12 @@ Generating : Top Layer
 
     Adding Layer      : Top Layer
 
+    Adding Layer      : Mechanical 1
+
+    Adding Layer      : Mechanical 13
+
+    Adding Layer      : Mechanical 15
+
     Adding Layer      : Multi-Layer
 
 
@@ -46,6 +52,7 @@ Used DCodes :
     D42
     D43
     D44
+    D45
 *************************************************************
 
 *************************************************************
@@ -54,6 +61,12 @@ Generating : Bottom Layer
 
     Adding Layer      : Bottom Layer
 
+    Adding Layer      : Mechanical 1
+
+    Adding Layer      : Mechanical 13
+
+    Adding Layer      : Mechanical 15
+
     Adding Layer      : Multi-Layer
 
 
@@ -61,7 +74,7 @@ Used DCodes :
     D26
     D27
     D28
-    D30
+    D29
     D31
     D32
     D34
@@ -73,6 +86,7 @@ Used DCodes :
     D42
     D43
     D44
+    D45
 *************************************************************
 
 *************************************************************
@@ -81,13 +95,20 @@ Generating : Top Overlay
 
     Adding Layer      : Top Overlay
 
+    Adding Layer      : Mechanical 1
+
+    Adding Layer      : Mechanical 13
+
+    Adding Layer      : Mechanical 15
+
 
 Used DCodes :
     D26
-    D32
-    D45
+    D34
+    D37
     D46
     D47
+    D48
 *************************************************************
 
 *************************************************************
@@ -96,8 +117,16 @@ Generating : Bottom Overlay
 
     Adding Layer      : Bottom Overlay
 
+    Adding Layer      : Mechanical 1
+
+    Adding Layer      : Mechanical 13
+
+    Adding Layer      : Mechanical 15
+
 
 Used DCodes :
+    D34
+    D37
 *************************************************************
 
 *************************************************************
@@ -105,6 +134,12 @@ Generating : Top Paste
       File : razbot_V02.GTP
 
     Adding Layer      : Top Paste
+
+    Adding Layer      : Mechanical 1
+
+    Adding Layer      : Mechanical 13
+
+    Adding Layer      : Mechanical 15
 
     Adding Layer      : Top Layer
 
@@ -128,6 +163,8 @@ Used DCodes :
     D23
     D24
     D25
+    D34
+    D37
 *************************************************************
 
 *************************************************************
@@ -136,12 +173,20 @@ Generating : Bottom Paste
 
     Adding Layer      : Bottom Paste
 
+    Adding Layer      : Mechanical 1
+
+    Adding Layer      : Mechanical 13
+
+    Adding Layer      : Mechanical 15
+
     Adding Layer      : Bottom Layer
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
+    D34
+    D37
 *************************************************************
 
 *************************************************************
@@ -150,13 +195,20 @@ Generating : Top Solder
 
     Adding Layer      : Top Solder
 
+    Adding Layer      : Mechanical 1
+
+    Adding Layer      : Mechanical 13
+
+    Adding Layer      : Mechanical 15
+
     Adding Layer      : Top Layer
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D48
+    D34
+    D37
     D49
     D50
     D51
@@ -180,6 +232,7 @@ Used DCodes :
     D69
     D70
     D71
+    D72
 *************************************************************
 
 *************************************************************
@@ -188,13 +241,20 @@ Generating : Bottom Solder
 
     Adding Layer      : Bottom Solder
 
+    Adding Layer      : Mechanical 1
+
+    Adding Layer      : Mechanical 13
+
+    Adding Layer      : Mechanical 15
+
     Adding Layer      : Bottom Layer
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D64
+    D34
+    D37
     D65
     D66
     D67
@@ -202,6 +262,7 @@ Used DCodes :
     D69
     D70
     D71
+    D72
 *************************************************************
 
 *************************************************************
@@ -210,8 +271,16 @@ Generating : Keep-Out Layer
 
     Adding Layer      : Keep-Out Layer
 
+    Adding Layer      : Mechanical 1
+
+    Adding Layer      : Mechanical 13
+
+    Adding Layer      : Mechanical 15
+
 
 Used DCodes :
+    D34
+    D37
 *************************************************************
 
 *************************************************************
@@ -220,30 +289,46 @@ Generating : Mechanical 1
 
     Adding Layer      : Mechanical 1
 
+    Adding Layer      : Mechanical 13
+
+    Adding Layer      : Mechanical 15
+
 
 Used DCodes :
+    D34
+    D37
 *************************************************************
 
 *************************************************************
 Generating : Mechanical 13
       File : razbot_V02.GM13
 
+    Adding Layer      : Mechanical 1
+
     Adding Layer      : Mechanical 13
+
+    Adding Layer      : Mechanical 15
 
 
 Used DCodes :
-    D72
+    D34
+    D37
 *************************************************************
 
 *************************************************************
 Generating : Mechanical 15
       File : razbot_V02.GM15
 
+    Adding Layer      : Mechanical 1
+
+    Adding Layer      : Mechanical 13
+
     Adding Layer      : Mechanical 15
 
 
 Used DCodes :
-    D72
+    D34
+    D37
 *************************************************************
 
 *************************************************************
@@ -253,6 +338,12 @@ Generating : Top Pad Master
     Adding Layer      : Top Layer
 
     Adding Layer      : Multi-Layer
+
+    Adding Layer      : Mechanical 1
+
+    Adding Layer      : Mechanical 13
+
+    Adding Layer      : Mechanical 15
 
 
 Used DCodes :
@@ -272,6 +363,7 @@ Used DCodes :
     D23
     D24
     D25
+    D34
     D37
     D38
     D39
@@ -279,6 +371,7 @@ Used DCodes :
     D41
     D42
     D43
+    D44
 *************************************************************
 
 *************************************************************
@@ -289,8 +382,15 @@ Generating : Bottom Pad Master
 
     Adding Layer      : Multi-Layer
 
+    Adding Layer      : Mechanical 1
+
+    Adding Layer      : Mechanical 13
+
+    Adding Layer      : Mechanical 15
+
 
 Used DCodes :
+    D34
     D37
     D38
     D39
@@ -298,11 +398,18 @@ Used DCodes :
     D41
     D42
     D43
+    D44
 *************************************************************
 
 *************************************************************
 Generating : Drill Drawing
       File : razbot_V02.GD1
+
+    Adding Layer      : Mechanical 1
+
+    Adding Layer      : Mechanical 13
+
+    Adding Layer      : Mechanical 15
 
     Adding Layer      : Drill Drawing
 
@@ -310,7 +417,9 @@ Generating : Drill Drawing
 
 
 Used DCodes :
-    D33
+    D34
+    D36
+    D37
     D73
 *************************************************************
 
@@ -320,10 +429,18 @@ Generating : Drill Guide
 
     Adding Layer      : Drill Guide
 
+    Adding Layer      : Mechanical 1
+
+    Adding Layer      : Mechanical 13
+
+    Adding Layer      : Mechanical 15
+
     Adding Drill Pair : Top Layer-Bottom Layer
 
 
 Used DCodes :
-    D33
+    D34
+    D36
+    D37
 *************************************************************
 
