@@ -343,7 +343,7 @@ The current SD card image does not support the Raspberry Pi 2. It can be easily 
 		\item Solder one end of each wire to the motor terminals, ensure consistency of polarity. Check for the red dot on the motor by the terminal to find the positive connection.
 		\item Build the 2pin blue connector (PART NUMBERS) on the other ends of the wires for each motor. Again, ensure consistency of polarity. Place positive on the right and side of the connector (connector slot faces upwards)	
 	\end{enumerate}
-	\item Attach the motors to the MCU board according to the diagram in FIGURE WHAT?
+	\item Attach the motors to the MCU board according to the diagram in \ref{figure:motorconn}.
 	\item Power up the system by connecting the Battery JST connector to the JST connector on the MCU board. The LED will illuminate in blue. The Pi should power on and boot as usual. 
 	\item Verify the system has booted normally, SSH into the Pi and verify ROS and the camera have started.
 	\item Verify the motors are operational by manually publishing their control ROStopic
@@ -374,6 +374,12 @@ The current SD card image does not support the Raspberry Pi 2. It can be easily 
  	\end{verbatim}
 \end{enumerate}
 The electronics bring-up is complete
+
+\begin{figure}
+\includegraphics[width=400px]{diagram/motorconn.pdf}
+\caption{Motor wiring connections}
+\label{figure:motorconn}
+\end{figure}
 
 \begin{figure}
 \includegraphics[width=400px]{picture/side.jpg}
