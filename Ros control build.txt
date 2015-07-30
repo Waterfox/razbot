@@ -1,0 +1,3 @@
+ros_controllers/joint_state_controller/C    nt_state_controller.dir/src/joint_state_controller.cpp.o
+
+ROS control build fails here

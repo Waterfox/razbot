@@ -1,0 +1,308 @@
+<robot
+  name="razbotURDF">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.047551 0.024928 -0.024645"
+        rpy="0 0 0" />
+      <mass
+        value="0.0049443" />
+      <inertia
+        ixx="4.0801E-07"
+        ixy="2.7887E-09"
+        ixz="1.8235E-13"
+        iyy="9.9694E-07"
+        iyz="-1.208E-13"
+        izz="6.0448E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://razbotURDF/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://razbotURDF/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="chassis_link">
+    <inertial>
+      <origin
+        xyz="-0.00016468 -0.00030574 0.060085"
+        rpy="0 0 0" />
+      <mass
+        value="0.32465" />
+      <inertia
+        ixx="0.00078517"
+        ixy="3.66E-06"
+        ixz="-2.193E-06"
+        iyy="0.0017828"
+        iyz="3.3207E-06"
+        izz="0.0013042" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://razbotURDF/meshes/chassis_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://razbotURDF/meshes/chassis_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="base_chassis_joint"
+    type="fixed">
+    <origin
+      xyz="-0.062313 0.084145 -0.0019732"
+      rpy="1.5708 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="chassis_link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="wheel_1_link">
+    <inertial>
+      <origin
+        xyz="4.8151E-08 -5.6032E-06 0.0086073"
+        rpy="0 0 0" />
+      <mass
+        value="0.023428" />
+      <inertia
+        ixx="1.4558E-05"
+        ixy="1.3566E-11"
+        ixz="1.3408E-12"
+        iyy="1.4559E-05"
+        iyz="7.7035E-10"
+        izz="2.7356E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://razbotURDF/meshes/wheel_1_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://razbotURDF/meshes/wheel_1_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="chassis_wheel_1_joint"
+    type="continuous">
+    <origin
+      xyz="-0.061 0 -0.024"
+      rpy="0 0 -3.1172" />
+    <parent
+      link="chassis_link" />
+    <child
+      link="wheel_1_link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="wheel_2_link">
+    <inertial>
+      <origin
+        xyz="4.8151E-08 -5.6032E-06 0.0086073"
+        rpy="0 0 0" />
+      <mass
+        value="0.023428" />
+      <inertia
+        ixx="1.4558E-05"
+        ixy="1.3566E-11"
+        ixz="1.3408E-12"
+        iyy="1.4559E-05"
+        iyz="7.7035E-10"
+        izz="2.7356E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://razbotURDF/meshes/wheel_2_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://razbotURDF/meshes/wheel_2_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="chassis_wheel_2_joint"
+    type="continuous">
+    <origin
+      xyz="0.064 0 -0.024"
+      rpy="0 0 -3.1172" />
+    <parent
+      link="chassis_link" />
+    <child
+      link="wheel_2_link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="wheel_3_link">
+    <inertial>
+      <origin
+        xyz="4.8151E-08 -5.6032E-06 0.0086073"
+        rpy="0 0 0" />
+      <mass
+        value="0.023428" />
+      <inertia
+        ixx="1.4558E-05"
+        ixy="1.3566E-11"
+        ixz="1.3408E-12"
+        iyy="1.4559E-05"
+        iyz="7.7035E-10"
+        izz="2.7356E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://razbotURDF/meshes/wheel_3_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://razbotURDF/meshes/wheel_3_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="chassis_wheel_3_link"
+    type="continuous">
+    <origin
+      xyz="0.064 0 0.1425"
+      rpy="3.1416 0 3.1331" />
+    <parent
+      link="chassis_link" />
+    <child
+      link="wheel_3_link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="wheel_4_link">
+    <inertial>
+      <origin
+        xyz="4.8151E-08 -5.6032E-06 0.0086073"
+        rpy="0 0 0" />
+      <mass
+        value="0.023428" />
+      <inertia
+        ixx="1.4558E-05"
+        ixy="1.3566E-11"
+        ixz="1.3408E-12"
+        iyy="1.4559E-05"
+        iyz="7.7035E-10"
+        izz="2.7356E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://razbotURDF/meshes/wheel_4_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://razbotURDF/meshes/wheel_4_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="chassis_wheel_4_joint"
+    type="continuous">
+    <origin
+      xyz="-0.061 0 0.1425"
+      rpy="3.1416 0 3.1331" />
+    <parent
+      link="chassis_link" />
+    <child
+      link="wheel_4_link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+</robot>
